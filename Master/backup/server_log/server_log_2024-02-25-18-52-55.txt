@@ -1,0 +1,664 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 593927
+[00:00:00]: Current time: Sun Feb 25 18:06:16 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: vmi1538763.contaboserver.net
+[00:00:00]: Release(Kernel) Version: 5.4.0-105-generic
+[00:00:00]: Kernel Build Timestamp: #119-Ubuntu SMP Mon Mar 7 18:49:24 UTC 2022
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 593927 LINUX
+[00:00:00]: Build Date: 2272
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 1729778 -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (139654944110336)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:5.96
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 27018)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: THREAD - started 'StreamInput' (139654891382528)
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: Running main.lua
+	
+[00:00:00]: loaded modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: [Workshop] Item query page 0, size: 8, total size: 8
+[00:00:04]: [Workshop] Item query queued IDs: 378160973 1111658995 347079953 1207269058 375859599 481765222 1852257480 2158755579
+[00:00:04]: [Workshop] Item query sent
+[00:00:05]: [Workshop] ItemQuery got this many results: 8, matching: 8
+[00:00:05]: [Workshop] ModQuery got 8 results
+[00:00:05]: [Workshop] ModQuery already have IDs: {1.7.4,378160973} {3.0,1111658995} {1.61,347079953} {2.16,1207269058} {2.2.03,375859599} {0.5,481765222} {2.4,1852257480} {1.1,2158755579}
+[00:00:05]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:05]: [Workshop] ItemQuery finished downloading everything
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling workshop-1207269058	
+[00:00:05]: modoverrides.lua enabling workshop-1111658995	
+[00:00:05]: modoverrides.lua enabling workshop-2158755579	
+[00:00:05]: modoverrides.lua enabling workshop-1852257480	
+[00:00:05]: modoverrides.lua enabling workshop-481765222	
+[00:00:05]: modoverrides.lua enabling workshop-378160973	
+[00:00:05]: modoverrides.lua enabling workshop-347079953	
+[00:00:05]: modoverrides.lua enabling workshop-375859599	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2158755579	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:05]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-481765222_CLIENT	
+[00:00:05]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:05]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
+[00:00:05]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-2158755579_CLIENT	
+[00:00:05]: Loading mod: workshop-2158755579 (Fix for 'Beefalo information') Version:1.1	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:05]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
+[00:00:05]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:2.4	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:05]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:05]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:05]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:05]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:05]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:05]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:05]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:05]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	Loading modmain.lua	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2158755579	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: Failed to load skilltree file itself!	
+[00:00:05]: Trying to apply online cache of skilltree data..	
+[00:00:05]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:06]: LOADING LUA SUCCESS
+[00:00:06]: Registering Server mod namespace "workshop-1207269058"
+[00:00:06]: Registering Server mod namespace "food item"
+[00:00:06]: Registering Server mod namespace "beefalo_information"
+[00:00:06]: Registering Server mod namespace "workshop-378160973"
+[00:00:06]: Registering Server mod namespace "workshop-1111658995"
+[00:00:06]: Registering Client mod namespace "workshop-1111658995"
+[00:00:06]: PlayerDeaths could not load morgue	
+[00:00:06]: PlayerHistory could not load player_history	
+[00:00:06]: ServerPreferences could not load server_preferences	
+[00:00:06]: ConsoleScreenSettings could not load consolescreen	
+[00:00:06]: bloom_enabled	true	
+[00:00:06]: OnFilesLoaded()	
+[00:00:06]: OnUpdatePurchaseStateComplete	
+[00:00:06]: Klump load on boot started.	
+[00:00:06]: Klump files loaded: 	0	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	Registering prefabs	
+[00:00:07]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:07]: 	Load FE	
+[00:00:08]: THREAD - started 'FilesExistAsyncThread' (139654675281664)
+[00:00:08]: FilesExistAsyncThread started (23607 files)...
+[00:00:08]: 	Load FE: done	
+[00:00:08]: Check for write access: TRUE
+[00:00:08]: Check for read access: TRUE
+[00:00:08]: Available disk space for save files: 178262 MB
+[00:00:08]: ModIndex: Load sequence finished successfully.	
+[00:00:08]: Reset() returning
+[00:00:08]: ... FilesExistAsyncThread complete
+[00:00:08]: [200] Account Communication Success (6)
+[00:00:08]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/MyDediServer/Master/save/cached_userid
+[00:00:08]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:08]: Starting Dedicated Server Game	
+[00:00:08]: Network tick rate: U=15(2), D=0
+[00:00:08]: About to start a server with the following settings:
+[00:00:08]:   Dedicated: true
+[00:00:08]:   Online: true
+[00:00:08]:   Passworded: true
+[00:00:08]:   ServerPort: 11000
+[00:00:08]:   SteamAuthPort: 8768
+[00:00:08]:   SteamMasterServerPort: 27018
+[00:00:08]:   ClanID: false
+[00:00:08]:   ClanOnly: false
+[00:00:08]:   ClanAdmin: false
+[00:00:08]:   LanOnly: false
+[00:00:08]:   FriendsOnly: false
+[00:00:08]:   EnableAutosaver: true
+[00:00:08]:   EncodeUserPath: true
+[00:00:08]:   PVP: false
+[00:00:08]:   MaxPlayers: 6
+[00:00:08]:   GameMode: survival
+[00:00:08]:   OverridenDNS: 
+[00:00:08]:   PauseWhenEmpty: true
+[00:00:08]:   IdleTimeout: 1800s
+[00:00:08]:   VoteEnabled: true
+[00:00:08]:   InternetBroadcasting: true
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-2158755579	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:08]: Online Server Started on port: 11000
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: Not applying level data overrides.	
+[00:00:08]: Found a worldgen override file with these contents:	
+[00:00:08]: 	K: 	override_enabled	 V: 	true	
+[00:00:08]: 	K: 	overrides	 V: 	table: 0xc821d40	
+[00:00:08]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:08]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:08]:   sanity-checking worldgenoverride.lua...	
+[00:00:08]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:08]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:08]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:08]: Overwriting savedata with override file.	
+[00:00:08]: Collecting garbage...
+[00:00:08]: lua_gc took 0.13 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:09]: lua_close took 0.15 seconds
+[00:00:09]: ReleaseAll
+[00:00:09]: ReleaseAll Finished
+[00:00:09]: cGame::StartPlaying
+[00:00:09]: AppVersion::GetArchitecture() x64
+[00:00:09]: LOADING LUA
+[00:00:09]: DoLuaFile scripts/main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/main.lua
+[00:00:09]:   taskgrouplist:	default	Together	
+[00:00:09]:   taskgrouplist:	classic	Classic	
+[00:00:09]:   taskgrouplist:	cave_default	Underground	
+[00:00:09]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:09]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:09]: Running main.lua
+	
+[00:00:09]: loaded modindex	
+[00:00:09]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:09]: SUCCESS: Loaded modoverrides.lua	
+[00:00:09]: modoverrides.lua enabling workshop-1207269058	
+[00:00:09]: modoverrides.lua enabling workshop-1111658995	
+[00:00:09]: modoverrides.lua enabling workshop-2158755579	
+[00:00:09]: modoverrides.lua enabling workshop-1852257480	
+[00:00:09]: modoverrides.lua enabling workshop-481765222	
+[00:00:09]: modoverrides.lua enabling workshop-378160973	
+[00:00:09]: modoverrides.lua enabling workshop-347079953	
+[00:00:09]: modoverrides.lua enabling workshop-375859599	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2158755579	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:09]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:09]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:09]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:2.4	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:09]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2158755579	
+[00:00:09]: Loading mod: workshop-2158755579 (Fix for 'Beefalo information') Version:1.1	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:09]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:09]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:09]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:09]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:09]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	Loading modmain.lua	
+[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2158755579	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:09]: Failed to load skilltree file itself!	
+[00:00:09]: Trying to apply online cache of skilltree data..	
+[00:00:09]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:09]: LOADING LUA SUCCESS
+[00:00:09]: Registering Server mod namespace "workshop-1207269058"
+[00:00:09]: Registering Server mod namespace "food item"
+[00:00:09]: Registering Server mod namespace "beefalo_information"
+[00:00:09]: Registering Server mod namespace "workshop-378160973"
+[00:00:09]: Registering Server mod namespace "workshop-1111658995"
+[00:00:09]: Registering Client mod namespace "workshop-1111658995"
+[00:00:09]: PlayerDeaths could not load morgue	
+[00:00:09]: PlayerHistory could not load player_history	
+[00:00:09]: ServerPreferences could not load server_preferences	
+[00:00:09]: ConsoleScreenSettings could not load consolescreen	
+[00:00:09]: bloom_enabled	true	
+[00:00:09]: OnFilesLoaded()	
+[00:00:09]: OnUpdatePurchaseStateComplete	
+[00:00:09]: Loading world: session/6EEFB4906384BB74/0000000100	
+[00:00:10]: Save file is at version 5.142	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:10]: 	Unload FE	
+[00:00:10]: 	Unload FE done	
+[00:00:11]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:11]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:11]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:11]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:11]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:11]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:11]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:11]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:11]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:11]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	Registering prefabs	
+[00:00:11]: Mod: workshop-2158755579 (Fix for 'Beefalo information')	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:11]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:11]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:11]: 	LOAD BE	
+[00:00:18]: 	LOAD BE: done	
+[00:00:18]: Begin Session: 6EEFB4906384BB74
+[00:00:18]: saving to server_temp/server_save	
+[00:00:19]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar_broken.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:19]: Loading 19 new character(s)	
+[00:00:19]: Total 19 character(s) loaded	
+[00:00:20]: Loading Nav Grid	
+[00:00:20]: World generated on build 590113 with save version: 5.142, using seed: 1224875545	
+[00:00:20]: setting 	summerlength	15	
+[00:00:20]: setting 	cavemoonphase	threequarter	
+[00:00:20]: setting 	iscavefullmoon	false	
+[00:00:20]: setting 	isnightmaredawn	false	
+[00:00:20]: setting 	elapseddaysinseason	3	
+[00:00:20]: setting 	isfullmoon	false	
+[00:00:20]: setting 	moisture	1836.2630615234	
+[00:00:20]: setting 	springlength	20	
+[00:00:20]: setting 	islunarhailing	false	
+[00:00:20]: setting 	isnightmarewild	false	
+[00:00:20]: setting 	nightmaretimeinphase	0	
+[00:00:20]: setting 	precipitationrate	0	
+[00:00:20]: setting 	iswet	false	
+[00:00:20]: setting 	isnewmoon	false	
+[00:00:20]: setting 	israining	false	
+[00:00:20]: setting 	iswinter	true	
+[00:00:20]: setting 	isnightmarewarn	false	
+[00:00:20]: setting 	precipitation	none	
+[00:00:20]: setting 	iscavewaxingmoon	false	
+[00:00:20]: setting 	isacidraining	false	
+[00:00:20]: setting 	moonphase	threequarter	
+[00:00:20]: setting 	remainingdaysinseason	12	
+[00:00:20]: setting 	temperature	-11.592513426987	
+[00:00:20]: setting 	wetness	0	
+[00:00:20]: setting 	cycles	93	
+[00:00:20]: setting 	moistureceil	2033.2170410156	
+[00:00:20]: setting 	isday	false	
+[00:00:20]: setting 	winterlength	15	
+[00:00:20]: setting 	season	winter	
+[00:00:20]: setting 	iswaxingmoon	false	
+[00:00:20]: setting 	isalterawake	false	
+[00:00:20]: setting 	isnightmarecalm	false	
+[00:00:20]: setting 	isnight	true	
+[00:00:20]: setting 	isdusk	false	
+[00:00:20]: setting 	isspring	false	
+[00:00:20]: setting 	isautumn	false	
+[00:00:20]: setting 	iscaveday	false	
+[00:00:20]: setting 	lunarhaillevel	0	
+[00:00:20]: setting 	pop	0.81114565198472	
+[00:00:20]: setting 	snowlevel	1	
+[00:00:20]: setting 	issnowcovered	true	
+[00:00:20]: setting 	autumnlength	20	
+[00:00:20]: setting 	phase	night	
+[00:00:20]: setting 	nightmaretime	0	
+[00:00:20]: setting 	issnowing	false	
+[00:00:20]: setting 	iscavedusk	false	
+[00:00:20]: setting 	nightmarephase	none	
+[00:00:20]: setting 	timeinphase	0.9249892616272	
+[00:00:20]: setting 	seasonprogress	0.2	
+[00:00:20]: setting 	iscavenight	true	
+[00:00:20]: setting 	iscavenewmoon	false	
+[00:00:20]: setting 	issummer	false	
+[00:00:20]: setting 	cavephase	night	
+[00:00:20]: setting 	time	0.9765591442585	
+[00:00:21]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:21]: Some objects are not supported by the mod.	
+[00:00:21]: Unknown objects: boat_pirate	
+[00:00:21]: You can enable these objects if you change the option "Unknown Objects".	
+[00:00:21]: See more info at http://steamcommunity.com/workshop/filedetails/discussion/375859599/343787283764426976/	
+[00:00:21]: --------------------------------------------------------	
+[00:00:22]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:22]: Unknown objects: lightcrab	
+[00:00:23]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:23]: Unknown objects: stageusher	
+[00:00:24]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:24]: Unknown objects: hedgehound_bush	
+[00:00:25]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:25]: Unknown objects: powder_monkey	
+[00:00:27]: Reconstructing topology	
+[00:00:27]: 	...Sorting points	
+[00:00:27]: 	...Sorting edges	
+[00:00:27]: 	...Connecting nodes	
+[00:00:27]: 	...Validating connections	
+[00:00:27]: 	...Housekeeping	
+[00:00:27]: 	...Done!	
+[00:00:27]: 1 uploads added to server. From server_temp
+[00:00:27]: About to start a shard with these settings:
+[00:00:27]:   ShardName: [SHDMASTER]
+[00:00:27]:   ShardID: 1
+[00:00:27]:   ShardRole: MASTER
+[00:00:27]:   MasterHost: (null)
+[00:00:27]:   MasterBind: 127.0.0.1
+[00:00:27]:   MasterPort: 10889
+[00:00:27]: [Shard] Starting master server
+[00:00:27]: [Shard] Shard server started on port: 10889
+[00:00:27]: Telling Client our new session identifier: 6EEFB4906384BB74
+[00:00:27]: Check for write access: TRUE
+[00:00:27]: Check for read access: TRUE
+[00:00:27]: Available disk space for save files: 178262 MB
+[00:00:27]: ModIndex: Load sequence finished successfully.	
+[00:00:28]: Reset() returning
+[00:00:29]: Validating portal[9] <-> 1662993102[9] (inactive)	
+[00:00:29]: Validating portal[5] <-> 1662993102[5] (inactive)	
+[00:00:29]: Validating portal[3] <-> 1662993102[3] (inactive)	
+[00:00:29]: Validating portal[1] <-> 1662993102[1] (inactive)	
+[00:00:29]: Validating portal[6] <-> 1662993102[6] (inactive)	
+[00:00:29]: Validating portal[2] <-> 1662993102[2] (inactive)	
+[00:00:29]: Validating portal[7] <-> 1662993102[7] (inactive)	
+[00:00:29]: Validating portal[8] <-> 1662993102[8] (inactive)	
+[00:00:29]: Validating portal[4] <-> 1662993102[4] (inactive)	
+[00:00:29]: Server registered via geo DNS in ap-southeast-1
+[00:00:29]: Sim paused
+[00:00:29]: [Shard] Secondary shard Caves(1662993102) connected: [LAN] 127.0.0.1
+[00:00:29]: [Shard] Secondary Caves(1662993102) ready!
+[00:00:29]: World 1662993102 is now connected	
+[00:00:29]: Validating portal[9] <-> 1662993102[9] (disabled)	
+[00:00:29]: Validating portal[5] <-> 1662993102[5] (active)	
+[00:00:29]: Validating portal[3] <-> 1662993102[3] (active)	
+[00:00:29]: Validating portal[1] <-> 1662993102[1] (active)	
+[00:00:29]: Validating portal[6] <-> 1662993102[6] (active)	
+[00:00:29]: Validating portal[2] <-> 1662993102[2] (active)	
+[00:00:29]: Validating portal[7] <-> 1662993102[7] (disabled)	
+[00:00:29]: Validating portal[8] <-> 1662993102[8] (active)	
+[00:00:29]: Validating portal[4] <-> 1662993102[4] (disabled)	
+[00:02:10]: [P2P] Session request for '76561198825792993'
+[00:02:11]: [P2P] Create session: 242.25.215.103|1 '76561198825792993'
+[00:02:11]: [P2P] Received from 242.25.215.103|1 '76561198825792993'
+[00:02:11]: [P2P] Sent to 242.25.215.103|1 '76561198825792993'
+[00:02:12]: New incoming connection 242.25.215.103|1 <1978585487054006210>
+[00:02:12]: Client connected from 242.25.215.103|1 <1978585487054006210>
+[00:02:12]: ValidateGameSessionToken GUID<1978585487054006210>
+[00:02:12]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:02:13]: [Steam] Authenticated host '76561198825792993'
+[00:02:14]: There is no active event to validate against.
+[00:02:14]: [Shard] Read save location file for (KU_Y-TulnOp)
+[00:02:58]: Resuming user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000099
+[00:02:58]: Spawning player at: [Load] (-153.91, 0.00, -336.27)	
+[00:02:58]: Sim unpaused
+[00:03:02]: A timer with the name 	salt	 already exists on 	113576 - beefalo	!	
+[00:04:02]: Server Autopaused	
+[00:04:10]: [(KU_Y-TulnOp) huuphuoc1xx] ReceiveRemoteExecute(c_speedmult(3)) @(-174.42, -333.12)
+[00:04:10]: Server Unpaused	
+[00:10:09]: Activating portal[3] to 1662993102	
+[00:10:09]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000101
+[00:10:09]: [Shard] Migration request: (KU_Y-TulnOp) to Caves(1662993102)
+[00:10:09]: [Shard] Begin migration #1 for (KU_Y-TulnOp)
+[00:10:09]: [Shard] #1 [SHDMASTER](1) -> Caves(1662993102)
+[00:10:09]: [Shard] #1 <- session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000101
+[00:10:09]: [Shard] Writing save location file for (KU_Y-TulnOp)
+[00:10:09]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:10:10]: Invalid RPC sender: expected player, got userid	
+[00:10:10]: Ignored request to resume during migration
+[00:10:10]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:10:10]: [Shard] (KU_Y-TulnOp) disconnected from [SHDMASTER](1)
+[00:10:18]: [Shard] Completed migration #1 for player (KU_Y-TulnOp)
+[00:11:08]: Server Autopaused	
+[00:11:13]: Server Unpaused	
+[00:11:24]: Available disk space for save files: 178262 MB
+[00:11:24]: Missing reference:	110127 - beefaloherd	->	113576	113576 - beefalo	
+[00:11:24]: Serializing world: session/6EEFB4906384BB74/0000000101
+[00:11:24]: Truncating to snapshot #101...
+[00:11:24]:  - session/6EEFB4906384BB74/0000000095
+[00:11:24]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000095
+[00:11:24]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000095
+[00:11:24]:    3 file(s) removed
+[00:12:16]: [Shard] Begin migration #2 for (KU_Y-TulnOp)
+[00:12:16]: [Shard] #2 Caves(1662993102) -> [SHDMASTER](1)
+[00:12:16]: [Shard] #2 -> session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000102
+[00:12:16]: [Shard] Received migration #2 data for (KU_Y-TulnOp)
+[00:12:16]: [Shard] Writing save location file for (KU_Y-TulnOp)
+[00:12:16]: [Shard] (KU_Y-TulnOp) disconnected from Caves(1662993102)
+[00:12:20]: [P2P] Received from 242.25.215.103|1 '76561198825792993'
+[00:12:20]: [P2P] Sent to 242.25.215.103|1 '76561198825792993'
+[00:12:22]: New incoming connection 242.25.215.103|1 <3837079898472116408>
+[00:12:22]: Client connected from 242.25.215.103|1 <3837079898472116408>
+[00:12:22]: ValidateGameSessionToken GUID<3837079898472116408>
+[00:12:23]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:12:23]: [Steam] Authenticated host '76561198825792993'
+[00:12:23]: [Shard] Completed incoming migration #2 for (KU_Y-TulnOp)
+[00:12:23]: [Shard] Completed migration #2 for player (KU_Y-TulnOp)
+[00:12:56]: Resuming user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000102
+[00:12:56]: Player will spawn close to portal #3	
+[00:12:56]: Spawning player at: [Load] (-115.05, 0.00, -288.85)	
+[00:13:17]: Server Autopaused	
+[00:13:21]: [(KU_Y-TulnOp) huuphuoc1xx] ReceiveRemoteExecute(c_speedmult(3)) @(-148.94, -279.02)
+[00:13:21]: Server Unpaused	
+[00:19:29]: Available disk space for save files: 178258 MB
+[00:19:29]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000102
+[00:19:29]: Missing reference:	110127 - beefaloherd	->	113576	113576 - beefalo	
+[00:19:29]: Serializing world: session/6EEFB4906384BB74/0000000102
+[00:21:33]: Server Autopaused	
+[00:21:35]: Server Unpaused	
+[00:25:05]: Server Autopaused	
+[00:25:20]: Server Unpaused	
+[00:27:47]: Available disk space for save files: 178257 MB
+[00:27:47]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000103
+[00:27:47]: Missing reference:	110127 - beefaloherd	->	113576	113576 - beefalo	
+[00:27:48]: Serializing world: session/6EEFB4906384BB74/0000000103
+[00:30:08]: [200] Account Communication Success (6)
+[00:30:08]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:34:36]: Server Autopaused	
+[00:34:37]: Server Unpaused	
+[00:34:46]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:34:46]: Connection lost to 242.25.215.103|1 <3837079898472116408>
+[00:34:46]: [Shard] (KU_Y-TulnOp) disconnected from [SHDMASTER](1)
+[00:34:47]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000104
+[00:34:47]: Sim paused
+[00:44:46]: [P2P] Session timed out for '76561198825792993'
+[00:44:46]: [P2P] Remove session: 242.25.215.103|1 '76561198825792993'
+[00:45:35]: Available disk space for save files: 178253 MB
+[00:45:35]: Missing reference:	110127 - beefaloherd	->	113576	113576 - beefalo	
+[00:45:35]: Serializing world: session/6EEFB4906384BB74/0000000104
+[00:45:35]: Truncating to snapshot #104...
+[00:45:35]:  - session/6EEFB4906384BB74/0000000098
+[00:45:35]:  - session/6EEFB4906384BB74/0000000096
+[00:45:35]:  - session/6EEFB4906384BB74/0000000097
+[00:45:35]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000098
+[00:45:35]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000097
+[00:45:35]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000096
+[00:45:35]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000097
+[00:45:35]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000096
+[00:45:35]:    8 file(s) removed
+[00:45:35]: Removing server from lobby
+[00:45:35]: [Shard] Stopping shard mode
+[00:45:35]: [Steam] SendUserDisconnect for ''
+[00:45:36]: Collecting garbage...
+[00:45:37]: lua_gc took 0.79 seconds
+[00:45:37]: ~ShardLuaProxy()
+[00:45:37]: ~cEventLeaderboardProxy()
+[00:45:37]: ~ItemServerLuaProxy()
+[00:45:37]: ~InventoryLuaProxy()
+[00:45:37]: ~NetworkLuaProxy()
+[00:45:37]: ~SimLuaProxy()
+[00:45:37]: Cancelling LuaQueryCallback handle [38]
+[00:45:37]: lua_close took 0.92 seconds
+[00:45:38]: CurlRequestManager::ClientThread::Main() complete
+[00:45:38]: HttpClient2 discarded 0 callbacks.
+[00:45:38]: Shutting down

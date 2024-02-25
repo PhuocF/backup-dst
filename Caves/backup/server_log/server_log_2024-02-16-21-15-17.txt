@@ -1,0 +1,985 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 590113
+[00:00:00]: Current time: Fri Feb 16 21:04:33 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: vmi1538763.contaboserver.net
+[00:00:00]: Release(Kernel) Version: 5.4.0-105-generic
+[00:00:00]: Kernel Build Timestamp: #119-Ubuntu SMP Mon Mar 7 18:49:24 UTC 2022
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 590113 LINUX
+[00:00:00]: Build Date: 2230
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 1537974 -shard Caves 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (140184192587520)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:5.37
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11001, 27019)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (140184071337728)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
+	
+[00:00:01]: Could not load modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: [Workshop] Item query page 0, size: 6, total size: 6
+[00:00:04]: [Workshop] Item query queued IDs: 378160973 1111658995 347079953 1207269058 375859599 481765222
+[00:00:04]: [Workshop] Item query sent
+[00:00:05]: [Workshop] ItemQuery got this many results: 6, matching: 6
+[00:00:05]: [Workshop] ModQuery got 6 results
+[00:00:05]: [Workshop] ModQuery already have IDs: {1.7.4,378160973} {3.0,1111658995} {1.61,347079953} {2.16,1207269058} {2.2.03,375859599} {0.5,481765222}
+[00:00:05]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:05]: [Workshop] ItemQuery finished downloading everything
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling workshop-1207269058	
+[00:00:05]: modoverrides.lua enabling workshop-1111658995	
+[00:00:05]: modoverrides.lua enabling workshop-481765222	
+[00:00:05]: modoverrides.lua enabling workshop-378160973	
+[00:00:05]: modoverrides.lua enabling workshop-347079953	
+[00:00:05]: modoverrides.lua enabling workshop-375859599	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:05]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-481765222_CLIENT	
+[00:00:05]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:05]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:05]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
+[00:00:05]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:05]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:05]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:05]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:05]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:05]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:05]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:05]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: Failed to load skilltree file itself!	
+[00:00:05]: Trying to apply online cache of skilltree data..	
+[00:00:05]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:06]: LOADING LUA SUCCESS
+[00:00:06]: Registering Server mod namespace "workshop-1207269058"
+[00:00:06]: Registering Server mod namespace "workshop-1111658995"
+[00:00:06]: Registering Server mod namespace "workshop-378160973"
+[00:00:06]: Registering Server mod namespace "food item"
+[00:00:06]: Registering Client mod namespace "workshop-1111658995"
+[00:00:06]: PlayerDeaths could not load morgue	
+[00:00:06]: PlayerHistory could not load player_history	
+[00:00:06]: ServerPreferences could not load server_preferences	
+[00:00:06]: ConsoleScreenSettings could not load consolescreen	
+[00:00:06]: bloom_enabled	true	
+[00:00:06]: OnFilesLoaded()	
+[00:00:06]: OnUpdatePurchaseStateComplete	
+[00:00:06]: Klump load on boot started.	
+[00:00:06]: Klump files loaded: 	0	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:07]: 	Load FE	
+[00:00:08]: THREAD - started 'FilesExistAsyncThread' (140184058738432)
+[00:00:08]: FilesExistAsyncThread started (23365 files)...
+[00:00:08]: 	Load FE: done	
+[00:00:08]: Check for write access: TRUE
+[00:00:08]: Check for read access: TRUE
+[00:00:08]: Available disk space for save files: 178871 MB
+[00:00:08]: ModIndex: Load sequence finished successfully.	
+[00:00:08]: Reset() returning
+[00:00:08]: ... FilesExistAsyncThread complete
+[00:00:08]: [200] Account Communication Success (6)
+[00:00:08]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/MyDediServer/Caves/save/cached_userid
+[00:00:08]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:08]: Starting Dedicated Server Game	
+[00:00:08]: Network tick rate: U=15(2), D=0
+[00:00:08]: About to start a server with the following settings:
+[00:00:08]:   Dedicated: true
+[00:00:08]:   Online: true
+[00:00:08]:   Passworded: true
+[00:00:08]:   ServerPort: 11001
+[00:00:08]:   SteamAuthPort: 8769
+[00:00:08]:   SteamMasterServerPort: 27019
+[00:00:08]:   ClanID: false
+[00:00:08]:   ClanOnly: false
+[00:00:08]:   ClanAdmin: false
+[00:00:08]:   LanOnly: false
+[00:00:08]:   FriendsOnly: false
+[00:00:08]:   EnableAutosaver: true
+[00:00:08]:   EncodeUserPath: false
+[00:00:08]:   PVP: false
+[00:00:08]:   MaxPlayers: 6
+[00:00:08]:   GameMode: survival
+[00:00:08]:   OverridenDNS: 
+[00:00:08]:   PauseWhenEmpty: true
+[00:00:08]:   IdleTimeout: 1800s
+[00:00:08]:   VoteEnabled: true
+[00:00:08]:   InternetBroadcasting: true
+[00:00:08]: [Shard] No shard id specified, generating a random one...
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:08]: Online Server Started on port: 11001
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: Not applying level data overrides.	
+[00:00:08]: Found a worldgen override file with these contents:	
+[00:00:08]: 	K: 	override_enabled	 V: 	true	
+[00:00:08]: 	K: 	overrides	 V: 	table: 0xc1a3d70	
+[00:00:08]: 	K: 	preset	 V: 	DST_CAVE	
+[00:00:08]:   sanity-checking worldgenoverride.lua...	
+[00:00:08]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:08]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:08]:   contained settings preset DST_CAVE, loading...	
+[00:00:08]: Overwriting savedata with override file.	
+[00:00:08]: Collecting garbage...
+[00:00:08]: lua_gc took 0.12 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:09]: lua_close took 0.15 seconds
+[00:00:09]: ReleaseAll
+[00:00:09]: ReleaseAll Finished
+[00:00:09]: cGame::StartPlaying
+[00:00:09]: AppVersion::GetArchitecture() x64
+[00:00:09]: LOADING LUA
+[00:00:09]: DoLuaFile scripts/main.lua
+[00:00:09]: DoLuaFile loading buffer scripts/main.lua
+[00:00:09]:   taskgrouplist:	default	Together	
+[00:00:09]:   taskgrouplist:	classic	Classic	
+[00:00:09]:   taskgrouplist:	cave_default	Underground	
+[00:00:09]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:09]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:09]: Running main.lua
+	
+[00:00:09]: loaded modindex	
+[00:00:09]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:09]: SUCCESS: Loaded modoverrides.lua	
+[00:00:09]: modoverrides.lua enabling workshop-1207269058	
+[00:00:09]: modoverrides.lua enabling workshop-1111658995	
+[00:00:09]: modoverrides.lua enabling workshop-481765222	
+[00:00:09]: modoverrides.lua enabling workshop-378160973	
+[00:00:09]: modoverrides.lua enabling workshop-347079953	
+[00:00:09]: modoverrides.lua enabling workshop-375859599	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:09]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:09]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:09]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:09]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:09]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:09]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:09]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:09]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: Failed to load skilltree file itself!	
+[00:00:10]: Trying to apply online cache of skilltree data..	
+[00:00:10]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: Registering Server mod namespace "workshop-1207269058"
+[00:00:10]: Registering Server mod namespace "workshop-1111658995"
+[00:00:10]: Registering Server mod namespace "workshop-378160973"
+[00:00:10]: Registering Server mod namespace "food item"
+[00:00:10]: Registering Client mod namespace "workshop-1111658995"
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: ConsoleScreenSettings could not load consolescreen	
+[00:00:10]: bloom_enabled	true	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: SUCCESS: Loaded modoverrides.lua	
+[00:00:10]: Not applying level data overrides.	
+[00:00:10]: Found a worldgen override file with these contents:	
+[00:00:10]: 	K: 	override_enabled	 V: 	true	
+[00:00:10]: 	K: 	overrides	 V: 	table: 0x7ffda20	
+[00:00:10]: 	K: 	preset	 V: 	DST_CAVE	
+[00:00:10]:   sanity-checking worldgenoverride.lua...	
+[00:00:10]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:10]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:10]:   contained settings preset DST_CAVE, loading...	
+[00:00:10]: Overwriting savedata with override file.	
+[00:00:10]: WorldSim::SimThread::SimThread()
+[00:00:10]: ABOUT TO INSTALL STACKTRACE
+[00:00:10]: DoLuaFile scripts/stacktrace.lua
+[00:00:10]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:10]: INSTALLED STACKTRACE
+[00:00:10]: Engine Seed: (1708088683 + 1664269196) & 0x7FFFFFFF = 1224874231
+[00:00:10]: WorldSim::SimThread::SimThread() complete
+[00:00:10]: THREAD - started 'WorldSim' (140183422875392)
+[00:00:10]: WorldSim::SimThread::Main()
+[00:00:10]: DoLuaFile scripts/worldgen_main.lua
+[00:00:10]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:10]: Check for write access: TRUE
+[00:00:10]: Check for read access: TRUE
+[00:00:10]: Available disk space for save files: 178871 MB
+[00:00:10]: ModIndex: Load sequence finished successfully.	
+[00:00:10]: Reset() returning
+[00:00:10]: DLC enabled : 	false	
+[00:00:10]:   taskgrouplist:	default	Together	
+[00:00:10]:   taskgrouplist:	classic	Classic	
+[00:00:10]:   taskgrouplist:	cave_default	Underground	
+[00:00:10]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:10]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:10]: ModIndex:GetModsToLoad inserting modname, 	workshop-481765222	
+[00:00:10]: ModIndex:GetModsToLoad inserting modname, 	workshop-1111658995	
+[00:00:10]: ModIndex:GetModsToLoad inserting modname, 	workshop-347079953	
+[00:00:10]: ModIndex:GetModsToLoad inserting modname, 	workshop-378160973	
+[00:00:10]: ModIndex:GetModsToLoad inserting modname, 	workshop-1207269058	
+[00:00:10]: ModIndex:GetModsToLoad inserting modname, 	workshop-375859599	
+[00:00:10]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:10]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:10]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:10]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:10]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:10]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:10]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: running worldgen_main.lua
+	
+[00:00:10]: SEED = 	1224874231	
+[00:00:10]: Generating world with these parameters:	
+[00:00:10]: level_type	SURVIVAL	
+[00:00:10]: level_data:	
+[00:00:10]: 	K: 	background_node_range	 V: 	table: 0x7f7eea292cb0	
+[00:00:10]: 		K: 	1	 V: 	0	
+[00:00:10]: 		K: 	2	 V: 	1	
+[00:00:10]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:00:10]: 	K: 	hideminimap	 V: 	false	
+[00:00:10]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:10]: 	K: 	location	 V: 	cave	
+[00:00:10]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:10]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:10]: 	K: 	name	 V: 	The Caves	
+[00:00:10]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:10]: 	K: 	override_level_string	 V: 	false	
+[00:00:10]: 	K: 	overrides	 V: 	table: 0x7f7eea296060	
+[00:00:10]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:10]: 		K: 	roads	 V: 	never	
+[00:00:10]: 		K: 	season_start	 V: 	default	
+[00:00:10]: 		K: 	start_location	 V: 	caves	
+[00:00:10]: 		K: 	task_set	 V: 	cave_default	
+[00:00:10]: 		K: 	world_size	 V: 	default	
+[00:00:10]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:10]: 	K: 	required_prefabs	 V: 	table: 0x7f7eea295220	
+[00:00:10]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:10]: 	K: 	settings_desc	 V: 	Delve into the caves... together!	
+[00:00:10]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:10]: 	K: 	settings_name	 V: 	The Caves	
+[00:00:10]: 	K: 	substitutes	 V: 	table: 0x7f7eea293960	
+[00:00:10]: 	K: 	version	 V: 	4	
+[00:00:10]: 	K: 	worldgen_desc	 V: 	Delve into the caves... together!	
+[00:00:10]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:10]: 	K: 	worldgen_name	 V: 	The Caves	
+[00:00:10]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:10]: Prefab Swap Selection: regular grass	
+[00:00:10]: Prefab Swap Selection: regular twigs	
+[00:00:10]: Prefab Swap Selection: regular berries	
+[00:00:10]: New size:	425	default	
+[00:00:10]: Creating story...	
+[00:00:10]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:10]: [Story Gen] RestrictNodesByKey	
+[00:00:10]: Finding valid start task...	
+[00:00:10]:    ...picked 	CaveExitTask8	
+[00:00:10]: Has start node	RabbitTown	
+[00:00:10]: Adding Background Nodes	
+[00:00:10]: [Story Gen] Adding Cove Nodes	
+[00:00:10]: Warning! Couldn't find a spot in Sacred for RockBoon	
+[00:00:10]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:10]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:10]: GenerateVoronoiMap [100]:
+[00:00:12]: ...Done.
+[00:00:12]: ... story created	
+[00:00:12]: Baking map...	425	
+[00:00:12]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:12]: [WorldSimActual::ConvertToTileMap]
+[00:00:12]: [ConvertToTileMap]
+[00:00:12]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:12]: [WorldSimActual::SeparateIslands]
+[00:00:12]: [SeparateIslands]
+[00:00:12]: [WorldSimActual::SeparateIslands] complete
+[00:00:12]: Map Baked!	
+[00:00:12]: [WorldSimActual::ForceConnectivity]
+[00:00:12]: [GenerateLandmasses]
+[00:00:12]: [GenerateLandmasses] islands: 8
+[00:00:12]: [MergeConnectedLandmasses] true
+[00:00:12]: [WorldSimActual::ForceConnectivity] complete
+[00:00:12]: Encoding...	
+[00:00:12]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:12]: Encoding... DONE	
+[00:00:12]: Checking Tags	
+[00:00:12]: Couldn't generate any points for maze. Aborting.
+[00:00:12]: Populating voronoi...	
+[00:00:12]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:12]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:12]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask9:1:GreenMushSinkhole	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:12]: Warning! Could not find a spot for RabbitTown in node RabbitTown:0:RabbitTown	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:12]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:12]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:12]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:12]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:12]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:12]: [ReplaceSingleNonLandTiles] Replaced 39 tiles.
+[00:00:12]: disconnected tiles...	1630	
+[00:00:12]: MilitaryPits:0:Barracks Cant process points	
+[00:00:12]: MilitaryPits:2:Barracks Cant process points	
+[00:00:12]: MilitaryPits:1:Barracks Cant process points	
+[00:00:12]: Removing entity on IMPASSABLE		412.7025	203.7325	790.81, 0, -45.07	
+[00:00:12]: Removing entity on IMPASSABLE	cavelight_atrium	105.9825	312.14	-436.07, 0, 388.56	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	105.8125	148.515	-436.75, 0, -265.94	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	102.9825	154.5	-448.07, 0, -242	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	102.7325	154.5	-449.07, 0, -242	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	102.4825	154.5	-450.07, 0, -242	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	102.2325	154.5	-451.07, 0, -242	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	101.4825	152.53	-454.07, 0, -249.88	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	101.4825	152.78	-454.07, 0, -248.88	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	106.9375	168.4825	-432.25, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	106.4375	168.4825	-434.25, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	106.6875	168.4825	-433.25, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	107.1875	168.4825	-431.25, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	110.4675	168.4825	-418.13, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	110.7175	168.4825	-417.13, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	111.515	164.4675	-413.94, 0, -202.13	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	111.515	164.2175	-413.94, 0, -203.13	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	111.515	163.9675	-413.94, 0, -204.13	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	111.515	163.7175	-413.94, 0, -205.13	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	116.8125	160.515	-392.75, 0, -217.94	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	113.9825	166.5	-404.07, 0, -194	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	113.7325	166.5	-405.07, 0, -194	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	113.4825	166.5	-406.07, 0, -194	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	113.2325	166.5	-407.07, 0, -194	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	112.4825	164.53	-410.07, 0, -201.88	
+[00:00:12]: Removing entity on IMPASSABLE	brokenwall_ruins	112.4825	164.78	-410.07, 0, -200.88	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	105.5	308.375	-438, 0, 373.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	106.5	308.375	-434, 0, 373.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	106	315.25	-436, 0, 401	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	109.25	312	-423, 0, 388	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	102.75	312	-449, 0, 388	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	87.25	303	-511, 0, 352	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	89	301.25	-504, 0, 345	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	104	305	-444, 0, 360	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	107	304.5	-432, 0, 358	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	104.5	302	-442, 0, 348	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	82	301.25	-532, 0, 345	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	83.75	303	-525, 0, 352	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	96	295.75	-476, 0, 323	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	99	295.75	-464, 0, 323	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	89.5	294.5	-502, 0, 318	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	89.5	296.5	-502, 0, 326	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	91	289	-496, 0, 296	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	90.5	286	-498, 0, 284	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	88	288.5	-508, 0, 294	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	83.25	296.25	-527, 0, 325	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_light	79.75	296.25	-541, 0, 325	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	98.5	290.25	-466, 0, 301	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	98	290.5	-468, 0, 302	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	97.5	290.25	-470, 0, 301	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	97	290.5	-472, 0, 302	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	96.5	290.25	-474, 0, 301	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	94.25	288.5	-483, 0, 294	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	94.5	288	-482, 0, 292	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	94.25	287.5	-483, 0, 290	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	94.5	287	-482, 0, 288	
+[00:00:12]: Removing entity on IMPASSABLE	insanityrock	94.25	286.5	-483, 0, 286	
+[00:00:12]: Removing entity on IMPASSABLE	pillar_atrium	109	315	-424, 0, 400	
+[00:00:12]: Removing entity on IMPASSABLE	pillar_atrium	109	308.75	-424, 0, 375	
+[00:00:12]: Removing entity on IMPASSABLE	pillar_atrium	103	308.75	-448, 0, 375	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_gate	106	312	-436, 0, 388	
+[00:00:12]: Removing entity on IMPASSABLE	cave_hole	106.375	286.3275	-434.5, 0, 285.31	
+[00:00:12]: Removing entity on IMPASSABLE	cave_hole	98.0925	296.89	-467.63, 0, 327.56	
+[00:00:12]: Removing entity on IMPASSABLE	sanityrock	99.5	287.5	-462, 0, 290	
+[00:00:12]: Removing entity on IMPASSABLE	sanityrock	99.5	288.5	-462, 0, 294	
+[00:00:12]: Removing entity on IMPASSABLE	sanityrock	99	288.5	-464, 0, 294	
+[00:00:12]: Removing entity on IMPASSABLE	sanityrock	99.25	288	-463, 0, 292	
+[00:00:12]: Removing entity on IMPASSABLE	sanityrock	99	287.5	-464, 0, 290	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue	104	289	-444, 0, 296	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue	104	286	-444, 0, 284	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue	89.5	295.5	-502, 0, 322	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue	82.75	293.5	-529, 0, 314	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue	78.75	293.5	-545, 0, 314	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue	80.25	293.5	-539, 0, 314	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue	84.25	293.5	-523, 0, 314	
+[00:00:12]: Removing entity on IMPASSABLE	pandoraschest	96.5	305.5	-474, 0, 362	
+[00:00:12]: Removing entity on IMPASSABLE	pandoraschest	11.5	142.5	-814, 0, -290	
+[00:00:12]: Removing entity on IMPASSABLE	pillar_ruins	60	268	-620, 0, 212	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	107.4525	153.515	-430.19, 0, -245.94	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	107.4525	153.765	-430.19, 0, -244.94	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	107.4525	154.015	-430.19, 0, -243.94	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	107.4675	149.53	-430.13, 0, -261.88	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	107.4675	149.78	-430.13, 0, -260.88	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	107.4675	150.03	-430.13, 0, -259.88	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	111.2175	168.4825	-415.13, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	110.9675	168.4825	-416.13, 0, -186.07	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	105.53	166.9675	-437.88, 0, -192.13	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	118.4525	165.515	-386.19, 0, -197.94	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	118.4525	165.765	-386.19, 0, -196.94	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	118.4525	166.015	-386.19, 0, -195.94	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	118.4675	161.53	-386.13, 0, -213.88	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	118.4675	161.78	-386.13, 0, -212.88	
+[00:00:12]: Removing entity on IMPASSABLE	wall_ruins	118.4675	162.03	-386.13, 0, -211.88	
+[00:00:12]: Removing entity on IMPASSABLE	dropperweb	103.1075	304.015	-447.57, 0, 356.06	
+[00:00:12]: Removing entity on IMPASSABLE	dropperweb	103.5925	303.0625	-445.63, 0, 352.25	
+[00:00:12]: Removing entity on IMPASSABLE	dropperweb	96.5	295	-474, 0, 320	
+[00:00:12]: Removing entity on IMPASSABLE	dropperweb	98	294.67	-468, 0, 318.68	
+[00:00:12]: Removing entity on IMPASSABLE	dropperweb	90.015	289.89	-499.94, 0, 299.56	
+[00:00:12]: Removing entity on IMPASSABLE	dropperweb	89.0625	289.405	-503.75, 0, 297.62	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue_facing	102.75	310.5	-449, 0, 382	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue_facing	109.25	313.5	-423, 0, 394	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue_facing	109.25	310.5	-423, 0, 382	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_statue_facing	107.5	315.25	-430, 0, 401	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	106.75	315.25	-433, 0, 401	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	109.25	312.75	-423, 0, 391	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	109.25	311.25	-423, 0, 385	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	102.75	311.25	-449, 0, 385	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	97	285	-472, 0, 280	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	98	304	-468, 0, 356	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	79.5	293.5	-542, 0, 314	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_rubble	83.515	293.4825	-525.94, 0, 313.93	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	105.9525	308.0625	-436.19, 0, 372.25	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.03	308.8575	-435.88, 0, 375.43	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	105.8275	308.6875	-436.69, 0, 374.75	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.28	308.9675	-434.88, 0, 375.87	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.405	308.75	-434.38, 0, 375	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	105.67	308.8575	-437.32, 0, 375.43	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.0775	308.39	-435.69, 0, 373.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	105.625	307.9375	-437.5, 0, 371.75	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.375	307.905	-434.5, 0, 371.62	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	105.8125	308.4525	-436.75, 0, 373.81	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.25	308.25	-435, 0, 373	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	105.1875	284.8275	-439.25, 0, 279.31	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	104.75	284.67	-441, 0, 278.68	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	104.75	290.1875	-441, 0, 300.75	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	105.6075	290.3425	-437.57, 0, 301.37	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.4675	289.875	-434.13, 0, 299.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	106.7175	290.265	-433.13, 0, 301.06	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	107.125	289.8275	-431.5, 0, 299.31	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	107.3575	289.375	-430.57, 0, 297.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	108.17	285.8575	-427.32, 0, 283.43	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	108.3125	287.125	-426.75, 0, 288.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	107.9675	286.64	-428.13, 0, 286.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	108.125	287.875	-427.5, 0, 291.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	108	288.265	-428, 0, 293.06	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	107.17	288.045	-431.32, 0, 292.18	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	94.9375	285.67	-480.25, 0, 282.68	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.8425	285.4375	-476.63, 0, 281.75	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.655	284.7175	-477.38, 0, 278.87	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96.3125	284.7175	-474.75, 0, 278.87	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96.015	285.0775	-475.94, 0, 280.31	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96.3425	285.405	-474.63, 0, 281.62	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	97.9375	285.14	-468.25, 0, 280.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	98.17	284.7025	-467.32, 0, 278.81	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	97.625	284.8275	-469.5, 0, 279.31	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	97.6075	285.39	-469.57, 0, 281.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.295	304.5775	-478.82, 0, 358.31	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.2175	305.045	-479.13, 0, 360.18	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.7175	304.78	-477.13, 0, 359.12	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	97.0775	305.03	-471.69, 0, 360.12	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96.75	304.89	-473, 0, 359.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	97.2025	305.4375	-471.19, 0, 361.75	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	97.4675	304.795	-470.13, 0, 359.18	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	94.9525	305.0775	-480.19, 0, 360.31	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96.25	304.89	-475, 0, 359.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.7025	305.89	-477.19, 0, 363.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96	305.53	-476, 0, 362.12	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96.14	306.2175	-475.44, 0, 364.87	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	96.92	306.2175	-472.32, 0, 364.87	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	97.3275	306.03	-470.69, 0, 364.12	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	100.25	305.125	-459, 0, 360.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	99.75	304.9675	-461, 0, 359.87	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	99.2025	305.375	-463.19, 0, 361.5	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	98.5	305	-466, 0, 360	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.17	302.3575	-479.32, 0, 349.43	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	94.89	301.8575	-480.44, 0, 347.43	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	94.8425	304.515	-480.63, 0, 358.06	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.14	303.5775	-479.44, 0, 354.31	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	94.8275	302.92	-480.69, 0, 351.68	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.42	302.8125	-478.32, 0, 351.25	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	94.6075	303.64	-481.57, 0, 354.56	
+[00:00:12]: Removing entity on IMPASSABLE	atrium_fence	95.28	304.265	-478.88, 0, 357.06	
+[00:00:12]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	106.25	153.75	-435, 0, -245	
+[00:00:12]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	106.75	163.25	-433, 0, -207	
+[00:00:12]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	117.25	165.75	-391, 0, -197	
+[00:00:12]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	97.8125	287.655	-468.75, 0, 290.62	
+[00:00:12]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	98.405	287.545	-466.38, 0, 290.18	
+[00:00:12]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	96.3125	286.625	-474.75, 0, 286.5	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	103.75	149	-445, 0, -264	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	105	152	-440, 0, -252	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	105.5	150.5	-438, 0, -258	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	102	150	-452, 0, -260	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	104	150.25	-444, 0, -259	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	103.5	153.5	-446, 0, -246	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	109.25	168	-423, 0, -188	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	108	165	-428, 0, -200	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	107.5	166.5	-430, 0, -194	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	111	167	-416, 0, -192	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	109	166.75	-424, 0, -193	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	109.5	163.5	-422, 0, -206	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	114.75	161	-401, 0, -216	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	116	164	-396, 0, -204	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	116.5	162.5	-394, 0, -210	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	113	162	-408, 0, -212	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	115	162.25	-400, 0, -211	
+[00:00:12]: Removing entity on IMPASSABLE	chessjunk_spawner	114.5	165.5	-402, 0, -198	
+[00:00:12]: Removing entity on IMPASSABLE	rook_nightmare_spawner	107	150.75	-432, 0, -257	
+[00:00:12]: Removing entity on IMPASSABLE	rook_nightmare_spawner	102.75	151.75	-449, 0, -253	
+[00:00:12]: Removing entity on IMPASSABLE	rook_nightmare_spawner	106	166.25	-436, 0, -195	
+[00:00:12]: Removing entity on IMPASSABLE	rook_nightmare_spawner	110.25	165.25	-419, 0, -199	
+[00:00:12]: Removing entity on IMPASSABLE	rook_nightmare_spawner	118	162.75	-388, 0, -209	
+[00:00:12]: Removing entity on IMPASSABLE	rook_nightmare_spawner	113.75	163.75	-405, 0, -205	
+[00:00:12]: Removing entity on IMPASSABLE	wall_stone_2	397.39	189.39	729.56, 0, -102.44	
+[00:00:12]: Removing entity on IMPASSABLE	tentacle_pillar	106.5	289	-434, 0, 296	
+[00:00:12]: Checking Required Prefab atrium_gate has at least 1 instances (0 found).	
+[00:00:12]: PANIC: missing required prefab [atrium_gate]! Expected 1, got 0	
+[00:00:12]: An error occured during world gen we will retry! [was 	1	 of 	5	]	
+[00:00:12]: New size:	425	default	
+[00:00:12]: Creating story...	
+[00:00:12]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:12]: [Story Gen] RestrictNodesByKey	
+[00:00:12]: Finding valid start task...	
+[00:00:12]:    ...picked 	CaveExitTask4	
+[00:00:12]: Has start node	SinkholeOasis	
+[00:00:12]: Adding Background Nodes	
+[00:00:12]: [Story Gen] Adding Cove Nodes	
+[00:00:12]: Warning! Couldn't find a spot in Sacred for RockBoon	
+[00:00:12]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:12]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:12]: GenerateVoronoiMap [100]:
+[00:00:14]: ...Done.
+[00:00:14]: ... story created	
+[00:00:14]: Baking map...	425	
+[00:00:14]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:14]: [WorldSimActual::ConvertToTileMap]
+[00:00:14]: [ConvertToTileMap]
+[00:00:14]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:14]: [WorldSimActual::SeparateIslands]
+[00:00:14]: [SeparateIslands]
+[00:00:14]: [WorldSimActual::SeparateIslands] complete
+[00:00:14]: Map Baked!	
+[00:00:14]: [WorldSimActual::ForceConnectivity]
+[00:00:14]: [GenerateLandmasses]
+[00:00:14]: [GenerateLandmasses] islands: 12
+[00:00:14]: [MergeConnectedLandmasses] true
+[00:00:14]: [WorldSimActual::ForceConnectivity] complete
+[00:00:14]: Encoding...	
+[00:00:14]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:14]: Encoding... DONE	
+[00:00:14]: Checking Tags	
+[00:00:14]: Couldn't generate any points for maze. Aborting.
+[00:00:14]: Populating voronoi...	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask9:1:GreenMushSinkhole	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:14]: Warning! Could not find a spot for TentaclePillar in node RabbitTown:4:RabbitSinkhole	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for EvergreenSinkhole in node UndergroundForest:0:SinkholeCopses	
+[00:00:14]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:14]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:5:GrasslandSinkhole	
+[00:00:14]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:14]: [ReplaceSingleNonLandTiles] Replaced 34 tiles.
+[00:00:14]: disconnected tiles...	2340	
+[00:00:14]: MilitaryPits:2:Barracks Cant process points	
+[00:00:14]: MilitaryPits:0:Barracks Cant process points	
+[00:00:14]: MilitaryPits:1:Barracks Cant process points	
+[00:00:14]: Removing entity on IMPASSABLE		296.7325	363.295	336.93, 0, 603.18	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	163.5	116.015	-196, 0, -385.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	163.5	116.265	-196, 0, -384.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	163.5	116.515	-196, 0, -383.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	163.5	116.765	-196, 0, -382.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	161.53	117.515	-203.88, 0, -379.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	161.78	117.515	-202.88, 0, -379.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	162.03	117.515	-201.88, 0, -379.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	162.28	117.515	-200.88, 0, -379.94	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	158.4825	104.0625	-216.07, 0, -433.75	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	158.4825	104.5625	-216.07, 0, -431.75	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	158.4825	104.3125	-216.07, 0, -432.75	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	158.4825	103.8125	-216.07, 0, -434.75	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	158.4825	100.53	-216.07, 0, -447.88	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	158.4825	100.28	-216.07, 0, -448.88	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	156.015	118.5	-225.94, 0, -376	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	156.265	118.5	-224.94, 0, -376	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	156.515	118.5	-223.94, 0, -376	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	156.765	118.5	-222.94, 0, -376	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	157.515	116.53	-219.94, 0, -383.88	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	157.515	116.78	-219.94, 0, -382.88	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	157.515	117.03	-219.94, 0, -381.88	
+[00:00:14]: Removing entity on IMPASSABLE	brokenwall_ruins	157.515	117.28	-219.94, 0, -380.88	
+[00:00:14]: Removing entity on IMPASSABLE	insanityrock	110.25	217.5	-409, 0, 20	
+[00:00:14]: Removing entity on IMPASSABLE	pandoraschest	11.5	188.5	-804, 0, -96	
+[00:00:14]: Removing entity on IMPASSABLE	pandoraschest	11.5	196.5	-804, 0, -64	
+[00:00:14]: Removing entity on IMPASSABLE	pandoraschest	11.5	202.5	-804, 0, -40	
+[00:00:14]: Removing entity on IMPASSABLE	pandoraschest	11.5	210.5	-804, 0, -8	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	163.5	117.015	-196, 0, -381.94	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	163.5	117.265	-196, 0, -380.94	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	163.5	117.515	-196, 0, -379.94	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	158.4825	100.03	-216.07, 0, -449.88	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	153.4825	105.4525	-236.07, 0, -428.19	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	153.2325	105.4525	-237.07, 0, -428.19	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	157.4675	105.4675	-220.13, 0, -428.13	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	157.2175	105.4675	-221.13, 0, -428.13	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	156.9675	105.4675	-222.13, 0, -428.13	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	157.015	118.5	-221.94, 0, -376	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	157.265	118.5	-220.94, 0, -376	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	157.515	118.5	-219.94, 0, -376	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	90.265	213.5	-488.94, 0, 4	
+[00:00:14]: Removing entity on IMPASSABLE	wall_ruins	85.5	143.265	-508, 0, -276.94	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	162.75	112.75	-199, 0, -399	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	153.25	104.25	-237, 0, -433	
+[00:00:14]: Removing entity on IMPASSABLE	bishop_nightmare_spawner	152.75	117.75	-239, 0, -379	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	158	115.25	-218, 0, -389	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	161	114	-206, 0, -394	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	159.5	113.5	-212, 0, -396	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	159	117	-214, 0, -382	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	159.25	115	-213, 0, -390	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	162.5	115.5	-200, 0, -388	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	158	101.75	-218, 0, -443	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	155	103	-230, 0, -438	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	156.5	103.5	-224, 0, -436	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	157	100	-222, 0, -450	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	156.75	102	-223, 0, -442	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	153.5	101.5	-236, 0, -444	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	155.25	113	-229, 0, -398	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	154	116	-234, 0, -386	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	153.5	114.5	-236, 0, -392	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	157	114	-222, 0, -394	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	155	114.25	-230, 0, -393	
+[00:00:14]: Removing entity on IMPASSABLE	chessjunk_spawner	155.5	117.5	-228, 0, -380	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	159.75	112	-211, 0, -402	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	160.75	116.25	-207, 0, -385	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	156.25	105	-225, 0, -430	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	155.25	100.75	-229, 0, -447	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	152	114.75	-242, 0, -391	
+[00:00:14]: Removing entity on IMPASSABLE	rook_nightmare_spawner	156.25	115.75	-225, 0, -387	
+[00:00:14]: Removing entity on IMPASSABLE	wall_stone_2	313.39	351.375	403.56, 0, 555.5	
+[00:00:14]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:14]: Checking Required Prefab archive_lockbox_dispencer has at least 3 instances (5 found).	
+[00:00:14]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:14]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:14]: Done cave map gen!	
+[00:00:14]: Checking map...	
+[00:00:14]: Generation complete, injecting world entities.	
+[00:00:14]: Injected world entities.	
+[00:00:14]: WorldSim::SimThread::Main() complete
+[00:00:14]: Serializing world: session/F485603E63760CF4/0000000002
+[00:00:14]: Auto-enabling encoded user paths
+[00:00:14]: Klump load on boot started.	
+[00:00:14]: Klump files loaded: 	0	
+[00:00:14]: 	Unload FE	
+[00:00:14]: 	Unload FE done	
+[00:00:15]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:15]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:15]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:15]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:15]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:15]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:15]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:15]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:15]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:15]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:15]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:15]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:16]: 	LOAD BE	
+[00:00:24]: 	LOAD BE: done	
+[00:00:24]: Begin Session: F485603E63760CF4
+[00:00:24]: saving to server_temp/server_save	
+[00:00:24]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar_broken.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:24]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:24]: Loading 19 new character(s)	
+[00:00:24]: Total 19 character(s) loaded	
+[00:00:28]: Loading Nav Grid	
+[00:00:28]: World generated on build 590113 with save version: 5.142, using seed: 1224874231	
+[00:00:28]: [Shard] Secondary shard is waiting for LUA...
+[00:00:29]: Can't find prefab archive_sound_area	
+[00:00:29]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:29]: Can't find prefab archive_sound_area	
+[00:00:29]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:29]: Can't find prefab archive_sound_area	
+[00:00:29]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:32]: SWITCHING 	false	
+[00:00:32]: Reconstructing topology	
+[00:00:32]: 	...Sorting points	
+[00:00:32]: 	...Sorting edges	
+[00:00:32]: 	...Connecting nodes	
+[00:00:32]: 	...Validating connections	
+[00:00:32]: 	...Housekeeping	
+[00:00:32]: 	...Done!	
+[00:00:32]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:32]: Some objects are not supported by the mod.	
+[00:00:32]: Unknown objects: daywalker	
+[00:00:32]: You can enable these objects if you change the option "Unknown Objects".	
+[00:00:32]: See more info at http://steamcommunity.com/workshop/filedetails/discussion/375859599/343787283764426976/	
+[00:00:32]: --------------------------------------------------------	
+[00:00:32]: 1 uploads added to server. From server_temp
+[00:00:32]: About to start a shard with these settings:
+[00:00:32]:   ShardName: Caves
+[00:00:32]:   ShardID: 1662993102
+[00:00:32]:   ShardRole: SECONDARY
+[00:00:32]:   MasterHost: 127.0.0.1
+[00:00:32]:   MasterBind: (null)
+[00:00:32]:   MasterPort: 10889
+[00:00:32]: [Shard] Connecting to master...
+[00:00:32]: Telling Client our new session identifier: F485603E63760CF4
+[00:00:32]: [Shard] Sending secondary shard information to master...
+[00:00:33]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:33]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:33]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:33]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:33]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:33]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:33]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:33]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:33]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:33]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:33]: Received MasterInfoPacket row 8f545cf68b0600987a3bb202fca5675e region ap-southeast-1
+[00:00:33]: Obtaining secondary shard IP from ap-southeast-1 lobby
+[00:00:33]: [Shard] secondary shard is now ready!
+[00:00:33]: World 1 is now connected	
+[00:00:33]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:00:33]: Validating portal[1] <-> 1[1] (active)	
+[00:00:33]: Validating portal[2] <-> 1[2] (active)	
+[00:00:33]: Validating portal[3] <-> 1[3] (active)	
+[00:00:33]: Validating portal[4] <-> 1[4] (active)	
+[00:00:33]: Validating portal[5] <-> 1[5] (active)	
+[00:00:33]: Validating portal[6] <-> 1[6] (active)	
+[00:00:33]: Validating portal[7] <-> 1[7] (active)	
+[00:00:33]: Validating portal[8] <-> 1[8] (active)	
+[00:00:33]: Validating portal[9] <-> 1[9] (active)	
+[00:00:33]: Validating portal[10] <-> 1[10] (active)	
+[00:00:34]: [Shard] secondary shard LUA is now ready!
+[00:00:34]: Sim paused
+[00:01:11]: Available disk space for save files: 178866 MB
+[00:01:11]: Serializing world: session/F485603E63760CF4/0000000003
+[00:01:11]: [Shard] Stopping shard mode
+[00:01:11]: [Steam] SendUserDisconnect for ''
+[00:01:12]: Collecting garbage...
+[00:01:12]: lua_gc took 0.52 seconds
+[00:01:12]: ~ShardLuaProxy()
+[00:01:12]: ~cEventLeaderboardProxy()
+[00:01:12]: ~ItemServerLuaProxy()
+[00:01:12]: ~InventoryLuaProxy()
+[00:01:12]: ~NetworkLuaProxy()
+[00:01:12]: ~SimLuaProxy()
+[00:01:13]: lua_close took 0.58 seconds
+[00:01:13]: CurlRequestManager::ClientThread::Main() complete
+[00:01:13]: HttpClient2 discarded 0 callbacks.
+[00:01:13]: Shutting down

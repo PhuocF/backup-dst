@@ -1,0 +1,194 @@
+[00:01:53]: [Join Announcement] huuphuoc1xx
+[00:04:32]: [Join Announcement] tquan27.5.99
+[00:54:26]: [Skin Announcement] tquan27.5.99 feet_twotone_shoe_brown_sepia
+[01:03:53]: [Skin Announcement] huuphuoc1xx feet_loafers_brown_beaver
+[01:23:02]: [Leave Announcement] tquan27.5.99
+[01:24:04]: [Leave Announcement] huuphuoc1xx
+[00:28:39]: [Join Announcement] huuphuoc1xx
+[00:28:40]: [Join Announcement] tquan27.5.99
+[00:31:28]: [Leave Announcement] tquan27.5.99
+[00:35:34]: [Leave Announcement] huuphuoc1xx
+[00:37:15]: [Join Announcement] huuphuoc1xx
+[00:38:52]: [Join Announcement] tquan27.5.99
+[00:40:23]: [Say] (KU_Y5NJzWl2) tquan27.5.99: ditmelag
+[00:40:36]: [Leave Announcement] tquan27.5.99
+[00:42:19]: [Leave Announcement] huuphuoc1xx
+[22:55:25]: [Join Announcement] tquan27.5.99
+[22:55:58]: [Leave Announcement] tquan27.5.99
+[23:00:46]: [Join Announcement] tquan27.5.99
+[23:01:14]: [Join Announcement] huuphuoc1xx
+[23:50:10]: [Skin Announcement] tquan27.5.99 hand_shortgloves_grey_dark
+[00:07:21]: [Skin Announcement] huuphuoc1xx body_buttons_black_jet
+[00:11:27]: [Join Announcement] baophucfproe
+[00:34:47]: [Join Announcement] baophucfproe
+[00:51:22]: [Leave Announcement] baophucfproe
+[00:52:39]: [Join Announcement] baophucfproe
+[00:56:07]: [Leave Announcement] baophucfproe
+[00:56:37]: [Skin Announcement] tquan27.5.99 decor_lamp_fantasy
+[00:57:15]: [Join Announcement] baophucfproe
+[01:19:06]: [Skin Announcement] huuphuoc1xx legs_jeans_blue_peacock
+[01:19:33]: [Leave Announcement] tquan27.5.99
+[01:19:39]: [Leave Announcement] huuphuoc1xx
+[01:19:45]: [Leave Announcement] baophucfproe
+[23:52:47]: [Join Announcement] huuphuoc1xx
+[23:54:28]: [Join Announcement] baophucfproe
+[23:56:13]: [Leave Announcement] huuphuoc1xx
+[23:56:41]: [Join Announcement] huuphuoc1xx
+[00:00:43]: [Skin Announcement] baophucfproe hand_shortgloves_black_scribble
+[00:15:13]: [Join Announcement] tquan27.5.99
+[00:16:51]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[00:18:52]: [Resurrect Announcement] tquan27.5.99 was resurrected by huuphuoc1xx.
+[00:41:07]: [Join Announcement] MrPurrPurr
+[00:43:09]: [Leave Announcement] MrPurrPurr
+[00:46:51]: [Join Announcement] MrPurrPurr
+[00:51:03]: [Death Announcement] baophucfproe was killed by Spider. He became a spooky ghost!
+[00:53:30]: [Death Announcement] MrPurrPurr was killed by Freezing. They became a spooky ghost!
+[00:53:35]: [Resurrect Announcement] MrPurrPurr was resurrected by huuphuoc1xx.
+[00:53:45]: [Resurrect Announcement] baophucfproe was resurrected by tquan27.5.99.
+[01:01:27]: [Skin Announcement] tquan27.5.99 winona_formalp
+[01:06:56]: [Announcement] You feel an evil presence watching you...
+[01:07:01]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[01:07:06]: [Announcement] The Eye of Terror turns its gaze toward MrPurrPurr
+[01:07:25]: [Leave Announcement] tquan27.5.99
+[01:09:17]: [Join Announcement] tquan27.5.99
+[01:12:28]: [Skin Announcement] baophucfproe hand_willow_magma
+[01:13:00]: [Resurrect Announcement] tquan27.5.99 was resurrected by huuphuoc1xx.
+[01:19:26]: [Leave Announcement] tquan27.5.99
+[01:20:22]: [Skin Announcement] huuphuoc1xx hand_wickerbottom_ice
+[01:20:34]: [Join Announcement] tquan27.5.99
+[01:36:48]: [Skin Announcement] MrPurrPurr hand_wickerbottom_victorian
+[01:40:08]: [Leave Announcement] tquan27.5.99
+[01:40:14]: [Leave Announcement] MrPurrPurr
+[01:40:18]: [Leave Announcement] huuphuoc1xx
+[01:40:40]: [Leave Announcement] baophucfproe
+[16:19:34]: [Join Announcement] tquan27.5.99
+[16:21:05]: [Join Announcement] huuphuoc1xx
+[16:24:15]: [Join Announcement] baophucfproe
+[16:25:57]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[16:26:03]: [Resurrect Announcement] tquan27.5.99 was resurrected by Second Chance Watch.
+[16:31:36]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[16:33:18]: [Resurrect Announcement] tquan27.5.99 was resurrected by baophucfproe.
+[16:38:54]: [Death Announcement] huuphuoc1xx was killed by Spider. She became a spooky ghost!
+[16:40:28]: [Resurrect Announcement] huuphuoc1xx was resurrected by Touch Stone.
+[16:40:37]: [Death Announcement] huuphuoc1xx was killed by Darkness. She became a spooky ghost!
+[16:42:34]: [Resurrect Announcement] huuphuoc1xx was resurrected by tquan27.5.99.
+[17:11:09]: [Skin Announcement] tquan27.5.99 legs_pants_basic_grey_dark
+[17:14:00]: [Death Announcement] baophucfproe was killed by Hound. He became a spooky ghost!
+[17:14:30]: [Resurrect Announcement] baophucfproe was resurrected by Second Chance Watch.
+[17:16:49]: [Skin Announcement] huuphuoc1xx wilson_beard_victorian
+[17:28:23]: [Skin Announcement] baophucfproe body_sleepgown_purple_lavender
+[17:31:08]: [Announcement] You feel an evil presence watching you...
+[17:31:18]: [Announcement] The Eye of Terror turns its gaze toward huuphuoc1xx
+[17:45:06]: [Leave Announcement] huuphuoc1xx
+[17:45:37]: [Join Announcement] huuphuoc1xx
+[17:46:58]: [Leave Announcement] tquan27.5.99
+[17:49:32]: [Join Announcement] tquan27.5.99
+[18:06:02]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[18:06:07]: [Resurrect Announcement] tquan27.5.99 was resurrected by Second Chance Watch.
+[18:11:44]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[18:12:21]: [Death Announcement] huuphuoc1xx was killed by Depths Worm. She became a spooky ghost!
+[18:12:21]: [Death Announcement] baophucfproe was killed by Depths Worm. He became a spooky ghost!
+[18:13:40]: [Leave Announcement] tquan27.5.99
+[18:13:40]: [Leave Announcement] huuphuoc1xx
+[18:14:18]: [Leave Announcement] baophucfproe
+[23:06:35]: [Join Announcement] MrPurrPurr
+[23:08:21]: [Join Announcement] baophucfproe
+[23:10:23]: [Leave Announcement] baophucfproe
+[23:10:36]: [Join Announcement] tquan27.5.99
+[23:11:33]: [Join Announcement] huuphuoc1xx
+[23:12:36]: [Join Announcement] baophucfproe
+[23:20:06]: [Join Announcement] MrPurrPurr
+[23:20:40]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[23:21:05]: [Resurrect Announcement] tquan27.5.99 was resurrected by Second Chance Watch.
+[23:21:27]: [Death Announcement] huuphuoc1xx was killed by Damaged Bishop. She became a spooky ghost!
+[23:22:21]: [Resurrect Announcement] huuphuoc1xx was resurrected by Second Chance Watch.
+[23:29:14]: [Skin Announcement] tquan27.5.99 legs_wathgrithr_gladiator
+[23:30:47]: [Skin Announcement] baophucfproe legs_wormwood_lunar
+[23:35:29]: [Death Announcement] huuphuoc1xx was killed by Crawling Horror. She became a spooky ghost!
+[23:40:09]: [Resurrect Announcement] huuphuoc1xx was resurrected by Second Chance Watch.
+[23:40:19]: [Death Announcement] huuphuoc1xx was killed by Darkness. She became a spooky ghost!
+[23:44:22]: [Resurrect Announcement] huuphuoc1xx was resurrected by Second Chance Watch.
+[00:00:07]: [Death Announcement] baophucfproe was killed by Terrorbeak. He became a spooky ghost!
+[00:00:33]: [Resurrect Announcement] baophucfproe was resurrected by Second Chance Watch.
+[00:06:11]: [Skin Announcement] MrPurrPurr legs_shorts_tan_khaki
+[00:32:50]: [Skin Announcement] huuphuoc1xx feet_webber_lunar
+[00:33:33]: [Leave Announcement] baophucfproe
+[00:35:24]: [Join Announcement] baophucfproe
+[00:37:05]: [Leave Announcement] baophucfproe
+[00:39:24]: [Join Announcement] baophucfproe
+[00:41:30]: [Leave Announcement] huuphuoc1xx
+[00:42:50]: [Join Announcement] huuphuoc1xx
+[00:42:53]: [Skin Announcement] tquan27.5.99 feet_wickerbottom_nature
+[00:47:29]: [Leave Announcement] baophucfproe
+[00:47:34]: [Announcement] This is going to be a terrible night...
+[00:47:44]: [Announcement] The Twins turn their gaze toward huuphuoc1xx
+[00:48:57]: [Join Announcement] baophucfproe
+[00:49:58]: [Leave Announcement] MrPurrPurr
+[01:01:30]: [Skin Announcement] baophucfproe webber_beard_boy
+[01:03:15]: [Say] (KU_Y-TulnOp) huuphuoc1xx: c_speedmult(2)
+[01:04:12]: [Death Announcement] baophucfproe was killed by Spider. He became a spooky ghost!
+[01:04:24]: [Leave Announcement] baophucfproe
+[01:06:12]: [Join Announcement] baophucfproe
+[01:06:34]: [Resurrect Announcement] baophucfproe was resurrected by Second Chance Watch.
+[01:15:47]: [Join Announcement] MrPurrPurr
+[01:17:09]: [Leave Announcement] MrPurrPurr
+[01:19:36]: [Leave Announcement] baophucfproe
+[01:20:29]: [Leave Announcement] tquan27.5.99
+[01:20:44]: [Leave Announcement] huuphuoc1xx
+[16:26:10]: [Join Announcement] tquan27.5.99
+[16:26:29]: [Join Announcement] huuphuoc1xx
+[16:26:54]: [Join Announcement] baophucfproe
+[16:43:43]: [Join Announcement] MrPurrPurr
+[16:45:16]: [Leave Announcement] MrPurrPurr
+[16:46:28]: [Join Announcement] MrPurrPurr
+[16:49:16]: [Leave Announcement] baophucfproe
+[16:50:42]: [Join Announcement] baophucfproe
+[16:51:02]: [Say] (KU_Y-TulnOp) huuphuoc1xx: c_speedmult(2)
+[16:51:40]: [Say] (KU_Y-TulnOp) huuphuoc1xx: c_speedmult(2)
+[16:56:26]: [Skin Announcement] tquan27.5.99 feet_willow_haunteddoll
+[17:02:56]: [Skin Announcement] baophucfproe legs_skirt_pleated_red_burgundy
+[17:12:33]: [Leave Announcement] tquan27.5.99
+[17:14:11]: [Skin Announcement] huuphuoc1xx body_buttons_grey_gainsboro
+[17:14:13]: [Join Announcement] tquan27.5.99
+[17:18:08]: [Skin Announcement] MrPurrPurr legs_wanda_shadow
+[17:34:28]: [Leave Announcement] baophucfproe
+[17:35:21]: [Join Announcement] baophucfproe
+[17:55:25]: [Death Announcement] MrPurrPurr was killed by Bearger. They became a spooky ghost!
+[17:58:04]: [Resurrect Announcement] MrPurrPurr was resurrected by Second Chance Watch.
+[18:00:41]: [Leave Announcement] baophucfproe
+[18:02:09]: [Join Announcement] baophucfproe
+[18:03:31]: [Skin Announcement] tquan27.5.99 body_wes_rosep
+[18:12:43]: [Leave Announcement] baophucfproe
+[18:13:41]: [Join Announcement] baophucfproe
+[18:14:59]: [Skin Announcement] huuphuoc1xx feet_willow_masquerade
+[18:15:09]: [Leave Announcement] baophucfproe
+[18:15:55]: [Join Announcement] baophucfproe
+[18:28:41]: [Death Announcement] baophucfproe was killed by Grumble Bee. He became a spooky ghost!
+[18:28:45]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[18:28:55]: [Resurrect Announcement] tquan27.5.99 was resurrected by Second Chance Watch.
+[18:29:12]: [Death Announcement] MrPurrPurr was killed by Grumble Bee. They became a spooky ghost!
+[18:29:18]: [Death Announcement] huuphuoc1xx was killed by Starvation. She became a spooky ghost!
+[18:32:25]: [Resurrect Announcement] baophucfproe was resurrected by Second Chance Watch.
+[18:32:28]: [Join Announcement] huuphuoc1xx
+[18:34:16]: [Resurrect Announcement] huuphuoc1xx was resurrected by tquan27.5.99.
+[18:34:28]: [Resurrect Announcement] MrPurrPurr was resurrected by tquan27.5.99.
+[18:38:05]: [Skin Announcement] MrPurrPurr body_polo_blue_denim
+[18:45:28]: [Leave Announcement] huuphuoc1xx
+[18:47:06]: [Join Announcement] huuphuoc1xx
+[18:49:41]: [Leave Announcement] huuphuoc1xx
+[18:49:54]: [Skin Announcement] baophucfproe legs_woodie_victorian
+[18:50:07]: [Join Announcement] huuphuoc1xx
+[18:53:52]: [Death Announcement] tquan27.5.99 was killed by the passage of time. She became a spooky ghost!
+[18:54:01]: [Death Announcement] huuphuoc1xx was killed by Hound. She became a spooky ghost!
+[18:54:28]: [Leave Announcement] huuphuoc1xx
+[18:54:58]: [Leave Announcement] baophucfproe
+[18:55:02]: [Join Announcement] huuphuoc1xx
+[18:58:48]: [Death Announcement] huuphuoc1xx was killed by Hound. She became a spooky ghost!
+[18:58:51]: [Leave Announcement] huuphuoc1xx
+[18:59:01]: [Join Announcement] baophucfproe
+[18:59:28]: [Join Announcement] huuphuoc1xx
+[19:00:36]: [Resurrect Announcement] huuphuoc1xx was resurrected by Second Chance Watch.
+[19:03:04]: [Leave Announcement] tquan27.5.99
+[19:05:29]: [Leave Announcement] baophucfproe
+[19:22:36]: [Leave Announcement] MrPurrPurr
+[19:23:05]: [Leave Announcement] huuphuoc1xx

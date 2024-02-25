@@ -1,0 +1,1978 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/MyDediServer/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 593927
+[00:00:00]: Current time: Fri Feb 16 21:15:17 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: vmi1538763.contaboserver.net
+[00:00:00]: Release(Kernel) Version: 5.4.0-105-generic
+[00:00:00]: Kernel Build Timestamp: #119-Ubuntu SMP Mon Mar 7 18:49:24 UTC 2022
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 593927 LINUX
+[00:00:00]: Build Date: 2272
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -monitor_parent_process 1538274 -shard Caves 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (140502583097088)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:4.56
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11001, 27019)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (140502461560576)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: Running main.lua
+	
+[00:00:00]: loaded modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: [Workshop] Item query page 0, size: 6, total size: 6
+[00:00:03]: [Workshop] Item query queued IDs: 378160973 1111658995 347079953 1207269058 375859599 481765222
+[00:00:03]: [Workshop] Item query sent
+[00:00:04]: [Workshop] ItemQuery got this many results: 6, matching: 6
+[00:00:04]: [Workshop] ModQuery got 6 results
+[00:00:04]: [Workshop] ModQuery already have IDs: {1.7.4,378160973} {3.0,1111658995} {1.61,347079953} {2.16,1207269058} {2.2.03,375859599} {0.5,481765222}
+[00:00:04]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:04]: [Workshop] ItemQuery finished downloading everything
+[00:00:04]: SUCCESS: Loaded modoverrides.lua	
+[00:00:04]: modoverrides.lua enabling workshop-1207269058	
+[00:00:04]: modoverrides.lua enabling workshop-1111658995	
+[00:00:04]: modoverrides.lua enabling workshop-481765222	
+[00:00:04]: modoverrides.lua enabling workshop-378160973	
+[00:00:04]: modoverrides.lua enabling workshop-347079953	
+[00:00:04]: modoverrides.lua enabling workshop-375859599	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:04]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-481765222_CLIENT	
+[00:00:04]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:04]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:04]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
+[00:00:04]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:04]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:04]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:04]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:04]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:04]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:04]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:04]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:04]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:04]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:04]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:04]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:04]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: Failed to load skilltree file itself!	
+[00:00:04]: Trying to apply online cache of skilltree data..	
+[00:00:04]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: Registering Server mod namespace "workshop-1207269058"
+[00:00:05]: Registering Server mod namespace "workshop-1111658995"
+[00:00:05]: Registering Server mod namespace "workshop-378160973"
+[00:00:05]: Registering Server mod namespace "food item"
+[00:00:05]: Registering Client mod namespace "workshop-1111658995"
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: ConsoleScreenSettings could not load consolescreen	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:06]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:06]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:06]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:06]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:06]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:06]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:06]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:06]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:06]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:06]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:06]: 	Load FE	
+[00:00:07]: THREAD - started 'FilesExistAsyncThread' (140502450013952)
+[00:00:07]: FilesExistAsyncThread started (23607 files)...
+[00:00:07]: 	Load FE: done	
+[00:00:07]: Check for write access: TRUE
+[00:00:07]: Check for read access: TRUE
+[00:00:07]: Available disk space for save files: 178381 MB
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:07]: ... FilesExistAsyncThread complete
+[00:00:07]: [200] Account Communication Success (6)
+[00:00:07]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/MyDediServer/Caves/save/cached_userid
+[00:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:07]: Starting Dedicated Server Game	
+[00:00:07]: Network tick rate: U=15(2), D=0
+[00:00:07]: About to start a server with the following settings:
+[00:00:07]:   Dedicated: true
+[00:00:07]:   Online: true
+[00:00:07]:   Passworded: true
+[00:00:07]:   ServerPort: 11001
+[00:00:07]:   SteamAuthPort: 8769
+[00:00:07]:   SteamMasterServerPort: 27019
+[00:00:07]:   ClanID: false
+[00:00:07]:   ClanOnly: false
+[00:00:07]:   ClanAdmin: false
+[00:00:07]:   LanOnly: false
+[00:00:07]:   FriendsOnly: false
+[00:00:07]:   EnableAutosaver: true
+[00:00:07]:   EncodeUserPath: true
+[00:00:07]:   PVP: false
+[00:00:07]:   MaxPlayers: 6
+[00:00:07]:   GameMode: survival
+[00:00:07]:   OverridenDNS: 
+[00:00:07]:   PauseWhenEmpty: true
+[00:00:07]:   IdleTimeout: 1800s
+[00:00:07]:   VoteEnabled: true
+[00:00:07]:   InternetBroadcasting: true
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:07]: Online Server Started on port: 11001
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Not applying level data overrides.	
+[00:00:07]: Found a worldgen override file with these contents:	
+[00:00:07]: 	K: 	override_enabled	 V: 	true	
+[00:00:07]: 	K: 	overrides	 V: 	table: 0xc38ba90	
+[00:00:07]: 	K: 	settings_preset	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
+[00:00:07]:   sanity-checking worldgenoverride.lua...	
+[00:00:07]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:07]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:07]:   contained settings preset DST_CAVE, loading...	
+[00:00:07]: Overwriting savedata with override file.	
+[00:00:07]: Collecting garbage...
+[00:00:08]: lua_gc took 0.12 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:08]: lua_close took 0.12 seconds
+[00:00:08]: ReleaseAll
+[00:00:08]: ReleaseAll Finished
+[00:00:08]: cGame::StartPlaying
+[00:00:08]: AppVersion::GetArchitecture() x64
+[00:00:08]: LOADING LUA
+[00:00:08]: DoLuaFile scripts/main.lua
+[00:00:08]: DoLuaFile loading buffer scripts/main.lua
+[00:00:08]:   taskgrouplist:	default	Together	
+[00:00:08]:   taskgrouplist:	classic	Classic	
+[00:00:08]:   taskgrouplist:	cave_default	Underground	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:08]: Running main.lua
+	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: modoverrides.lua enabling workshop-1207269058	
+[00:00:08]: modoverrides.lua enabling workshop-1111658995	
+[00:00:08]: modoverrides.lua enabling workshop-481765222	
+[00:00:08]: modoverrides.lua enabling workshop-378160973	
+[00:00:08]: modoverrides.lua enabling workshop-347079953	
+[00:00:08]: modoverrides.lua enabling workshop-375859599	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:08]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:08]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:08]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:08]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:08]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:08]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:08]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:08]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:08]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:08]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:08]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:09]: Failed to load skilltree file itself!	
+[00:00:09]: Trying to apply online cache of skilltree data..	
+[00:00:09]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:09]: LOADING LUA SUCCESS
+[00:00:09]: Registering Server mod namespace "workshop-1207269058"
+[00:00:09]: Registering Server mod namespace "workshop-1111658995"
+[00:00:09]: Registering Server mod namespace "workshop-378160973"
+[00:00:09]: Registering Server mod namespace "food item"
+[00:00:09]: Registering Client mod namespace "workshop-1111658995"
+[00:00:09]: PlayerDeaths could not load morgue	
+[00:00:09]: PlayerHistory could not load player_history	
+[00:00:09]: ServerPreferences could not load server_preferences	
+[00:00:09]: ConsoleScreenSettings could not load consolescreen	
+[00:00:09]: bloom_enabled	true	
+[00:00:09]: OnFilesLoaded()	
+[00:00:09]: OnUpdatePurchaseStateComplete	
+[00:00:09]: Loading world: session/F485603E63760CF4/0000000003	
+[00:00:09]: Save file is at version 5.142	
+[00:00:09]: Klump load on boot started.	
+[00:00:09]: Klump files loaded: 	0	
+[00:00:09]: 	Unload FE	
+[00:00:09]: 	Unload FE done	
+[00:00:10]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:10]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:10]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:10]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:10]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:10]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:10]: 	LOAD BE	
+[00:00:18]: 	LOAD BE: done	
+[00:00:18]: Begin Session: F485603E63760CF4
+[00:00:18]: saving to server_temp/server_save	
+[00:00:18]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar_broken.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:18]: Loading 19 new character(s)	
+[00:00:19]: Total 19 character(s) loaded	
+[00:00:22]: Loading Nav Grid	
+[00:00:22]: World generated on build 590113 with save version: 5.142, using seed: 1224874231	
+[00:00:22]: setting 	summerlength	15	
+[00:00:22]: setting 	cavemoonphase	new	
+[00:00:22]: setting 	iscavefullmoon	false	
+[00:00:22]: setting 	isnightmaredawn	false	
+[00:00:22]: setting 	elapseddaysinseason	0	
+[00:00:22]: setting 	isfullmoon	false	
+[00:00:22]: setting 	moisture	0.42499992251396	
+[00:00:22]: setting 	springlength	20	
+[00:00:22]: setting 	islunarhailing	false	
+[00:00:22]: setting 	isnightmarewild	false	
+[00:00:22]: setting 	nightmaretimeinphase	0.0047210693359375	
+[00:00:22]: setting 	precipitationrate	0	
+[00:00:22]: setting 	iswet	false	
+[00:00:22]: setting 	isnewmoon	false	
+[00:00:22]: setting 	israining	false	
+[00:00:22]: setting 	iswinter	false	
+[00:00:22]: setting 	isnightmarewarn	false	
+[00:00:22]: setting 	precipitation	none	
+[00:00:22]: setting 	iscavewaxingmoon	true	
+[00:00:22]: setting 	isacidraining	false	
+[00:00:22]: setting 	moonphase	new	
+[00:00:22]: setting 	remainingdaysinseason	20	
+[00:00:22]: setting 	temperature	18.25167399512	
+[00:00:22]: setting 	wetness	0	
+[00:00:22]: setting 	cycles	0	
+[00:00:22]: setting 	moistureceil	816.35968017578	
+[00:00:22]: setting 	isday	false	
+[00:00:22]: setting 	winterlength	15	
+[00:00:22]: setting 	season	autumn	
+[00:00:22]: setting 	iswaxingmoon	true	
+[00:00:22]: setting 	isalterawake	false	
+[00:00:22]: setting 	isnightmarecalm	true	
+[00:00:22]: setting 	isnight	true	
+[00:00:22]: setting 	isdusk	false	
+[00:00:22]: setting 	isspring	false	
+[00:00:22]: setting 	isautumn	true	
+[00:00:22]: setting 	iscaveday	true	
+[00:00:22]: setting 	lunarhaillevel	0	
+[00:00:22]: setting 	pop	0.00052060376428984	
+[00:00:22]: setting 	snowlevel	0	
+[00:00:22]: setting 	issnowcovered	false	
+[00:00:22]: setting 	autumnlength	20	
+[00:00:22]: setting 	phase	night	
+[00:00:22]: setting 	nightmaretime	1.6995849609375	
+[00:00:22]: setting 	issnowing	false	
+[00:00:22]: setting 	iscavedusk	false	
+[00:00:22]: setting 	nightmarephase	calm	
+[00:00:22]: setting 	timeinphase	0.0048621495564779	
+[00:00:22]: setting 	seasonprogress	0.5	
+[00:00:22]: setting 	iscavenight	false	
+[00:00:22]: setting 	iscavenewmoon	false	
+[00:00:22]: setting 	issummer	false	
+[00:00:22]: setting 	cavephase	day	
+[00:00:22]: setting 	time	0.002431074778239	
+[00:00:22]: [Shard] Secondary shard is waiting for LUA...
+[00:00:25]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:25]: Some objects are not supported by the mod.	
+[00:00:25]: Unknown objects: daywalker	
+[00:00:25]: You can enable these objects if you change the option "Unknown Objects".	
+[00:00:25]: See more info at http://steamcommunity.com/workshop/filedetails/discussion/375859599/343787283764426976/	
+[00:00:25]: --------------------------------------------------------	
+[00:00:34]: SWITCHING 	false	
+[00:00:35]: Reconstructing topology	
+[00:00:35]: 	...Sorting points	
+[00:00:35]: 	...Sorting edges	
+[00:00:35]: 	...Connecting nodes	
+[00:00:35]: 	...Validating connections	
+[00:00:35]: 	...Housekeeping	
+[00:00:35]: 	...Done!	
+[00:00:35]: 1 uploads added to server. From server_temp
+[00:00:35]: About to start a shard with these settings:
+[00:00:35]:   ShardName: Caves
+[00:00:35]:   ShardID: 1662993102
+[00:00:35]:   ShardRole: SECONDARY
+[00:00:35]:   MasterHost: 127.0.0.1
+[00:00:35]:   MasterBind: (null)
+[00:00:35]:   MasterPort: 10889
+[00:00:35]: [Shard] Connecting to master...
+[00:00:35]: Telling Client our new session identifier: F485603E63760CF4
+[00:00:35]: Check for write access: TRUE
+[00:00:35]: Check for read access: TRUE
+[00:00:35]: Available disk space for save files: 178380 MB
+[00:00:35]: ModIndex: Load sequence finished successfully.	
+[00:00:35]: Reset() returning
+[00:00:35]: [Shard] Sending secondary shard information to master...
+[00:00:36]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:36]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:36]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:36]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:36]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:36]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:36]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:36]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:36]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:36]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:36]: Received MasterInfoPacket row f3ff2a3fe47da666d6257f553c1639e0 region ap-southeast-1
+[00:00:36]: Obtaining secondary shard IP from ap-southeast-1 lobby
+[00:00:36]: [Shard] secondary shard is now ready!
+[00:00:36]: World 1 is now connected	
+[00:00:36]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:00:36]: Validating portal[8] <-> 1[8] (active)	
+[00:00:36]: Validating portal[2] <-> 1[2] (active)	
+[00:00:36]: Validating portal[3] <-> 1[3] (active)	
+[00:00:36]: Validating portal[4] <-> 1[4] (active)	
+[00:00:36]: Validating portal[7] <-> 1[7] (active)	
+[00:00:36]: Validating portal[5] <-> 1[5] (active)	
+[00:00:36]: Validating portal[10] <-> 1[10] (active)	
+[00:00:36]: Validating portal[6] <-> 1[6] (active)	
+[00:00:36]: Validating portal[1] <-> 1[1] (active)	
+[00:00:36]: Validating portal[9] <-> 1[9] (active)	
+[00:00:37]: [Shard] secondary shard LUA is now ready!
+[00:00:37]: Sim paused
+[00:04:38]: Sim unpaused
+[00:12:38]: Available disk space for save files: 178380 MB
+[00:12:39]: Serializing world: session/F485603E63760CF4/0000000004
+[00:20:39]: Available disk space for save files: 178374 MB
+[00:20:40]: Serializing world: session/F485603E63760CF4/0000000005
+[00:25:30]: [Shard] #1 -> session/F485603E63760CF4/A7K8AN9VC2U2/0000000006
+[00:25:30]: [Shard] Received migration #1 data for (KU_Y5NJzWl2)
+[00:25:32]: [P2P] Session request for '76561198839253759'
+[00:25:35]: [P2P] Create session: 137.116.110.51|1 '76561198839253759'
+[00:25:35]: [P2P] Received from 137.116.110.51|1 '76561198839253759'
+[00:25:35]: [P2P] Sent to 137.116.110.51|1 '76561198839253759'
+[00:25:36]: New incoming connection 137.116.110.51|1 <3331587212869977117>
+[00:25:36]: Client connected from 137.116.110.51|1 <3331587212869977117>
+[00:25:36]: ValidateGameSessionToken GUID<3331587212869977117>
+[00:25:38]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[00:25:38]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[00:25:38]: [Steam] Authenticated client '76561198839253759'
+[00:25:38]: [Shard] Completed incoming migration #1 for (KU_Y5NJzWl2)
+[00:25:41]: [Shard] #2 -> session/F485603E63760CF4/A7KBSTSBU5HJ/0000000006
+[00:25:41]: [Shard] Received migration #2 data for (KU_Y-TulnOp)
+[00:25:43]: [P2P] Session request for '76561198825792993'
+[00:25:47]: [P2P] Create session: 137.116.110.52|1 '76561198825792993'
+[00:25:47]: [P2P] Received from 137.116.110.52|1 '76561198825792993'
+[00:25:47]: [P2P] Sent to 137.116.110.52|1 '76561198825792993'
+[00:25:48]: New incoming connection 137.116.110.52|1 <6926923805730056895>
+[00:25:48]: Client connected from 137.116.110.52|1 <6926923805730056895>
+[00:25:48]: ValidateGameSessionToken GUID<6926923805730056895>
+[00:25:49]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:25:49]: [Steam] Authenticated host '76561198825792993'
+[00:25:49]: [Shard] Completed incoming migration #2 for (KU_Y-TulnOp)
+[00:25:49]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000006
+[00:25:49]: Player will spawn close to portal #8	
+[00:25:49]: Spawning player at: [Load] (549.95, 0.00, 194.27)	
+[00:25:58]: Resuming user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000006
+[00:25:58]: Player will spawn close to portal #8	
+[00:25:58]: Spawning player at: [Load] (546.18, 0.00, 195.37)	
+[00:27:45]: Activating portal[8] to 1	
+[00:27:46]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000006
+[00:27:46]: [Shard] Migration request: (KU_Y5NJzWl2) to [SHDMASTER](1)
+[00:27:46]: [Shard] #3 <- session/F485603E63760CF4/A7K8AN9VC2U2/0000000006
+[00:27:46]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:27:46]: [Steam] SendUserDisconnect for '76561198839253759'
+[00:28:01]: Activating portal[8] to 1	
+[00:28:02]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000006
+[00:28:02]: [Shard] Migration request: (KU_Y-TulnOp) to [SHDMASTER](1)
+[00:28:02]: [Shard] #4 <- session/F485603E63760CF4/A7KBSTSBU5HJ/0000000006
+[00:28:02]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:28:02]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:28:40]: Available disk space for save files: 178367 MB
+[00:28:41]: Serializing world: session/F485603E63760CF4/0000000006
+[00:30:07]: [200] Account Communication Success (6)
+[00:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:36:41]: Available disk space for save files: 178361 MB
+[00:36:41]: Serializing world: session/F485603E63760CF4/0000000007
+[00:37:47]: [P2P] Session timed out for '76561198839253759'
+[00:37:47]: [P2P] Remove session: 137.116.110.51|1 '76561198839253759'
+[00:38:03]: [P2P] Session timed out for '76561198825792993'
+[00:38:03]: [P2P] Remove session: 137.116.110.52|1 '76561198825792993'
+[00:44:41]: Available disk space for save files: 178354 MB
+[00:44:42]: Serializing world: session/F485603E63760CF4/0000000008
+[00:44:42]: Truncating to snapshot #8...
+[00:44:42]:  - session/F485603E63760CF4/0000000002
+[00:44:42]:    1 file(s) removed
+[00:51:10]: [Shard] #5 -> session/F485603E63760CF4/A7K8AN9VC2U2/0000000009
+[00:51:10]: [Shard] Received migration #5 data for (KU_Y5NJzWl2)
+[00:51:15]: [P2P] Create session: 137.116.110.53|1 '76561198839253759'
+[00:51:15]: [P2P] Received from 137.116.110.53|1 '76561198839253759'
+[00:51:15]: [P2P] Sent to 137.116.110.53|1 '76561198839253759'
+[00:51:17]: New incoming connection 137.116.110.53|1 <7171274791676459720>
+[00:51:17]: Client connected from 137.116.110.53|1 <7171274791676459720>
+[00:51:17]: ValidateGameSessionToken GUID<7171274791676459720>
+[00:51:18]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[00:51:18]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[00:51:18]: [Steam] Authenticated client '76561198839253759'
+[00:51:18]: [Shard] Completed incoming migration #5 for (KU_Y5NJzWl2)
+[00:51:29]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000009
+[00:51:29]: Player will spawn close to portal #6	
+[00:51:29]: Spawning player at: [Load] (506.35, 0.00, -182.94)	
+[00:52:42]: Available disk space for save files: 178350 MB
+[00:52:42]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000009
+[00:52:43]: Serializing world: session/F485603E63760CF4/0000000009
+[00:52:49]: Activating portal[6] to 1	
+[00:52:50]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000010
+[00:52:50]: [Shard] Migration request: (KU_Y5NJzWl2) to [SHDMASTER](1)
+[00:52:50]: [Shard] #6 <- session/F485603E63760CF4/A7K8AN9VC2U2/0000000010
+[00:52:50]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:52:50]: [Steam] SendUserDisconnect for '76561198839253759'
+[01:00:07]: [200] Account Communication Success (6)
+[01:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:00:43]: Available disk space for save files: 178343 MB
+[01:00:43]: Serializing world: session/F485603E63760CF4/0000000010
+[01:00:43]: Truncating to snapshot #10...
+[01:00:43]:  - session/F485603E63760CF4/0000000004
+[01:00:43]:  - session/F485603E63760CF4/0000000003
+[01:00:43]:    2 file(s) removed
+[01:02:51]: [P2P] Session timed out for '76561198839253759'
+[01:02:51]: [P2P] Remove session: 137.116.110.53|1 '76561198839253759'
+[01:08:43]: Available disk space for save files: 178342 MB
+[01:08:44]: Serializing world: session/F485603E63760CF4/0000000011
+[01:08:44]: Truncating to snapshot #11...
+[01:08:44]:  - session/F485603E63760CF4/0000000005
+[01:08:44]:    1 file(s) removed
+[01:16:44]: Available disk space for save files: 178339 MB
+[01:16:45]: Serializing world: session/F485603E63760CF4/0000000012
+[01:16:45]: Truncating to snapshot #12...
+[01:16:45]:  - session/F485603E63760CF4/0000000006
+[01:16:45]:    1 file(s) removed
+[01:23:24]: Server Autopaused	
+[01:23:34]: Server Unpaused	
+[01:23:34]: Server Autopaused	
+[01:23:42]: Server Unpaused	
+[01:23:42]: Server Autopaused	
+[01:23:42]: Server Unpaused	
+[01:23:43]: Server Autopaused	
+[01:23:45]: Server Unpaused	
+[01:23:45]: Server Autopaused	
+[01:23:55]: Server Unpaused	
+[01:24:05]: Sim paused
+[01:30:08]: [200] Account Communication Success (6)
+[01:30:08]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:00:08]: [200] Account Communication Success (6)
+[02:00:08]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:08]: [200] Account Communication Success (6)
+[02:30:08]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:07]: [200] Account Communication Success (6)
+[03:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:08]: [200] Account Communication Success (6)
+[03:30:08]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:07]: [200] Account Communication Success (6)
+[04:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:07]: [200] Account Communication Success (6)
+[04:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:07]: [200] Account Communication Success (6)
+[05:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:07]: [200] Account Communication Success (6)
+[05:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:07]: [200] Account Communication Success (6)
+[06:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:07]: [200] Account Communication Success (6)
+[06:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:07]: [200] Account Communication Success (6)
+[07:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:07]: [200] Account Communication Success (6)
+[07:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:07]: [200] Account Communication Success (6)
+[08:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:07]: [200] Account Communication Success (6)
+[08:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:07]: [200] Account Communication Success (6)
+[09:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:07]: [200] Account Communication Success (6)
+[09:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:07]: [200] Account Communication Success (6)
+[10:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:07]: [200] Account Communication Success (6)
+[10:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:07]: [200] Account Communication Success (6)
+[11:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:07]: [200] Account Communication Success (6)
+[11:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:07]: [200] Account Communication Success (6)
+[12:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:07]: [200] Account Communication Success (6)
+[12:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:07]: [200] Account Communication Success (6)
+[13:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:07]: [200] Account Communication Success (6)
+[13:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:07]: [200] Account Communication Success (6)
+[14:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:07]: [200] Account Communication Success (6)
+[14:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:07]: [200] Account Communication Success (6)
+[15:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:07]: [200] Account Communication Success (6)
+[15:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:07]: [200] Account Communication Success (6)
+[16:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:30:07]: [200] Account Communication Success (6)
+[16:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:00:07]: [200] Account Communication Success (6)
+[17:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:30:07]: [200] Account Communication Success (6)
+[17:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:00:07]: [200] Account Communication Success (6)
+[18:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:30:07]: [200] Account Communication Success (6)
+[18:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:00:07]: [200] Account Communication Success (6)
+[19:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:30:07]: [200] Account Communication Success (6)
+[19:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:00:07]: [200] Account Communication Success (6)
+[20:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:30:07]: [200] Account Communication Success (6)
+[20:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:00:07]: [200] Account Communication Success (6)
+[21:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:30:07]: [200] Account Communication Success (6)
+[21:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:00:07]: [200] Account Communication Success (6)
+[22:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:30:07]: [200] Account Communication Success (6)
+[22:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:00:07]: [200] Account Communication Success (6)
+[23:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:30:07]: [200] Account Communication Success (6)
+[23:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:07]: [200] Account Communication Success (6)
+[00:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:30:07]: [200] Account Communication Success (6)
+[00:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:00:07]: [200] Account Communication Success (6)
+[01:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:30:07]: [200] Account Communication Success (6)
+[01:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:00:07]: [200] Account Communication Success (6)
+[02:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:07]: [200] Account Communication Success (6)
+[02:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:07]: [200] Account Communication Success (6)
+[03:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:07]: [200] Account Communication Success (6)
+[03:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:07]: [200] Account Communication Success (6)
+[04:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:07]: [200] Account Communication Success (6)
+[04:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:07]: [200] Account Communication Success (6)
+[05:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:07]: [200] Account Communication Success (6)
+[05:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:07]: [200] Account Communication Success (6)
+[06:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:07]: [200] Account Communication Success (6)
+[06:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:07]: [200] Account Communication Success (6)
+[07:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:07]: [200] Account Communication Success (6)
+[07:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:07]: [200] Account Communication Success (6)
+[08:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:07]: [200] Account Communication Success (6)
+[08:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:07]: [200] Account Communication Success (6)
+[09:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:07]: [200] Account Communication Success (6)
+[09:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:07]: [200] Account Communication Success (6)
+[10:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:07]: [200] Account Communication Success (6)
+[10:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:07]: [200] Account Communication Success (6)
+[11:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:06]: [200] Account Communication Success (6)
+[11:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:06]: [200] Account Communication Success (6)
+[12:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:07]: [200] Account Communication Success (6)
+[12:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:06]: [200] Account Communication Success (6)
+[13:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:06]: [200] Account Communication Success (6)
+[13:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:07]: [200] Account Communication Success (6)
+[14:00:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:07]: [200] Account Communication Success (6)
+[14:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:06]: [200] Account Communication Success (6)
+[15:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:06]: [200] Account Communication Success (6)
+[15:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:06]: [200] Account Communication Success (6)
+[16:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:30:07]: [200] Account Communication Success (6)
+[16:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:00:06]: [200] Account Communication Success (6)
+[17:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:30:07]: [200] Account Communication Success (6)
+[17:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:00:06]: [200] Account Communication Success (6)
+[18:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:30:07]: [200] Account Communication Success (6)
+[18:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:00:06]: [200] Account Communication Success (6)
+[19:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:30:06]: [200] Account Communication Success (6)
+[19:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:00:06]: [200] Account Communication Success (6)
+[20:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:30:07]: [200] Account Communication Success (6)
+[20:30:07]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:00:06]: [200] Account Communication Success (6)
+[21:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:30:06]: [200] Account Communication Success (6)
+[21:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:00:06]: [200] Account Communication Success (6)
+[22:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:30:06]: [200] Account Communication Success (6)
+[22:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:00:06]: [200] Account Communication Success (6)
+[23:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:30:06]: [200] Account Communication Success (6)
+[23:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:28:50]: Sim unpaused
+[00:30:00]: Available disk space for save files: 178279 MB
+[00:30:01]: Serializing world: session/F485603E63760CF4/0000000013
+[00:30:01]: Truncating to snapshot #13...
+[00:30:01]:  - session/F485603E63760CF4/0000000007
+[00:30:01]:    1 file(s) removed
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:35:22]: Server Autopaused	
+[00:35:25]: Server Unpaused	
+[00:35:35]: Sim paused
+[00:37:26]: Sim unpaused
+[00:39:55]: Available disk space for save files: 178275 MB
+[00:39:55]: Serializing world: session/F485603E63760CF4/0000000014
+[00:39:55]: Truncating to snapshot #14...
+[00:39:55]:  - session/F485603E63760CF4/0000000008
+[00:39:55]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000006
+[00:39:55]:    2 file(s) removed
+[00:42:08]: Server Autopaused	
+[00:42:10]: Server Unpaused	
+[00:42:20]: Sim paused
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:30:06]: [200] Account Communication Success (6)
+[01:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:00:06]: [200] Account Communication Success (6)
+[02:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:06]: [200] Account Communication Success (6)
+[02:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:06]: [200] Account Communication Success (6)
+[03:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:06]: [200] Account Communication Success (6)
+[03:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:06]: [200] Account Communication Success (6)
+[04:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:06]: [200] Account Communication Success (6)
+[04:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:06]: [200] Account Communication Success (6)
+[05:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:06]: [200] Account Communication Success (6)
+[05:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:06]: [200] Account Communication Success (6)
+[06:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:06]: [200] Account Communication Success (6)
+[06:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:06]: [200] Account Communication Success (6)
+[07:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:06]: [200] Account Communication Success (6)
+[07:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:06]: [200] Account Communication Success (6)
+[08:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:06]: [200] Account Communication Success (6)
+[08:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:06]: [200] Account Communication Success (6)
+[09:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:06]: [200] Account Communication Success (6)
+[09:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:06]: [200] Account Communication Success (6)
+[10:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:06]: [200] Account Communication Success (6)
+[10:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:06]: [200] Account Communication Success (6)
+[11:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:06]: [200] Account Communication Success (6)
+[11:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:06]: [200] Account Communication Success (6)
+[12:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:06]: [200] Account Communication Success (6)
+[12:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:06]: [200] Account Communication Success (6)
+[13:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:06]: [200] Account Communication Success (6)
+[13:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:06]: [200] Account Communication Success (6)
+[14:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:06]: [200] Account Communication Success (6)
+[14:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:06]: [200] Account Communication Success (6)
+[15:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:06]: [200] Account Communication Success (6)
+[15:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:06]: [200] Account Communication Success (6)
+[16:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:30:06]: [200] Account Communication Success (6)
+[16:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:00:06]: [200] Account Communication Success (6)
+[17:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:30:06]: [200] Account Communication Success (6)
+[17:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:00:06]: [200] Account Communication Success (6)
+[18:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:30:06]: [200] Account Communication Success (6)
+[18:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:00:06]: [200] Account Communication Success (6)
+[19:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:30:06]: [200] Account Communication Success (6)
+[19:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:00:06]: [200] Account Communication Success (6)
+[20:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:30:06]: [200] Account Communication Success (6)
+[20:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:00:06]: [200] Account Communication Success (6)
+[21:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:30:06]: [200] Account Communication Success (6)
+[21:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:00:06]: [200] Account Communication Success (6)
+[22:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:30:06]: [200] Account Communication Success (6)
+[22:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:55:37]: Sim unpaused
+[22:55:59]: Sim paused
+[23:00:06]: [200] Account Communication Success (6)
+[23:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:00:58]: Sim unpaused
+[23:01:56]: Server Paused	
+[23:02:50]: Server Unpaused	
+[23:07:08]: Available disk space for save files: 178259 MB
+[23:07:09]: Serializing world: session/F485603E63760CF4/0000000015
+[23:07:09]: Truncating to snapshot #15...
+[23:07:09]:  - session/F485603E63760CF4/0000000009
+[23:07:09]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000009
+[23:07:09]:    2 file(s) removed
+[23:11:43]: [Shard] #7 -> session/F485603E63760CF4/A7K8AN9VC2U2/0000000016
+[23:11:43]: [Shard] Received migration #7 data for (KU_Y5NJzWl2)
+[23:11:49]: [P2P] Create session: 137.116.110.54|1 '76561198839253759'
+[23:11:49]: [P2P] Received from 137.116.110.54|1 '76561198839253759'
+[23:11:49]: [P2P] Sent to 137.116.110.54|1 '76561198839253759'
+[23:11:52]: New incoming connection 137.116.110.54|1 <8007495341451136138>
+[23:11:52]: Client connected from 137.116.110.54|1 <8007495341451136138>
+[23:11:52]: ValidateGameSessionToken GUID<8007495341451136138>
+[23:11:52]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[23:11:53]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[23:11:53]: [Steam] Authenticated client '76561198839253759'
+[23:11:53]: [Shard] Completed incoming migration #7 for (KU_Y5NJzWl2)
+[23:12:06]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000016
+[23:12:06]: Player will spawn close to portal #3	
+[23:12:06]: Spawning player at: [Load] (678.80, 0.00, -244.25)	
+[23:13:45]: Activating portal[3] to 1	
+[23:13:46]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000016
+[23:13:46]: [Shard] Migration request: (KU_Y5NJzWl2) to [SHDMASTER](1)
+[23:13:46]: [Shard] #8 <- session/F485603E63760CF4/A7K8AN9VC2U2/0000000016
+[23:13:46]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[23:13:46]: [Steam] SendUserDisconnect for '76561198839253759'
+[23:15:09]: Available disk space for save files: 178255 MB
+[23:15:10]: Serializing world: session/F485603E63760CF4/0000000016
+[23:15:10]: Truncating to snapshot #16...
+[23:15:10]:  - session/F485603E63760CF4/0000000010
+[23:15:10]:    1 file(s) removed
+[23:20:44]: [Shard] #9 -> session/F485603E63760CF4/A7K8AN9VC2U2/0000000017
+[23:20:44]: [Shard] Received migration #9 data for (KU_Y5NJzWl2)
+[23:20:47]: [Shard] #10 -> session/F485603E63760CF4/A7KBSTSBU5HJ/0000000017
+[23:20:47]: [Shard] Received migration #10 data for (KU_Y-TulnOp)
+[23:20:49]: [P2P] Received from 137.116.110.54|1 '76561198839253759'
+[23:20:49]: [P2P] Sent to 137.116.110.54|1 '76561198839253759'
+[23:20:51]: New incoming connection 137.116.110.54|1 <6489433904991308842>
+[23:20:51]: Client connected from 137.116.110.54|1 <6489433904991308842>
+[23:20:51]: ValidateGameSessionToken GUID<6489433904991308842>
+[23:20:51]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[23:20:52]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[23:20:52]: [Steam] Authenticated client '76561198839253759'
+[23:20:52]: [Shard] Completed incoming migration #9 for (KU_Y5NJzWl2)
+[23:20:53]: [P2P] Create session: 137.116.110.55|1 '76561198825792993'
+[23:20:53]: [P2P] Received from 137.116.110.55|1 '76561198825792993'
+[23:20:53]: [P2P] Sent to 137.116.110.55|1 '76561198825792993'
+[23:20:55]: New incoming connection 137.116.110.55|1 <8594350036239346250>
+[23:20:55]: Client connected from 137.116.110.55|1 <8594350036239346250>
+[23:20:55]: ValidateGameSessionToken GUID<8594350036239346250>
+[23:20:55]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[23:20:55]: [Steam] Authenticated host '76561198825792993'
+[23:20:55]: [Shard] Completed incoming migration #10 for (KU_Y-TulnOp)
+[23:21:03]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000017
+[23:21:03]: Player will spawn close to portal #3	
+[23:21:03]: Spawning player at: [Load] (677.93, 0.00, -242.60)	
+[23:21:04]: Resuming user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000017
+[23:21:04]: Player will spawn close to portal #3	
+[23:21:04]: Spawning player at: [Load] (676.21, 0.00, -242.00)	
+[23:23:10]: Available disk space for save files: 178251 MB
+[23:23:10]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000017
+[23:23:10]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000017
+[23:23:10]: Serializing world: session/F485603E63760CF4/0000000017
+[23:30:06]: [200] Account Communication Success (6)
+[23:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:31:10]: Available disk space for save files: 178278 MB
+[23:31:11]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000018
+[23:31:11]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000018
+[23:31:11]: Serializing world: session/F485603E63760CF4/0000000018
+[23:39:11]: Available disk space for save files: 178275 MB
+[23:39:11]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000019
+[23:39:11]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000019
+[23:39:11]: Serializing world: session/F485603E63760CF4/0000000019
+[23:47:12]: Available disk space for save files: 178272 MB
+[23:47:12]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000020
+[23:47:12]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000020
+[23:47:12]: Serializing world: session/F485603E63760CF4/0000000020
+[23:55:12]: Available disk space for save files: 178269 MB
+[23:55:12]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000021
+[23:55:12]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000021
+[23:55:13]: Serializing world: session/F485603E63760CF4/0000000021
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:03:13]: Available disk space for save files: 178266 MB
+[00:03:13]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000022
+[00:03:13]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000022
+[00:03:13]: Serializing world: session/F485603E63760CF4/0000000022
+[00:03:19]: Activating portal[3] to 1	
+[00:03:19]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000023
+[00:03:19]: [Shard] Migration request: (KU_Y5NJzWl2) to [SHDMASTER](1)
+[00:03:19]: [Shard] #11 <- session/F485603E63760CF4/A7K8AN9VC2U2/0000000023
+[00:03:19]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:03:19]: [Steam] SendUserDisconnect for '76561198839253759'
+[00:03:20]: Activating portal[3] to 1	
+[00:03:21]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000023
+[00:03:21]: [Shard] Migration request: (KU_Y-TulnOp) to [SHDMASTER](1)
+[00:03:21]: [Shard] #12 <- session/F485603E63760CF4/A7KBSTSBU5HJ/0000000023
+[00:03:21]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:03:21]: Ignored request to resume during migration
+[00:03:21]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:11:14]: Available disk space for save files: 178262 MB
+[00:11:14]: Serializing world: session/F485603E63760CF4/0000000023
+[00:11:14]: Truncating to snapshot #23...
+[00:11:14]:  - session/F485603E63760CF4/0000000011
+[00:11:14]:  - session/F485603E63760CF4/0000000013
+[00:11:14]:  - session/F485603E63760CF4/0000000012
+[00:11:14]:  - session/F485603E63760CF4/0000000014
+[00:11:14]:  - session/F485603E63760CF4/0000000017
+[00:11:14]:  - session/F485603E63760CF4/0000000016
+[00:11:14]:  - session/F485603E63760CF4/0000000015
+[00:11:14]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000017
+[00:11:14]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000006
+[00:11:14]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000017
+[00:11:14]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000016
+[00:11:14]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000010
+[00:11:14]:    12 file(s) removed
+[00:13:21]: [P2P] Session timed out for '76561198839253759'
+[00:13:21]: [P2P] Remove session: 137.116.110.54|1 '76561198839253759'
+[00:13:23]: [P2P] Session timed out for '76561198825792993'
+[00:13:23]: [P2P] Remove session: 137.116.110.55|1 '76561198825792993'
+[00:19:14]: Available disk space for save files: 178277 MB
+[00:19:14]: Serializing world: session/F485603E63760CF4/0000000024
+[00:19:14]: Truncating to snapshot #24...
+[00:19:14]:  - session/F485603E63760CF4/0000000018
+[00:19:14]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000018
+[00:19:14]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000018
+[00:19:14]:    3 file(s) removed
+[00:25:49]: [Shard] #13 -> session/F485603E63760CF4/A7JJ7KAPNJS2/0000000025
+[00:25:49]: [Shard] Received migration #13 data for (KU_SpqLcy-2)
+[00:25:52]: [P2P] Session request for '76561198849842349'
+[00:25:55]: [P2P] Create session: 137.116.110.56|1 '76561198849842349'
+[00:25:55]: [P2P] Received from 137.116.110.56|1 '76561198849842349'
+[00:25:55]: [P2P] Sent to 137.116.110.56|1 '76561198849842349'
+[00:25:58]: New incoming connection 137.116.110.56|1 <5746401862441375527>
+[00:25:58]: Client connected from 137.116.110.56|1 <5746401862441375527>
+[00:25:58]: ValidateGameSessionToken GUID<5746401862441375527>
+[00:25:58]: Client authenticated: (KU_SpqLcy-2) baophucfproe
+[00:25:59]: [Steam] SendUserConnectAndAuthenticate for '76561198849842349'
+[00:25:59]: [Steam] Authenticated client '76561198849842349'
+[00:25:59]: [Shard] Completed incoming migration #13 for (KU_SpqLcy-2)
+[00:26:12]: Resuming user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000025
+[00:26:12]: Player will spawn close to portal #3	
+[00:26:12]: Spawning player at: [Load] (674.02, 0.00, -245.51)	
+[00:27:15]: Available disk space for save files: 178274 MB
+[00:27:15]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000025
+[00:27:15]: Serializing world: session/F485603E63760CF4/0000000025
+[00:29:11]: Activating portal[3] to 1	
+[00:29:12]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000026
+[00:29:12]: [Shard] Migration request: (KU_SpqLcy-2) to [SHDMASTER](1)
+[00:29:12]: [Shard] #14 <- session/F485603E63760CF4/A7JJ7KAPNJS2/0000000026
+[00:29:12]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:29:12]: Invalid RPC sender: expected player, got userid	
+[00:29:12]: [Steam] SendUserDisconnect for '76561198849842349'
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:35:15]: Available disk space for save files: 178267 MB
+[00:35:16]: Serializing world: session/F485603E63760CF4/0000000026
+[00:35:16]: Truncating to snapshot #26...
+[00:35:16]:  - session/F485603E63760CF4/0000000019
+[00:35:16]:  - session/F485603E63760CF4/0000000020
+[00:35:16]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000020
+[00:35:16]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000019
+[00:35:16]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000020
+[00:35:16]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000019
+[00:35:16]:    6 file(s) removed
+[00:39:13]: [P2P] Session timed out for '76561198849842349'
+[00:39:13]: [P2P] Remove session: 137.116.110.56|1 '76561198849842349'
+[00:43:16]: Available disk space for save files: 178266 MB
+[00:43:16]: Serializing world: session/F485603E63760CF4/0000000027
+[00:43:16]: Truncating to snapshot #27...
+[00:43:16]:  - session/F485603E63760CF4/0000000021
+[00:43:16]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000021
+[00:43:16]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000021
+[00:43:16]:    3 file(s) removed
+[00:51:17]: Available disk space for save files: 178262 MB
+[00:51:17]: Serializing world: session/F485603E63760CF4/0000000028
+[00:51:17]: Truncating to snapshot #28...
+[00:51:17]:  - session/F485603E63760CF4/0000000022
+[00:51:17]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000022
+[00:51:17]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000022
+[00:51:17]:    3 file(s) removed
+[00:59:17]: Available disk space for save files: 178259 MB
+[00:59:18]: Serializing world: session/F485603E63760CF4/0000000029
+[00:59:18]: Truncating to snapshot #29...
+[00:59:18]:  - session/F485603E63760CF4/0000000023
+[00:59:18]:    1 file(s) removed
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:07:18]: Available disk space for save files: 178255 MB
+[01:07:19]: Serializing world: session/F485603E63760CF4/0000000030
+[01:07:19]: Truncating to snapshot #30...
+[01:07:19]:  - session/F485603E63760CF4/0000000024
+[01:07:19]:    1 file(s) removed
+[01:15:19]: Available disk space for save files: 178251 MB
+[01:15:19]: Serializing world: session/F485603E63760CF4/0000000031
+[01:15:19]: Truncating to snapshot #31...
+[01:15:19]:  - session/F485603E63760CF4/0000000025
+[01:15:19]:  - session/F485603E63760CF4/A7JJ7KAPNJS2/0000000025
+[01:15:19]:    2 file(s) removed
+[01:19:45]: Sim paused
+[01:30:06]: [200] Account Communication Success (6)
+[01:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:00:06]: [200] Account Communication Success (6)
+[02:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:06]: [200] Account Communication Success (6)
+[02:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:06]: [200] Account Communication Success (6)
+[03:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:06]: [200] Account Communication Success (6)
+[03:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:06]: [200] Account Communication Success (6)
+[04:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:06]: [200] Account Communication Success (6)
+[04:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:06]: [200] Account Communication Success (6)
+[05:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:06]: [200] Account Communication Success (6)
+[05:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:06]: [200] Account Communication Success (6)
+[06:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:06]: [200] Account Communication Success (6)
+[06:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:06]: [200] Account Communication Success (6)
+[07:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:06]: [200] Account Communication Success (6)
+[07:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:05]: [200] Account Communication Success (6)
+[08:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:06]: [200] Account Communication Success (6)
+[08:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:06]: [200] Account Communication Success (6)
+[09:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:06]: [200] Account Communication Success (6)
+[09:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:06]: [200] Account Communication Success (6)
+[10:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:06]: [200] Account Communication Success (6)
+[10:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:06]: [200] Account Communication Success (6)
+[11:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:06]: [200] Account Communication Success (6)
+[11:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:05]: [200] Account Communication Success (6)
+[12:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:06]: [200] Account Communication Success (6)
+[12:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:05]: [200] Account Communication Success (6)
+[13:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:06]: [200] Account Communication Success (6)
+[13:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:05]: [200] Account Communication Success (6)
+[14:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:05]: [200] Account Communication Success (6)
+[14:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:05]: [200] Account Communication Success (6)
+[15:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:06]: [200] Account Communication Success (6)
+[15:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:06]: [200] Account Communication Success (6)
+[16:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:30:05]: [200] Account Communication Success (6)
+[16:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:00:05]: [200] Account Communication Success (6)
+[17:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:30:06]: [200] Account Communication Success (6)
+[17:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:00:05]: [200] Account Communication Success (6)
+[18:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:30:05]: [200] Account Communication Success (6)
+[18:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:00:05]: [200] Account Communication Success (6)
+[19:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:30:06]: [200] Account Communication Success (6)
+[19:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:00:05]: [200] Account Communication Success (6)
+[20:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:30:06]: [200] Account Communication Success (6)
+[20:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:00:05]: [200] Account Communication Success (6)
+[21:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:30:05]: [200] Account Communication Success (6)
+[21:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:00:05]: [200] Account Communication Success (6)
+[22:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:30:05]: [200] Account Communication Success (6)
+[22:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:00:05]: [200] Account Communication Success (6)
+[23:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:30:05]: [200] Account Communication Success (6)
+[23:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:30:05]: [200] Account Communication Success (6)
+[00:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:00:05]: [200] Account Communication Success (6)
+[01:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:30:05]: [200] Account Communication Success (6)
+[01:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:00:05]: [200] Account Communication Success (6)
+[02:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:05]: [200] Account Communication Success (6)
+[02:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:06]: [200] Account Communication Success (6)
+[03:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:05]: [200] Account Communication Success (6)
+[03:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:05]: [200] Account Communication Success (6)
+[04:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:05]: [200] Account Communication Success (6)
+[04:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:05]: [200] Account Communication Success (6)
+[05:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:05]: [200] Account Communication Success (6)
+[06:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:05]: [200] Account Communication Success (6)
+[06:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:05]: [200] Account Communication Success (6)
+[07:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:05]: [200] Account Communication Success (6)
+[08:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:05]: [200] Account Communication Success (6)
+[08:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:05]: [200] Account Communication Success (6)
+[09:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:05]: [200] Account Communication Success (6)
+[09:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:05]: [200] Account Communication Success (6)
+[10:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:05]: [200] Account Communication Success (6)
+[10:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:05]: [200] Account Communication Success (6)
+[11:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:05]: [200] Account Communication Success (6)
+[11:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:05]: [200] Account Communication Success (6)
+[12:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:05]: [200] Account Communication Success (6)
+[12:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:05]: [200] Account Communication Success (6)
+[13:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:05]: [200] Account Communication Success (6)
+[13:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:05]: [200] Account Communication Success (6)
+[14:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:05]: [200] Account Communication Success (6)
+[14:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:05]: [200] Account Communication Success (6)
+[15:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:05]: [200] Account Communication Success (6)
+[15:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:05]: [200] Account Communication Success (6)
+[16:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:30:05]: [200] Account Communication Success (6)
+[16:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:00:05]: [200] Account Communication Success (6)
+[17:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:30:05]: [200] Account Communication Success (6)
+[17:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:00:05]: [200] Account Communication Success (6)
+[18:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:30:05]: [200] Account Communication Success (6)
+[18:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:00:05]: [200] Account Communication Success (6)
+[19:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:30:05]: [200] Account Communication Success (6)
+[19:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:00:05]: [200] Account Communication Success (6)
+[20:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:30:05]: [200] Account Communication Success (6)
+[20:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:00:05]: [200] Account Communication Success (6)
+[21:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:30:05]: [200] Account Communication Success (6)
+[21:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:00:05]: [200] Account Communication Success (6)
+[22:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:30:05]: [200] Account Communication Success (6)
+[22:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:00:05]: [200] Account Communication Success (6)
+[23:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:30:05]: [200] Account Communication Success (6)
+[23:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:30:05]: [200] Account Communication Success (6)
+[00:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:00:05]: [200] Account Communication Success (6)
+[01:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:30:05]: [200] Account Communication Success (6)
+[01:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:00:05]: [200] Account Communication Success (6)
+[02:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:05]: [200] Account Communication Success (6)
+[02:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:05]: [200] Account Communication Success (6)
+[03:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:05]: [200] Account Communication Success (6)
+[03:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:05]: [200] Account Communication Success (6)
+[04:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:05]: [200] Account Communication Success (6)
+[04:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:04]: [200] Account Communication Success (6)
+[05:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:04]: [200] Account Communication Success (6)
+[06:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:05]: [200] Account Communication Success (6)
+[06:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:05]: [200] Account Communication Success (6)
+[07:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:04]: [200] Account Communication Success (6)
+[08:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:05]: [200] Account Communication Success (6)
+[08:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:05]: [200] Account Communication Success (6)
+[09:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:05]: [200] Account Communication Success (6)
+[09:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:05]: [200] Account Communication Success (6)
+[10:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:04]: [200] Account Communication Success (6)
+[10:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:05]: [200] Account Communication Success (6)
+[11:00:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:05]: [200] Account Communication Success (6)
+[11:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:04]: [200] Account Communication Success (6)
+[12:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:05]: [200] Account Communication Success (6)
+[12:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:04]: [200] Account Communication Success (6)
+[13:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:04]: [200] Account Communication Success (6)
+[13:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:04]: [200] Account Communication Success (6)
+[14:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:04]: [200] Account Communication Success (6)
+[14:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:04]: [200] Account Communication Success (6)
+[15:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:04]: [200] Account Communication Success (6)
+[15:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:04]: [200] Account Communication Success (6)
+[16:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:30:05]: [200] Account Communication Success (6)
+[16:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:00:04]: [200] Account Communication Success (6)
+[17:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:30:04]: [200] Account Communication Success (6)
+[17:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:00:04]: [200] Account Communication Success (6)
+[18:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:30:04]: [200] Account Communication Success (6)
+[18:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:00:04]: [200] Account Communication Success (6)
+[19:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:30:05]: [200] Account Communication Success (6)
+[19:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:00:04]: [200] Account Communication Success (6)
+[20:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:30:04]: [200] Account Communication Success (6)
+[20:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:00:04]: [200] Account Communication Success (6)
+[21:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:30:04]: [200] Account Communication Success (6)
+[21:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:00:04]: [200] Account Communication Success (6)
+[22:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:30:05]: [200] Account Communication Success (6)
+[22:30:05]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:00:04]: [200] Account Communication Success (6)
+[23:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:30:04]: [200] Account Communication Success (6)
+[23:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:52:58]: Sim unpaused
+[23:53:22]: Server Autopaused	
+[23:53:25]: Server Unpaused	
+[23:53:26]: Server Autopaused	
+[23:53:34]: Server Unpaused	
+[23:53:34]: Server Autopaused	
+[23:53:36]: Server Unpaused	
+[23:56:45]: Available disk space for save files: 178215 MB
+[23:56:46]: Serializing world: session/F485603E63760CF4/0000000032
+[23:56:46]: Truncating to snapshot #32...
+[23:56:46]:  - session/F485603E63760CF4/0000000026
+[23:56:46]:    1 file(s) removed
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:03:31]: [Shard] #15 -> session/F485603E63760CF4/A7KBSTSBU5HJ/0000000033
+[00:03:31]: [Shard] Received migration #15 data for (KU_Y-TulnOp)
+[00:03:37]: [P2P] Create session: 137.116.110.57|1 '76561198825792993'
+[00:03:37]: [P2P] Received from 137.116.110.57|1 '76561198825792993'
+[00:03:37]: [P2P] Sent to 137.116.110.57|1 '76561198825792993'
+[00:03:38]: New incoming connection 137.116.110.57|1 <5742680988169562133>
+[00:03:38]: Client connected from 137.116.110.57|1 <5742680988169562133>
+[00:03:38]: ValidateGameSessionToken GUID<5742680988169562133>
+[00:03:39]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:03:39]: [Steam] Authenticated host '76561198825792993'
+[00:03:39]: [Shard] Completed incoming migration #15 for (KU_Y-TulnOp)
+[00:03:50]: Resuming user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000033
+[00:03:50]: Player will spawn close to portal #3	
+[00:03:50]: Spawning player at: [Load] (678.78, 0.00, -244.14)	
+[00:04:47]: Available disk space for save files: 178211 MB
+[00:04:47]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000033
+[00:04:47]: Serializing world: session/F485603E63760CF4/0000000033
+[00:06:36]: Activating portal[3] to 1	
+[00:06:37]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000034
+[00:06:37]: [Shard] Migration request: (KU_Y-TulnOp) to [SHDMASTER](1)
+[00:06:37]: [Shard] #16 <- session/F485603E63760CF4/A7KBSTSBU5HJ/0000000034
+[00:06:37]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:06:37]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:12:47]: Available disk space for save files: 178204 MB
+[00:12:48]: Serializing world: session/F485603E63760CF4/0000000034
+[00:12:48]: Truncating to snapshot #34...
+[00:12:48]:  - session/F485603E63760CF4/0000000027
+[00:12:48]:  - session/F485603E63760CF4/0000000028
+[00:12:48]:    2 file(s) removed
+[00:13:36]: [Shard] #17 -> session/F485603E63760CF4/A7JJ7KAPNJS2/0000000035
+[00:13:36]: [Shard] Received migration #17 data for (KU_SpqLcy-2)
+[00:13:46]: [P2P] Create session: 137.116.110.58|1 '76561198849842349'
+[00:13:46]: [P2P] Received from 137.116.110.58|1 '76561198849842349'
+[00:13:46]: [P2P] Sent to 137.116.110.58|1 '76561198849842349'
+[00:13:48]: New incoming connection 137.116.110.58|1 <3281543179430557600>
+[00:13:48]: Client connected from 137.116.110.58|1 <3281543179430557600>
+[00:13:48]: ValidateGameSessionToken GUID<3281543179430557600>
+[00:13:48]: Client authenticated: (KU_SpqLcy-2) baophucfproe
+[00:13:49]: [Steam] SendUserConnectAndAuthenticate for '76561198849842349'
+[00:13:49]: [Steam] Authenticated client '76561198849842349'
+[00:13:49]: [Shard] Completed incoming migration #17 for (KU_SpqLcy-2)
+[00:14:00]: Resuming user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000035
+[00:14:00]: Player will spawn close to portal #8	
+[00:14:00]: Spawning player at: [Load] (549.85, 0.00, 198.42)	
+[00:15:55]: Activating portal[8] to 1	
+[00:15:55]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000035
+[00:15:55]: [Shard] Migration request: (KU_SpqLcy-2) to [SHDMASTER](1)
+[00:15:55]: [Shard] #18 <- session/F485603E63760CF4/A7JJ7KAPNJS2/0000000035
+[00:15:55]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:15:55]: [Steam] SendUserDisconnect for '76561198849842349'
+[00:16:38]: [P2P] Session timed out for '76561198825792993'
+[00:16:38]: [P2P] Remove session: 137.116.110.57|1 '76561198825792993'
+[00:20:48]: Available disk space for save files: 178203 MB
+[00:20:49]: Serializing world: session/F485603E63760CF4/0000000035
+[00:20:49]: Truncating to snapshot #35...
+[00:20:49]:  - session/F485603E63760CF4/0000000029
+[00:20:49]:    1 file(s) removed
+[00:25:57]: [P2P] Session timed out for '76561198849842349'
+[00:25:57]: [P2P] Remove session: 137.116.110.58|1 '76561198849842349'
+[00:26:28]: [Shard] #19 -> session/F485603E63760CF4/A7K8AN9VC2U2/0000000036
+[00:26:28]: [Shard] Received migration #19 data for (KU_Y5NJzWl2)
+[00:26:33]: [P2P] Create session: 137.116.110.59|1 '76561198839253759'
+[00:26:33]: [P2P] Received from 137.116.110.59|1 '76561198839253759'
+[00:26:33]: [P2P] Sent to 137.116.110.59|1 '76561198839253759'
+[00:26:35]: New incoming connection 137.116.110.59|1 <5882293405707145662>
+[00:26:35]: Client connected from 137.116.110.59|1 <5882293405707145662>
+[00:26:35]: ValidateGameSessionToken GUID<5882293405707145662>
+[00:26:36]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[00:26:36]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[00:26:36]: [Steam] Authenticated client '76561198839253759'
+[00:26:36]: [Shard] Completed incoming migration #19 for (KU_Y5NJzWl2)
+[00:26:47]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000036
+[00:26:47]: Player will spawn close to portal #3	
+[00:26:47]: Spawning player at: [Load] (673.86, 0.00, -244.00)	
+[00:28:49]: Available disk space for save files: 178200 MB
+[00:28:49]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000036
+[00:28:49]: Serializing world: session/F485603E63760CF4/0000000036
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:31:48]: Activating portal[6] to 1	
+[00:31:48]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000037
+[00:31:48]: [Shard] Migration request: (KU_Y5NJzWl2) to [SHDMASTER](1)
+[00:31:48]: [Shard] #20 <- session/F485603E63760CF4/A7K8AN9VC2U2/0000000037
+[00:31:48]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:31:48]: [Steam] SendUserDisconnect for '76561198839253759'
+[00:32:30]: [Shard] #21 -> session/F485603E63760CF4/A7KBSTSBU5HJ/0000000037
+[00:32:30]: [Shard] Received migration #21 data for (KU_Y-TulnOp)
+[00:32:36]: [P2P] Create session: 137.116.110.60|1 '76561198825792993'
+[00:32:36]: [P2P] Received from 137.116.110.60|1 '76561198825792993'
+[00:32:36]: [P2P] Sent to 137.116.110.60|1 '76561198825792993'
+[00:32:38]: New incoming connection 137.116.110.60|1 <610905095325635901>
+[00:32:38]: Client connected from 137.116.110.60|1 <610905095325635901>
+[00:32:38]: ValidateGameSessionToken GUID<610905095325635901>
+[00:32:38]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:32:38]: [Steam] Authenticated host '76561198825792993'
+[00:32:38]: [Shard] Completed incoming migration #21 for (KU_Y-TulnOp)
+[00:32:48]: Resuming user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000037
+[00:32:48]: Player will spawn close to portal #1	
+[00:32:48]: Spawning player at: [Load] (0.33, 0.00, 473.91)	
+[00:34:34]: Activating portal[1] to 1	
+[00:34:34]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000037
+[00:34:34]: [Shard] Migration request: (KU_Y-TulnOp) to [SHDMASTER](1)
+[00:34:34]: [Shard] #22 <- session/F485603E63760CF4/A7KBSTSBU5HJ/0000000037
+[00:34:34]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:34:34]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:36:49]: Available disk space for save files: 178193 MB
+[00:36:50]: Serializing world: session/F485603E63760CF4/0000000037
+[00:36:50]: Truncating to snapshot #37...
+[00:36:50]:  - session/F485603E63760CF4/0000000030
+[00:36:50]:  - session/F485603E63760CF4/0000000031
+[00:36:50]:    2 file(s) removed
+[00:41:50]: [P2P] Session timed out for '76561198839253759'
+[00:41:50]: [P2P] Remove session: 137.116.110.59|1 '76561198839253759'
+[00:44:36]: [P2P] Session timed out for '76561198825792993'
+[00:44:36]: [P2P] Remove session: 137.116.110.60|1 '76561198825792993'
+[00:44:50]: Available disk space for save files: 178192 MB
+[00:44:51]: Serializing world: session/F485603E63760CF4/0000000038
+[00:44:51]: Truncating to snapshot #38...
+[00:44:51]:  - session/F485603E63760CF4/0000000032
+[00:44:51]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000023
+[00:44:51]:    2 file(s) removed
+[00:49:20]: [Shard] #23 -> session/F485603E63760CF4/A7JJ7KAPNJS2/0000000039
+[00:49:20]: [Shard] Received migration #23 data for (KU_SpqLcy-2)
+[00:49:30]: [P2P] Create session: 137.116.110.61|1 '76561198849842349'
+[00:49:30]: [P2P] Received from 137.116.110.61|1 '76561198849842349'
+[00:49:30]: [P2P] Sent to 137.116.110.61|1 '76561198849842349'
+[00:49:32]: New incoming connection 137.116.110.61|1 <3881316199979264688>
+[00:49:32]: Client connected from 137.116.110.61|1 <3881316199979264688>
+[00:49:32]: ValidateGameSessionToken GUID<3881316199979264688>
+[00:49:32]: Client authenticated: (KU_SpqLcy-2) baophucfproe
+[00:49:32]: [Steam] SendUserConnectAndAuthenticate for '76561198849842349'
+[00:49:33]: [Steam] Authenticated client '76561198849842349'
+[00:49:33]: [Shard] Completed incoming migration #23 for (KU_SpqLcy-2)
+[00:49:59]: Resuming user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000039
+[00:49:59]: Player will spawn close to portal #3	
+[00:49:59]: Spawning player at: [Load] (676.10, 0.00, -246.99)	
+[00:51:03]: Could not find anim [death] in bank [ghost]
+[00:51:03]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000039
+[00:52:51]: Available disk space for save files: 178189 MB
+[00:52:51]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000039
+[00:52:52]: Serializing world: session/F485603E63760CF4/0000000039
+[00:52:57]: [Shard] #24 -> session/F485603E63760CF4/A7K8AN9VC2U2/0000000040
+[00:52:57]: [Shard] Received migration #24 data for (KU_Y5NJzWl2)
+[00:53:06]: [P2P] Create session: 137.116.110.62|1 '76561198839253759'
+[00:53:06]: [P2P] Received from 137.116.110.62|1 '76561198839253759'
+[00:53:06]: [P2P] Sent to 137.116.110.62|1 '76561198839253759'
+[00:53:08]: New incoming connection 137.116.110.62|1 <2185768004158979214>
+[00:53:08]: Client connected from 137.116.110.62|1 <2185768004158979214>
+[00:53:08]: ValidateGameSessionToken GUID<2185768004158979214>
+[00:53:08]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[00:53:08]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[00:53:09]: [Steam] Authenticated client '76561198839253759'
+[00:53:09]: [Shard] Completed incoming migration #24 for (KU_Y5NJzWl2)
+[00:53:25]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000040
+[00:53:25]: Player will spawn close to portal #3	
+[00:53:25]: Spawning player at: [Load] (678.74, 0.00, -245.09)	
+[00:53:45]: Could not find anim [idle_loop] in bank [ghost]
+[00:53:48]: Could not find anim [transform] in bank [wilson]
+[00:53:49]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000040
+[00:54:25]: Activating portal[3] to 1	
+[00:54:25]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000040
+[00:54:25]: [Shard] Migration request: (KU_Y5NJzWl2) to [SHDMASTER](1)
+[00:54:25]: [Shard] #25 <- session/F485603E63760CF4/A7K8AN9VC2U2/0000000040
+[00:54:25]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:54:25]: Ignored request to resume during migration
+[00:54:26]: [Steam] SendUserDisconnect for '76561198839253759'
+[00:54:26]: Activating portal[3] to 1	
+[00:54:26]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000040
+[00:54:26]: [Shard] Migration request: (KU_SpqLcy-2) to [SHDMASTER](1)
+[00:54:26]: [Shard] #26 <- session/F485603E63760CF4/A7JJ7KAPNJS2/0000000040
+[00:54:26]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:54:26]: Invalid RPC sender: expected player, got userid	
+[00:54:27]: [Steam] SendUserDisconnect for '76561198849842349'
+[00:59:19]: [Shard] #27 -> session/F485603E63760CF4/A7KBSTSBU5HJ/0000000040
+[00:59:19]: [Shard] Received migration #27 data for (KU_Y-TulnOp)
+[00:59:25]: [Shard] #28 -> session/F485603E63760CF4/A7JJ7KAPNJS2/0000000040
+[00:59:25]: [Shard] Received migration #28 data for (KU_SpqLcy-2)
+[00:59:26]: [P2P] Create session: 137.116.110.63|1 '76561198825792993'
+[00:59:26]: [P2P] Received from 137.116.110.63|1 '76561198825792993'
+[00:59:26]: [P2P] Sent to 137.116.110.63|1 '76561198825792993'
+[00:59:27]: New incoming connection 137.116.110.63|1 <8520829722831686128>
+[00:59:27]: Client connected from 137.116.110.63|1 <8520829722831686128>
+[00:59:27]: ValidateGameSessionToken GUID<8520829722831686128>
+[00:59:27]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:59:28]: [Steam] Authenticated host '76561198825792993'
+[00:59:28]: [Shard] Completed incoming migration #27 for (KU_Y-TulnOp)
+[00:59:33]: [P2P] Received from 137.116.110.61|1 '76561198849842349'
+[00:59:33]: [P2P] Sent to 137.116.110.61|1 '76561198849842349'
+[00:59:35]: New incoming connection 137.116.110.61|1 <1618319325210005051>
+[00:59:35]: Client connected from 137.116.110.61|1 <1618319325210005051>
+[00:59:35]: ValidateGameSessionToken GUID<1618319325210005051>
+[00:59:35]: Client authenticated: (KU_SpqLcy-2) baophucfproe
+[00:59:35]: [Steam] SendUserConnectAndAuthenticate for '76561198849842349'
+[00:59:36]: [Steam] Authenticated client '76561198849842349'
+[00:59:36]: [Shard] Completed incoming migration #28 for (KU_SpqLcy-2)
+[00:59:37]: Resuming user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000040
+[00:59:37]: Player will spawn close to portal #3	
+[00:59:37]: Spawning player at: [Load] (676.74, 0.00, -246.96)	
+[00:59:45]: Resuming user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000040
+[00:59:45]: Player will spawn close to portal #3	
+[00:59:45]: Spawning player at: [Load] (678.48, 0.00, -243.26)	
+[01:00:04]: [200] Account Communication Success (6)
+[01:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:00:52]: Available disk space for save files: 178182 MB
+[01:00:52]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000040
+[01:00:52]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000040
+[01:00:52]: Serializing world: session/F485603E63760CF4/0000000040
+[01:04:16]: Activating portal[3] to 1	
+[01:04:16]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000041
+[01:04:16]: [Shard] Migration request: (KU_Y-TulnOp) to [SHDMASTER](1)
+[01:04:16]: [Shard] #29 <- session/F485603E63760CF4/A7KBSTSBU5HJ/0000000041
+[01:04:16]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:04:16]: [Steam] SendUserDisconnect for '76561198825792993'
+[01:04:24]: Activating portal[3] to 1	
+[01:04:24]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000041
+[01:04:24]: [Shard] Migration request: (KU_SpqLcy-2) to [SHDMASTER](1)
+[01:04:24]: [Shard] #30 <- session/F485603E63760CF4/A7JJ7KAPNJS2/0000000041
+[01:04:24]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:04:25]: [Steam] SendUserDisconnect for '76561198849842349'
+[01:04:26]: [P2P] Session timed out for '76561198839253759'
+[01:04:26]: [P2P] Remove session: 137.116.110.62|1 '76561198839253759'
+[01:04:42]: [Shard] #31 -> session/F485603E63760CF4/A7KBSTSBU5HJ/0000000041
+[01:04:42]: [Shard] Received migration #31 data for (KU_Y-TulnOp)
+[01:04:43]: [P2P] Received from 137.116.110.63|1 '76561198825792993'
+[01:04:43]: [P2P] Sent to 137.116.110.63|1 '76561198825792993'
+[01:04:44]: New incoming connection 137.116.110.63|1 <2629011914528364695>
+[01:04:44]: Client connected from 137.116.110.63|1 <2629011914528364695>
+[01:04:44]: ValidateGameSessionToken GUID<2629011914528364695>
+[01:04:51]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5000 milliseconds
+[01:04:51]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5660 milliseconds
+[01:04:51]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5658 milliseconds
+[01:04:51]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[01:04:51]: [Steam] Authenticated host '76561198825792993'
+[01:04:51]: [Shard] Completed incoming migration #31 for (KU_Y-TulnOp)
+[01:05:01]: Resuming user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000041
+[01:05:01]: Player will spawn close to portal #3	
+[01:05:01]: Spawning player at: [Load] (673.81, 0.00, -244.60)	
+[01:05:36]: Activating portal[3] to 1	
+[01:05:36]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000041
+[01:05:36]: [Shard] Migration request: (KU_Y-TulnOp) to [SHDMASTER](1)
+[01:05:36]: [Shard] #32 <- session/F485603E63760CF4/A7KBSTSBU5HJ/0000000041
+[01:05:36]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:05:36]: [Steam] SendUserDisconnect for '76561198825792993'
+[01:05:40]: [Shard] #33 -> session/F485603E63760CF4/A7K8AN9VC2U2/0000000041
+[01:05:40]: [Shard] Received migration #33 data for (KU_Y5NJzWl2)
+[01:05:45]: [P2P] Create session: 137.116.110.64|1 '76561198839253759'
+[01:05:45]: [P2P] Received from 137.116.110.64|1 '76561198839253759'
+[01:05:45]: [P2P] Sent to 137.116.110.64|1 '76561198839253759'
+[01:05:47]: New incoming connection 137.116.110.64|1 <681270222310093613>
+[01:05:47]: Client connected from 137.116.110.64|1 <681270222310093613>
+[01:05:47]: ValidateGameSessionToken GUID<681270222310093613>
+[01:05:47]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[01:05:47]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[01:05:48]: [Steam] Authenticated client '76561198839253759'
+[01:05:48]: [Shard] Completed incoming migration #33 for (KU_Y5NJzWl2)
+[01:06:07]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000041
+[01:06:07]: Player will spawn close to portal #3	
+[01:06:07]: Spawning player at: [Load] (673.90, 0.00, -243.83)	
+[01:07:01]: Could not find anim [death_wanda] in bank [ghost]
+[01:07:01]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000041
+[01:07:25]: [Steam] SendUserDisconnect for '76561198839253759'
+[01:07:25]: Connection lost to 137.116.110.64|1 <681270222310093613>
+[01:07:26]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000041
+[01:07:29]: Server Paused	
+[01:07:44]: Server Unpaused	
+[01:08:58]: [Shard] Received forward request #34 for (KU_Y5NJzWl2)
+[01:09:00]: [P2P] Received from 137.116.110.64|1 '76561198839253759'
+[01:09:00]: [P2P] Sent to 137.116.110.64|1 '76561198839253759'
+[01:09:01]: New incoming connection 137.116.110.64|1 <4479697504516935291>
+[01:09:01]: Client connected from 137.116.110.64|1 <4479697504516935291>
+[01:09:01]: ValidateGameSessionToken GUID<4479697504516935291>
+[01:09:02]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[01:09:02]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[01:09:02]: [Steam] Authenticated client '76561198839253759'
+[01:09:04]: There is no active event to validate against.
+[01:09:04]: [Shard] Completed incoming migration #34 for (KU_Y5NJzWl2)
+[01:09:06]: Available disk space for save files: 178175 MB
+[01:09:07]: Serializing world: session/F485603E63760CF4/0000000041
+[01:09:07]: Truncating to snapshot #41...
+[01:09:07]:  - session/F485603E63760CF4/0000000033
+[01:09:07]:  - session/F485603E63760CF4/0000000034
+[01:09:07]:  - session/F485603E63760CF4/0000000035
+[01:09:07]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000033
+[01:09:07]:  - session/F485603E63760CF4/A7JJ7KAPNJS2/0000000026
+[01:09:07]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000023
+[01:09:07]:    6 file(s) removed
+[01:09:24]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000041
+[01:09:24]: Could not find anim [idle_loop] in bank [ghost]
+[01:09:24]: Spawning player at: [Load] (688.22, 0.00, -187.13)	
+[01:11:50]: [Shard] #35 -> session/F485603E63760CF4/A7KBSTSBU5HJ/0000000042
+[01:11:50]: [Shard] Received migration #35 data for (KU_Y-TulnOp)
+[01:11:56]: [P2P] Received from 137.116.110.63|1 '76561198825792993'
+[01:11:56]: [P2P] Sent to 137.116.110.63|1 '76561198825792993'
+[01:11:57]: New incoming connection 137.116.110.63|1 <2176677096189048614>
+[01:11:57]: Client connected from 137.116.110.63|1 <2176677096189048614>
+[01:11:57]: ValidateGameSessionToken GUID<2176677096189048614>
+[01:11:57]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[01:11:57]: [Steam] Authenticated host '76561198825792993'
+[01:11:57]: [Shard] Completed incoming migration #35 for (KU_Y-TulnOp)
+[01:12:09]: Resuming user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000042
+[01:12:09]: Player will spawn close to portal #3	
+[01:12:09]: Spawning player at: [Load] (675.14, 0.00, -242.29)	
+[01:12:32]: [Shard] #36 -> session/F485603E63760CF4/A7K8AN9VC2TV/0000000042
+[01:12:32]: [Shard] Received migration #36 data for (KU_Y5NJzWk_)
+[01:12:33]: [Shard] #37 -> session/F485603E63760CF4/A7JJ7KAPNJS2/0000000042
+[01:12:33]: [Shard] Received migration #37 data for (KU_SpqLcy-2)
+[01:12:37]: [P2P] Session request for '76561198301022508'
+[01:12:39]: [P2P] Create session: 137.116.110.65|1 '76561198301022508'
+[01:12:39]: [P2P] Received from 137.116.110.65|1 '76561198301022508'
+[01:12:39]: [P2P] Sent to 137.116.110.65|1 '76561198301022508'
+[01:12:40]: Server Paused	
+[01:12:41]: New incoming connection 137.116.110.65|1 <3575119283429284512>
+[01:12:41]: Client connected from 137.116.110.65|1 <3575119283429284512>
+[01:12:41]: ValidateGameSessionToken GUID<3575119283429284512>
+[01:12:42]: Client authenticated: (KU_Y5NJzWk_) MrPurrPurr
+[01:12:42]: [P2P] Received from 137.116.110.61|1 '76561198849842349'
+[01:12:42]: [P2P] Sent to 137.116.110.61|1 '76561198849842349'
+[01:12:42]: [Steam] SendUserConnectAndAuthenticate for '76561198301022508'
+[01:12:42]: [Steam] Authenticated client '76561198301022508'
+[01:12:42]: [Shard] Completed incoming migration #36 for (KU_Y5NJzWk_)
+[01:12:44]: New incoming connection 137.116.110.61|1 <5967371415526940401>
+[01:12:44]: Client connected from 137.116.110.61|1 <5967371415526940401>
+[01:12:44]: ValidateGameSessionToken GUID<5967371415526940401>
+[01:12:44]: Client authenticated: (KU_SpqLcy-2) baophucfproe
+[01:12:44]: [Steam] SendUserConnectAndAuthenticate for '76561198849842349'
+[01:12:45]: [Steam] Authenticated client '76561198849842349'
+[01:12:45]: [Shard] Completed incoming migration #37 for (KU_SpqLcy-2)
+[01:12:51]: Server Unpaused	
+[01:12:57]: Resuming user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000042
+[01:12:57]: Player will spawn close to portal #3	
+[01:12:57]: Spawning player at: [Load] (677.45, 0.00, -242.28)	
+[01:13:00]: Could not find anim [idle_loop] in bank [ghost]
+[01:13:03]: Resuming user: session/F485603E63760CF4/A7K8AN9VC2TV/0000000042
+[01:13:03]: Player will spawn close to portal #3	
+[01:13:03]: Spawning player at: [Load] (676.56, 0.00, -242.01)	
+[01:13:03]: Could not find anim [transform] in bank [wilson]
+[01:13:04]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000042
+[01:13:40]: Activating portal[3] to 1	
+[01:13:40]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2U2/0000000042
+[01:13:40]: [Shard] Migration request: (KU_Y5NJzWl2) to [SHDMASTER](1)
+[01:13:40]: [Shard] #38 <- session/F485603E63760CF4/A7K8AN9VC2U2/0000000042
+[01:13:40]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:13:41]: Activating portal[3] to 1	
+[01:13:41]: Ignored request to resume during migration
+[01:13:41]: Serializing user: session/F485603E63760CF4/A7KBSTSBU5HJ/0000000042
+[01:13:41]: [Shard] Migration request: (KU_Y-TulnOp) to [SHDMASTER](1)
+[01:13:41]: [Shard] #39 <- session/F485603E63760CF4/A7KBSTSBU5HJ/0000000042
+[01:13:41]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:13:41]: Ignored request to resume during migration
+[01:13:41]: [Steam] SendUserDisconnect for '76561198825792993'
+[01:13:41]: [Steam] SendUserDisconnect for '76561198839253759'
+[01:14:19]: Activating portal[3] to 1	
+[01:14:19]: Serializing user: session/F485603E63760CF4/A7JJ7KAPNJS2/0000000042
+[01:14:19]: [Shard] Migration request: (KU_SpqLcy-2) to [SHDMASTER](1)
+[01:14:19]: [Shard] #40 <- session/F485603E63760CF4/A7JJ7KAPNJS2/0000000042
+[01:14:19]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:14:20]: Ignored request to resume during migration
+[01:14:21]: [Steam] SendUserDisconnect for '76561198849842349'
+[01:15:21]: Activating portal[3] to 1	
+[01:15:21]: Serializing user: session/F485603E63760CF4/A7K8AN9VC2TV/0000000042
+[01:15:21]: [Shard] Migration request: (KU_Y5NJzWk_) to [SHDMASTER](1)
+[01:15:21]: [Shard] #41 <- session/F485603E63760CF4/A7K8AN9VC2TV/0000000042
+[01:15:21]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:15:21]: Invalid RPC sender: expected player, got userid	
+[01:15:21]: [Steam] SendUserDisconnect for '76561198301022508'
+[01:17:19]: Available disk space for save files: 178177 MB
+[01:17:20]: Serializing world: session/F485603E63760CF4/0000000042
+[01:17:20]: Truncating to snapshot #42...
+[01:17:20]:  - session/F485603E63760CF4/0000000036
+[01:17:20]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000034
+[01:17:20]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000036
+[01:17:20]:    3 file(s) removed
+[01:23:42]: [P2P] Session timed out for '76561198839253759'
+[01:23:42]: [P2P] Remove session: 137.116.110.64|1 '76561198839253759'
+[01:23:42]: [P2P] Session timed out for '76561198825792993'
+[01:23:42]: [P2P] Remove session: 137.116.110.63|1 '76561198825792993'
+[01:24:21]: [P2P] Session timed out for '76561198849842349'
+[01:24:21]: [P2P] Remove session: 137.116.110.61|1 '76561198849842349'
+[01:25:20]: Available disk space for save files: 178174 MB
+[01:25:21]: Serializing world: session/F485603E63760CF4/0000000043
+[01:25:21]: Truncating to snapshot #43...
+[01:25:21]:  - session/F485603E63760CF4/0000000037
+[01:25:21]:    1 file(s) removed
+[01:25:23]: [P2P] Session timed out for '76561198301022508'
+[01:25:23]: [P2P] Remove session: 137.116.110.65|1 '76561198301022508'
+[01:30:04]: [200] Account Communication Success (6)
+[01:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:33:21]: Available disk space for save files: 178170 MB
+[01:33:21]: Serializing world: session/F485603E63760CF4/0000000044
+[01:33:21]: Truncating to snapshot #44...
+[01:33:21]:  - session/F485603E63760CF4/0000000038
+[01:33:21]:  - session/F485603E63760CF4/A7JJ7KAPNJS2/0000000035
+[01:33:21]:    2 file(s) removed
+[01:40:40]: Sim paused
+[02:00:04]: [200] Account Communication Success (6)
+[02:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:04]: [200] Account Communication Success (6)
+[02:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:04]: [200] Account Communication Success (6)
+[03:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:04]: [200] Account Communication Success (6)
+[04:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:04]: [200] Account Communication Success (6)
+[04:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:04]: [200] Account Communication Success (6)
+[05:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:04]: [200] Account Communication Success (6)
+[05:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:04]: [200] Account Communication Success (6)
+[06:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:04]: [200] Account Communication Success (6)
+[06:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:04]: [200] Account Communication Success (6)
+[07:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:04]: [200] Account Communication Success (6)
+[07:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:04]: [200] Account Communication Success (6)
+[08:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:04]: [200] Account Communication Success (6)
+[08:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:04]: [200] Account Communication Success (6)
+[09:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:04]: [200] Account Communication Success (6)
+[09:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:04]: [200] Account Communication Success (6)
+[10:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:04]: [200] Account Communication Success (6)
+[10:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:04]: [200] Account Communication Success (6)
+[11:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:04]: [200] Account Communication Success (6)
+[11:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:04]: [200] Account Communication Success (6)
+[12:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:04]: [200] Account Communication Success (6)
+[12:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:04]: [200] Account Communication Success (6)
+[13:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:04]: [200] Account Communication Success (6)
+[13:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:04]: [200] Account Communication Success (6)
+[14:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:04]: [200] Account Communication Success (6)
+[14:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:04]: [200] Account Communication Success (6)
+[15:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:04]: [200] Account Communication Success (6)
+[15:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:04]: [200] Account Communication Success (6)
+[16:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:30:04]: [200] Account Communication Success (6)
+[16:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:00:04]: [200] Account Communication Success (6)
+[17:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[17:30:04]: [200] Account Communication Success (6)
+[17:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:00:04]: [200] Account Communication Success (6)
+[18:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[18:30:04]: [200] Account Communication Success (6)
+[18:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:00:04]: [200] Account Communication Success (6)
+[19:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[19:30:04]: [200] Account Communication Success (6)
+[19:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:00:04]: [200] Account Communication Success (6)
+[20:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[20:30:04]: [200] Account Communication Success (6)
+[20:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:00:04]: [200] Account Communication Success (6)
+[21:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[21:30:04]: [200] Account Communication Success (6)
+[21:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:00:03]: [200] Account Communication Success (6)
+[22:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[22:30:04]: [200] Account Communication Success (6)
+[22:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:00:04]: [200] Account Communication Success (6)
+[23:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[23:30:04]: [200] Account Communication Success (6)
+[23:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:00:03]: [200] Account Communication Success (6)
+[01:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:30:04]: [200] Account Communication Success (6)
+[01:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:00:04]: [200] Account Communication Success (6)
+[02:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[02:30:04]: [200] Account Communication Success (6)
+[02:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:00:03]: [200] Account Communication Success (6)
+[03:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:00:04]: [200] Account Communication Success (6)
+[04:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[04:30:03]: [200] Account Communication Success (6)
+[04:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:00:03]: [200] Account Communication Success (6)
+[05:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[05:30:03]: [200] Account Communication Success (6)
+[05:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:00:04]: [200] Account Communication Success (6)
+[06:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[06:30:03]: [200] Account Communication Success (6)
+[06:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:00:04]: [200] Account Communication Success (6)
+[07:00:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[07:30:04]: [200] Account Communication Success (6)
+[07:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:00:03]: [200] Account Communication Success (6)
+[08:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[08:30:03]: [200] Account Communication Success (6)
+[08:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:00:03]: [200] Account Communication Success (6)
+[09:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[09:30:04]: [200] Account Communication Success (6)
+[09:30:04]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:00:03]: [200] Account Communication Success (6)
+[10:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[10:30:03]: [200] Account Communication Success (6)
+[10:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:00:03]: [200] Account Communication Success (6)
+[11:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[11:30:03]: [200] Account Communication Success (6)
+[11:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:00:03]: [200] Account Communication Success (6)
+[12:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[12:30:03]: [200] Account Communication Success (6)
+[12:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:00:03]: [200] Account Communication Success (6)
+[13:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[13:30:03]: [200] Account Communication Success (6)
+[13:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:00:03]: [200] Account Communication Success (6)
+[14:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[14:30:03]: [200] Account Communication Success (6)
+[14:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:00:03]: [200] Account Communication Success (6)
+[15:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[15:30:03]: [200] Account Communication Success (6)
+[15:30:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:00:03]: [200] Account Communication Success (6)
+[16:00:03]: Received (KU_Y-TulnOp) from TokenPurpose
+[16:19:46]: Sim unpaused
+[16:20:27]: Available disk space for save files: 178150 MB
+[16:20:28]: Serializing world: session/F485603E63760CF4/0000000045
+[16:20:28]: Truncating to snapshot #45...
+[16:20:28]:  - session/F485603E63760CF4/0000000039
+[16:20:28]:  - session/F485603E63760CF4/A7KBSTSBU5HJ/0000000037
+[16:20:28]:  - session/F485603E63760CF4/A7JJ7KAPNJS2/0000000039
+[16:20:28]:  - session/F485603E63760CF4/A7K8AN9VC2U2/0000000037
+[16:20:28]:    4 file(s) removed
