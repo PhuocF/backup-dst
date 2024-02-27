@@ -1,0 +1,983 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 57%
+	Available Physical Memory: 6859m/16021m
+	Available Page File: 8696m/24725m
+	Available Virtual Memory: 134213499m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 12m
+	Working Set Size: 12m
+	Quota Peak Page Pool Usage: 182k
+	Quota Page Pool Usage: 182k
+	Quota Peak Non Paged Pool Usage:13k
+	Quota Non Paged Pool Usage: 13k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/MyDediServer/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 593927
+[00:00:00]: Current time: Sun Feb 25 22:22:14 2024
+
+[00:00:00]: Don't Starve Together: 593927 WIN32
+[00:00:00]: Build Date: 2456
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster MyDediServer -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (9312)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:3.61
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 27018)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application D:\Game\steamapps\common\Don't Starve Together Dedicated Server\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/MyDediServer/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (4024)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/MyDediServer/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/MyDediServer/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/MyDediServer/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.22621
+    platformSpecific          SP 0.0
+    architecture              64-bit
+  CPU                       
+    clockSpeed                2688
+    name                      11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+    manufacturer              GenuineIntel
+    numCores                  6
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 1024
+    videoModeDescription      1920 x 1080 x 4294967296 colors
+    name                      Intel(R) UHD Graphics
+    driverVersion             30.0.101.2079
+    driverDate                20220526000000.000000-000
+    refreshRate               60
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: Running main.lua
+	
+[00:00:00]: loaded modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: [Workshop] Item query page 0, size: 8, total size: 8
+[00:00:01]: [Workshop] Item query queued IDs: 378160973 1111658995 347079953 1207269058 375859599 481765222 1852257480 2158755579
+[00:00:01]: [Workshop] Item query sent
+[00:00:02]: [Workshop] ItemQuery got this many results: 8, matching: 8
+[00:00:02]: [Workshop] ModQuery got 8 results
+[00:00:02]: [Workshop] ModQuery already have IDs: {1.7.4,378160973} {3.0,1111658995} {1.61,347079953} {2.16,1207269058} {2.2.03,375859599} {0.5,481765222} {2.4,1852257480} {1.1,2158755579}
+[00:00:02]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:02]: [Workshop] ItemQuery finished downloading everything
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: modoverrides.lua enabling workshop-1207269058	
+[00:00:02]: modoverrides.lua enabling workshop-1111658995	
+[00:00:02]: modoverrides.lua enabling workshop-1852257480	
+[00:00:02]: modoverrides.lua enabling workshop-481765222	
+[00:00:02]: modoverrides.lua enabling workshop-378160973	
+[00:00:02]: modoverrides.lua enabling workshop-347079953	
+[00:00:02]: modoverrides.lua enabling workshop-375859599	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:02]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-481765222_CLIENT	
+[00:00:02]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:02]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1111658995_CLIENT	
+[00:00:02]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:02]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
+[00:00:02]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:2.4	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:02]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:02]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:02]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:02]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:02]: WARNING! Invalid resource handle for atlas 'FROMNUM', did you remember to load the asset?
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:02]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:02]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:02]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:02]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: Failed to load skilltree file itself!	
+[00:00:02]: Trying to apply online cache of skilltree data..	
+[00:00:02]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering Server mod namespace "workshop-1207269058"
+[00:00:03]: Registering Server mod namespace "workshop-1111658995"
+[00:00:03]: Registering Server mod namespace "workshop-378160973"
+[00:00:03]: Registering Server mod namespace "food item"
+[00:00:03]: Registering Client mod namespace "workshop-1111658995"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: ConsoleScreenSettings could not load consolescreen	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:05]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:05]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:05]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:05]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (16112)
+[00:00:05]: FilesExistAsyncThread started (23607 files)...
+[00:00:05]: Check for write access: TRUE
+[00:00:05]: Check for read access: TRUE
+[00:00:05]: Available disk space for save files: 361256 MB
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/MyDediServer/Master/save/cached_userid
+[00:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: true
+[00:00:06]:   ServerPort: 11000
+[00:00:06]:   SteamAuthPort: 8768
+[00:00:06]:   SteamMasterServerPort: 27018
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: false
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: endless
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: true
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]: [Warning] Could not confirm port 11000 is open in the firewall. 
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:06]: Online Server Started on port: 11000
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Not applying level data overrides.	
+[00:00:07]: Found a worldgen override file with these contents:	
+[00:00:07]: 	K: 	override_enabled	 V: 	true	
+[00:00:07]: 	K: 	overrides	 V: 	table: 0000000015F47F60	
+[00:00:07]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:07]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:07]: 		K: 	portalresurection	 V: 	always	
+[00:00:07]: 		K: 	resettime	 V: 	none	
+[00:00:07]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:07]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:07]:   sanity-checking worldgenoverride.lua...	
+[00:00:07]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:07]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:07]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:07]: Overwriting savedata with override file.	
+[00:00:07]: Collecting garbage...
+[00:00:07]: lua_gc took 0.08 seconds
+[00:00:07]: ~ShardLuaProxy()
+[00:00:07]: ~cEventLeaderboardProxy()
+[00:00:07]: ~ItemServerLuaProxy()
+[00:00:07]: ~InventoryLuaProxy()
+[00:00:07]: ~NetworkLuaProxy()
+[00:00:07]: ~SimLuaProxy()
+[00:00:07]: lua_close took 0.08 seconds
+[00:00:07]: ReleaseAll
+[00:00:07]: ReleaseAll Finished
+[00:00:07]: cGame::StartPlaying
+[00:00:07]: AppVersion::GetArchitecture() x64
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]:   taskgrouplist:	default	Together	
+[00:00:07]:   taskgrouplist:	classic	Classic	
+[00:00:07]:   taskgrouplist:	cave_default	Underground	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:07]: Running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: modoverrides.lua enabling workshop-1207269058	
+[00:00:07]: modoverrides.lua enabling workshop-1111658995	
+[00:00:07]: modoverrides.lua enabling workshop-1852257480	
+[00:00:07]: modoverrides.lua enabling workshop-481765222	
+[00:00:07]: modoverrides.lua enabling workshop-378160973	
+[00:00:07]: modoverrides.lua enabling workshop-347079953	
+[00:00:07]: modoverrides.lua enabling workshop-375859599	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:07]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-481765222	
+[00:00:07]: Loading mod: workshop-481765222 (Ancient Altar) Version:0.5	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:07]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:2.4	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1111658995	
+[00:00:07]: Loading mod: workshop-1111658995 (Show Bundle) Version:3.0	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:07]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:07]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.16	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:07]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1111658995 (Show Bundle)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-1111658995/main/util.lua	
+[00:00:07]: modimport: ../mods/workshop-1111658995/main/showbundle_widgetcreation.lua	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-481765222 (Ancient Altar)	Loading modmain.lua	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	altar_broken	
+[00:00:07]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	thulecite_pieces	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-481765222	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1852257480	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1111658995	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: Failed to load skilltree file itself!	
+[00:00:08]: Trying to apply online cache of skilltree data..	
+[00:00:08]: Which also failed. This error is unrecoverable. Skill tree will be cleared.	
+[00:00:08]: LOADING LUA SUCCESS
+[00:00:08]: Registering Server mod namespace "workshop-1207269058"
+[00:00:08]: Registering Server mod namespace "workshop-1111658995"
+[00:00:08]: Registering Server mod namespace "workshop-378160973"
+[00:00:08]: Registering Server mod namespace "food item"
+[00:00:08]: Registering Client mod namespace "workshop-1111658995"
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: ServerPreferences could not load server_preferences	
+[00:00:08]: ConsoleScreenSettings could not load consolescreen	
+[00:00:08]: bloom_enabled	true	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Loading world: session/6EEFB4906384BB74/0000000114	
+[00:00:08]: Save file is at version 5.142	
+[00:00:08]: Klump load on boot started.	
+[00:00:08]: Klump files loaded: 	0	
+[00:00:08]: 	Unload FE	
+[00:00:08]: 	Unload FE done	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	Registering prefabs	
+[00:00:09]: Mod: workshop-1111658995 (Show Bundle)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:09]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	Registering prefabs	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	  Registering prefab file: prefabs/altar	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	    altar	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	    altar_broken_placer	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	    altar_placer	
+[00:00:09]: Mod: workshop-481765222 (Ancient Altar)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:09]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:09]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:09]: 	LOAD BE	
+[00:00:18]: 	LOAD BE: done	
+[00:00:18]: Begin Session: 6EEFB4906384BB74
+[00:00:18]: saving to server_temp/server_save	
+[00:00:18]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-481765222/images/inventoryimages/altar_broken.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:18]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:18]: Loading 19 new character(s)	
+[00:00:19]: Total 19 character(s) loaded	
+[00:00:19]: Loading Nav Grid	
+[00:00:19]: World generated on build 590113 with save version: 5.142, using seed: 1224875545	
+[00:00:19]: setting 	summerlength	15	
+[00:00:19]: setting 	cavemoonphase	half	
+[00:00:19]: setting 	iscavefullmoon	false	
+[00:00:19]: setting 	isnightmaredawn	false	
+[00:00:19]: setting 	elapseddaysinseason	1	
+[00:00:19]: setting 	isfullmoon	false	
+[00:00:19]: setting 	moisture	829.29235839844	
+[00:00:19]: setting 	springlength	20	
+[00:00:19]: setting 	islunarhailing	false	
+[00:00:19]: setting 	isnightmarewild	false	
+[00:00:19]: setting 	nightmaretimeinphase	0	
+[00:00:19]: setting 	precipitationrate	0	
+[00:00:19]: setting 	iswet	true	
+[00:00:19]: setting 	isnewmoon	false	
+[00:00:19]: setting 	israining	false	
+[00:00:19]: setting 	iswinter	false	
+[00:00:19]: setting 	isnightmarewarn	false	
+[00:00:19]: setting 	precipitation	none	
+[00:00:19]: setting 	iscavewaxingmoon	true	
+[00:00:19]: setting 	isacidraining	false	
+[00:00:19]: setting 	moonphase	half	
+[00:00:19]: setting 	remainingdaysinseason	19	
+[00:00:19]: setting 	temperature	7.5	
+[00:00:19]: setting 	wetness	63.25496673584	
+[00:00:19]: setting 	cycles	106	
+[00:00:19]: setting 	moistureceil	3581.6215820313	
+[00:00:19]: setting 	isday	false	
+[00:00:19]: setting 	winterlength	15	
+[00:00:19]: setting 	season	spring	
+[00:00:19]: setting 	iswaxingmoon	true	
+[00:00:19]: setting 	isalterawake	false	
+[00:00:19]: setting 	isnightmarecalm	false	
+[00:00:19]: setting 	isnight	false	
+[00:00:19]: setting 	isdusk	true	
+[00:00:19]: setting 	isspring	true	
+[00:00:19]: setting 	isautumn	false	
+[00:00:19]: setting 	iscaveday	false	
+[00:00:19]: setting 	lunarhaillevel	0	
+[00:00:19]: setting 	pop	0.15681160187466	
+[00:00:19]: setting 	snowlevel	0	
+[00:00:19]: setting 	issnowcovered	false	
+[00:00:19]: setting 	autumnlength	20	
+[00:00:19]: setting 	phase	dusk	
+[00:00:19]: setting 	nightmaretime	0	
+[00:00:19]: setting 	issnowing	false	
+[00:00:19]: setting 	iscavedusk	true	
+[00:00:19]: setting 	nightmarephase	none	
+[00:00:19]: setting 	timeinphase	0.97550111952282	
+[00:00:19]: setting 	seasonprogress	0.05	
+[00:00:19]: setting 	iscavenight	false	
+[00:00:19]: setting 	iscavenewmoon	false	
+[00:00:19]: setting 	issummer	false	
+[00:00:19]: setting 	cavephase	dusk	
+[00:00:19]: setting 	time	0.73928173979123	
+[00:00:19]: OVERRIDE: setting	resettime	to	none	
+[00:00:19]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:19]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:19]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:20]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:20]: Some objects are not supported by the mod.	
+[00:00:20]: Unknown objects: boat_pirate	
+[00:00:20]: You can enable these objects if you change the option "Unknown Objects".	
+[00:00:20]: See more info at http://steamcommunity.com/workshop/filedetails/discussion/375859599/343787283764426976/	
+[00:00:20]: --------------------------------------------------------	
+[00:00:20]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:20]: Unknown objects: lightcrab	
+[00:00:21]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:21]: Unknown objects: hedgehound_bush	
+[00:00:21]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:21]: Unknown objects: stageusher	
+[00:00:23]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:23]: Unknown objects: powder_monkey	
+[00:00:23]: Reconstructing topology	
+[00:00:23]: 	...Sorting points	
+[00:00:23]: 	...Sorting edges	
+[00:00:23]: 	...Connecting nodes	
+[00:00:23]: 	...Validating connections	
+[00:00:23]: 	...Housekeeping	
+[00:00:23]: 	...Done!	
+[00:00:23]: 1 uploads added to server. From server_temp
+[00:00:23]: About to start a shard with these settings:
+[00:00:23]:   ShardName: [SHDMASTER]
+[00:00:23]:   ShardID: 1
+[00:00:23]:   ShardRole: MASTER
+[00:00:23]:   MasterHost: (null)
+[00:00:23]:   MasterBind: 127.0.0.1
+[00:00:23]:   MasterPort: 10889
+[00:00:23]: [Shard] Starting master server
+[00:00:23]: [Warning] Could not confirm port 10889 is open in the firewall. 
+[00:00:23]: [Shard] Shard server started on port: 10889
+[00:00:23]: Telling Client our new session identifier: 6EEFB4906384BB74
+[00:00:23]: Check for write access: TRUE
+[00:00:23]: Check for read access: TRUE
+[00:00:23]: Available disk space for save files: 361255 MB
+[00:00:23]: ModIndex: Load sequence finished successfully.	
+[00:00:24]: Reset() returning
+[00:00:24]: Validating portal[2] <-> 1662993102[2] (inactive)	
+[00:00:24]: Validating portal[6] <-> 1662993102[6] (inactive)	
+[00:00:24]: Validating portal[1] <-> 1662993102[1] (inactive)	
+[00:00:24]: Validating portal[5] <-> 1662993102[5] (inactive)	
+[00:00:24]: Validating portal[9] <-> 1662993102[9] (inactive)	
+[00:00:25]: Validating portal[7] <-> 1662993102[7] (inactive)	
+[00:00:25]: Validating portal[8] <-> 1662993102[8] (inactive)	
+[00:00:25]: Validating portal[3] <-> 1662993102[3] (inactive)	
+[00:00:25]: Validating portal[4] <-> 1662993102[4] (inactive)	
+[00:00:25]: Server registered via geo DNS in ap-southeast-1
+[00:00:25]: Sim paused
+[00:00:25]: [Shard] Secondary shard Caves(1662993102) connected: [LAN] 127.0.0.1
+[00:00:26]: [Shard] Secondary Caves(1662993102) ready!
+[00:00:26]: World 1662993102 is now connected	
+[00:00:26]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:00:26]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:00:26]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:00:26]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:00:26]: Validating portal[2] <-> 1662993102[2] (active)	
+[00:00:26]: Validating portal[6] <-> 1662993102[6] (active)	
+[00:00:26]: Validating portal[1] <-> 1662993102[1] (active)	
+[00:00:26]: Validating portal[5] <-> 1662993102[5] (active)	
+[00:00:26]: Validating portal[9] <-> 1662993102[9] (disabled)	
+[00:00:26]: Validating portal[7] <-> 1662993102[7] (disabled)	
+[00:00:26]: Validating portal[8] <-> 1662993102[8] (active)	
+[00:00:26]: Validating portal[3] <-> 1662993102[3] (active)	
+[00:00:26]: Validating portal[4] <-> 1662993102[4] (disabled)	
+[00:00:26]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:00:26]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:00:26]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:00:26]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:00:53]: [P2P] Session request for '76561198825792993'
+[00:00:55]: [P2P] Session request for '76561198839253759'
+[00:00:57]: [P2P] Create session: 201.61.228.109|1 '76561198825792993'
+[00:00:57]: [P2P] Received from 201.61.228.109|1 '76561198825792993'
+[00:00:57]: [P2P] Sent to 201.61.228.109|1 '76561198825792993'
+[00:00:57]: New incoming connection 201.61.228.109|1 <2421597620695380385>
+[00:00:57]: Client connected from 201.61.228.109|1 <2421597620695380385>
+[00:00:57]: ValidateGameSessionToken GUID<2421597620695380385>
+[00:00:58]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:00:58]: [Steam] Authenticated host '76561198825792993'
+[00:00:59]: There is no active event to validate against.
+[00:00:59]: [Shard] Read save location file for (KU_Y-TulnOp)
+[00:01:02]: [P2P] Create session: 201.61.228.110|1 '76561198839253759'
+[00:01:02]: [P2P] Received from 201.61.228.110|1 '76561198839253759'
+[00:01:02]: [P2P] Sent to 201.61.228.110|1 '76561198839253759'
+[00:01:02]: New incoming connection 201.61.228.110|1 <2100713082973596596>
+[00:01:02]: Client connected from 201.61.228.110|1 <2100713082973596596>
+[00:01:02]: ValidateGameSessionToken GUID<2100713082973596596>
+[00:01:03]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[00:01:03]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[00:01:04]: [Steam] Authenticated client '76561198839253759'
+[00:01:05]: There is no active event to validate against.
+[00:01:05]: [Shard] Read save location file for (KU_Y5NJzWl2)
+[00:01:23]: Resuming user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000114
+[00:01:23]: Spawning player at: [Load] (-149.95, 0.00, -361.07)	
+[00:01:23]: Sim unpaused
+[00:01:23]: component sanityaura already exists on entity 120384 - beefalo!	scripts/prefabs/beefalo.lua:90 in (field) customactivatefn (Lua) <89-92>	
+[00:01:23]: [P2P] Session request for '76561198849842349'
+[00:01:29]: [P2P] Create session: 201.61.228.111|1 '76561198849842349'
+[00:01:29]: [P2P] Received from 201.61.228.111|1 '76561198849842349'
+[00:01:29]: [P2P] Sent to 201.61.228.111|1 '76561198849842349'
+[00:01:30]: New incoming connection 201.61.228.111|1 <5384168451613919700>
+[00:01:30]: Client connected from 201.61.228.111|1 <5384168451613919700>
+[00:01:30]: ValidateGameSessionToken GUID<5384168451613919700>
+[00:01:30]: Client authenticated: (KU_SpqLcy-2) baophucfproe
+[00:01:30]: [Steam] SendUserConnectAndAuthenticate for '76561198849842349'
+[00:01:31]: [Steam] Authenticated client '76561198849842349'
+[00:01:32]: There is no active event to validate against.
+[00:01:32]: [Shard] Read save location file for (KU_SpqLcy-2)
+[00:01:33]: [(KU_Y-TulnOp) huuphuoc1xx] ReceiveRemoteExecute(c_speedmult(2)) @(-157.67, -361.59)
+[00:01:36]: Resuming user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000114
+[00:01:36]: Spawning player at: [Load] (-183.31, -0.00, -408.50)	
+[00:01:55]: [(KU_Y5NJzWl2) tquan27.5.99] ReceiveRemoteExecute(c_speedmult(2)) @(-172.19, -399.34)
+[00:02:08]: Resuming user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000114
+[00:02:08]: Spawning player at: [Load] (-173.38, 0.00, -358.05)	
+[00:02:28]: [(KU_SpqLcy-2) baophucfproe] ReceiveRemoteExecute(c_speedmult(2)) @(-173.34, -349.14)
+[00:03:19]: [P2P] Session request for '76561198301022508'
+[00:03:24]: [P2P] Create session: 201.61.228.112|1 '76561198301022508'
+[00:03:24]: [P2P] Received from 201.61.228.112|1 '76561198301022508'
+[00:03:24]: [P2P] Sent to 201.61.228.112|1 '76561198301022508'
+[00:03:27]: New incoming connection 201.61.228.112|1 <6508035518633248278>
+[00:03:27]: Client connected from 201.61.228.112|1 <6508035518633248278>
+[00:03:27]: ValidateGameSessionToken GUID<6508035518633248278>
+[00:03:28]: Client authenticated: (KU_Y5NJzWk_) MrPurrPurr
+[00:03:29]: Available disk space for save files: 361249 MB
+[00:03:29]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000115
+[00:03:29]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000115
+[00:03:29]: Serializing user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000115
+[00:03:30]: Serializing world: session/6EEFB4906384BB74/0000000115
+[00:03:30]: [Steam] SendUserConnectAndAuthenticate for '76561198301022508'
+[00:03:30]: [Steam] Authenticated client '76561198301022508'
+[00:03:32]: There is no active event to validate against.
+[00:03:32]: [Shard] Read save location file for (KU_Y5NJzWk_)
+[00:03:56]: Could not find anim [dismount] in bank [wilson]
+[00:03:56]: Could not find anim [dismount] in bank [wilson]
+[00:04:18]: Resuming user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000114
+[00:04:18]: Spawning player at: [Load] (-203.78, 0.00, -330.08)	
+[00:04:42]: [(KU_Y5NJzWk_) MrPurrPurr] ReceiveRemoteExecute(c_speedmult(2)) @(-191.01, -328.40)
+[00:05:21]: Could not find anim [dismount] in bank [wilson]
+[00:06:11]: Activating portal[3] to 1662993102	
+[00:06:11]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000116
+[00:06:11]: [Shard] Migration request: (KU_Y5NJzWl2) to Caves(1662993102)
+[00:06:11]: [Shard] Begin migration #1 for (KU_Y5NJzWl2)
+[00:06:11]: [Shard] #1 [SHDMASTER](1) -> Caves(1662993102)
+[00:06:11]: [Shard] #1 <- session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000116
+[00:06:11]: [Shard] Writing save location file for (KU_Y5NJzWl2)
+[00:06:11]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:06:12]: Ignored request to resume during migration
+[00:06:12]: [Steam] SendUserDisconnect for '76561198839253759'
+[00:06:12]: [Shard] (KU_Y5NJzWl2) disconnected from [SHDMASTER](1)
+[00:06:16]: Activating portal[3] to 1662993102	
+[00:06:17]: Serializing user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000116
+[00:06:17]: [Shard] Migration request: (KU_SpqLcy-2) to Caves(1662993102)
+[00:06:17]: [Shard] Begin migration #2 for (KU_SpqLcy-2)
+[00:06:17]: [Shard] #2 [SHDMASTER](1) -> Caves(1662993102)
+[00:06:17]: [Shard] #2 <- session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000116
+[00:06:17]: [Shard] Writing save location file for (KU_SpqLcy-2)
+[00:06:17]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:06:17]: [Steam] SendUserDisconnect for '76561198849842349'
+[00:06:17]: [Shard] (KU_SpqLcy-2) disconnected from [SHDMASTER](1)
+[00:06:23]: [Shard] Completed migration #1 for player (KU_Y5NJzWl2)
+[00:06:27]: [Shard] Completed migration #2 for player (KU_SpqLcy-2)
+[00:06:35]: Activating portal[3] to 1662993102	
+[00:06:35]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000116
+[00:06:35]: [Shard] Migration request: (KU_Y5NJzWk_) to Caves(1662993102)
+[00:06:35]: [Shard] Begin migration #3 for (KU_Y5NJzWk_)
+[00:06:35]: [Shard] #3 [SHDMASTER](1) -> Caves(1662993102)
+[00:06:35]: [Shard] #3 <- session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000116
+[00:06:35]: [Shard] Writing save location file for (KU_Y5NJzWk_)
+[00:06:35]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:06:36]: Invalid RPC sender: expected player, got userid	
+[00:06:36]: Ignored request to resume during migration
+[00:06:36]: [Steam] SendUserDisconnect for '76561198301022508'
+[00:06:36]: [Shard] (KU_Y5NJzWk_) disconnected from [SHDMASTER](1)
+[00:06:44]: Could not find anim [dismount] in bank [wilson]
+[00:06:47]: [Shard] Completed migration #3 for player (KU_Y5NJzWk_)
+[00:07:04]: Could not find anim [dismount] in bank [wilson]
+[00:07:05]: Activating portal[3] to 1662993102	
+[00:07:06]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000116
+[00:07:06]: [Shard] Migration request: (KU_Y-TulnOp) to Caves(1662993102)
+[00:07:06]: [Shard] Begin migration #4 for (KU_Y-TulnOp)
+[00:07:06]: [Shard] #4 [SHDMASTER](1) -> Caves(1662993102)
+[00:07:06]: [Shard] #4 <- session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000116
+[00:07:06]: [Shard] Writing save location file for (KU_Y-TulnOp)
+[00:07:06]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:07:06]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:07:06]: [Shard] (KU_Y-TulnOp) disconnected from [SHDMASTER](1)
+[00:07:13]: [Shard] Completed migration #4 for player (KU_Y-TulnOp)
+[00:07:53]: [Shard] Begin migration #5 for (KU_Y5NJzWk_)
+[00:07:53]: [Shard] #5 Caves(1662993102) -> [SHDMASTER](1)
+[00:07:53]: [Shard] #5 -> session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000116
+[00:07:53]: [Shard] Received migration #5 data for (KU_Y5NJzWk_)
+[00:07:53]: [Shard] Writing save location file for (KU_Y5NJzWk_)
+[00:07:53]: [Shard] (KU_Y5NJzWk_) disconnected from Caves(1662993102)
+[00:07:56]: [P2P] Received from 201.61.228.112|1 '76561198301022508'
+[00:07:56]: [P2P] Sent to 201.61.228.112|1 '76561198301022508'
+[00:08:00]: New incoming connection 201.61.228.112|1 <578524859981324803>
+[00:08:00]: Client connected from 201.61.228.112|1 <578524859981324803>
+[00:08:00]: ValidateGameSessionToken GUID<578524859981324803>
+[00:08:01]: Client authenticated: (KU_Y5NJzWk_) MrPurrPurr
+[00:08:01]: [Steam] SendUserConnectAndAuthenticate for '76561198301022508'
+[00:08:01]: [Steam] Authenticated client '76561198301022508'
+[00:08:01]: [Shard] Completed incoming migration #5 for (KU_Y5NJzWk_)
+[00:08:01]: [Shard] Completed migration #5 for player (KU_Y5NJzWk_)
+[00:08:36]: Resuming user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000116
+[00:08:37]: Player will spawn close to portal #3	
+[00:08:37]: Spawning player at: [Load] (-114.97, 0.00, -286.19)	
+[00:09:40]: [(KU_Y5NJzWk_) MrPurrPurr] ReceiveRemoteExecute(c_speedmult(3)) @(-186.15, -342.00)
+[00:11:30]: Available disk space for save files: 361232 MB
+[00:11:30]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000116
+[00:11:30]: Serializing world: session/6EEFB4906384BB74/0000000116
+[00:13:24]: Activating portal[3] to 1662993102	
+[00:13:25]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000117
+[00:13:25]: [Shard] Migration request: (KU_Y5NJzWk_) to Caves(1662993102)
+[00:13:25]: [Shard] Begin migration #6 for (KU_Y5NJzWk_)
+[00:13:25]: [Shard] #6 [SHDMASTER](1) -> Caves(1662993102)
+[00:13:25]: [Shard] #6 <- session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000117
+[00:13:25]: [Shard] Writing save location file for (KU_Y5NJzWk_)
+[00:13:25]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:13:25]: Ignored request to resume during migration
+[00:13:25]: [Steam] SendUserDisconnect for '76561198301022508'
+[00:13:25]: [Shard] (KU_Y5NJzWk_) disconnected from [SHDMASTER](1)
+[00:13:40]: [Shard] Completed migration #6 for player (KU_Y5NJzWk_)
+[00:16:13]: [P2P] Session timed out for '76561198839253759'
+[00:16:13]: [P2P] Remove session: 201.61.228.110|1 '76561198839253759'
+[00:16:18]: [P2P] Session timed out for '76561198849842349'
+[00:16:18]: [P2P] Remove session: 201.61.228.111|1 '76561198849842349'
+[00:17:07]: [P2P] Session timed out for '76561198825792993'
+[00:17:07]: [P2P] Remove session: 201.61.228.109|1 '76561198825792993'
+[00:19:30]: Available disk space for save files: 361226 MB
+[00:19:31]: Serializing world: session/6EEFB4906384BB74/0000000117
+[00:19:31]: Truncating to snapshot #117...
+[00:19:31]:  - session/6EEFB4906384BB74/0000000109
+[00:19:31]:  - session/6EEFB4906384BB74/0000000110
+[00:19:31]:  - session/6EEFB4906384BB74/0000000111
+[00:19:31]:  - session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000111
+[00:19:31]:  - session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000110
+[00:19:31]:  - session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000109
+[00:19:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000111
+[00:19:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000109
+[00:19:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000111
+[00:19:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000110
+[00:19:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000109
+[00:19:31]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000111
+[00:19:31]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000110
+[00:19:31]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000109
+[00:19:31]:    14 file(s) removed
+[00:19:31]:  > session/6EEFB4906384BB74/A7KBSTSBU5HJ/savelocation
+[00:19:31]:    1 file(s) updated
+[00:23:25]: [P2P] Session timed out for '76561198301022508'
+[00:23:25]: [P2P] Remove session: 201.61.228.112|1 '76561198301022508'
+[00:27:30]: Available disk space for save files: 361229 MB
+[00:27:31]: Serializing world: session/6EEFB4906384BB74/0000000118
+[00:27:31]: Truncating to snapshot #118...
+[00:27:31]:  - session/6EEFB4906384BB74/0000000112
+[00:27:31]:  - session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000112
+[00:27:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000112
+[00:27:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000112
+[00:27:31]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000112
+[00:27:31]:    5 file(s) removed
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[00:35:31]: Available disk space for save files: 361250 MB
+[00:35:31]: Serializing world: session/6EEFB4906384BB74/0000000119
+[00:35:31]: Truncating to snapshot #119...
+[00:35:31]:  - session/6EEFB4906384BB74/0000000113
+[00:35:31]:  - session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000113
+[00:35:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000113
+[00:35:31]:  - session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000113
+[00:35:31]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000113
+[00:35:31]:    5 file(s) removed
+[00:38:28]: [Shard] Begin migration #7 for (KU_Y5NJzWk_)
+[00:38:28]: [Shard] #7 Caves(1662993102) -> [SHDMASTER](1)
+[00:38:28]: [Shard] #7 -> session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000120
+[00:38:28]: [Shard] Received migration #7 data for (KU_Y5NJzWk_)
+[00:38:28]: [Shard] Writing save location file for (KU_Y5NJzWk_)
+[00:38:29]: [Shard] (KU_Y5NJzWk_) disconnected from Caves(1662993102)
+[00:38:34]: [Shard] Begin migration #8 for (KU_Y-TulnOp)
+[00:38:34]: [Shard] #8 Caves(1662993102) -> [SHDMASTER](1)
+[00:38:34]: [Shard] #8 -> session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000120
+[00:38:34]: [Shard] Received migration #8 data for (KU_Y-TulnOp)
+[00:38:34]: [Shard] Writing save location file for (KU_Y-TulnOp)
+[00:38:34]: [Shard] (KU_Y-TulnOp) disconnected from Caves(1662993102)
+[00:38:37]: [P2P] Create session: 201.61.228.113|1 '76561198301022508'
+[00:38:37]: [P2P] Received from 201.61.228.113|1 '76561198301022508'
+[00:38:37]: [P2P] Sent to 201.61.228.113|1 '76561198301022508'
+[00:38:39]: New incoming connection 201.61.228.113|1 <2063899337587241467>
+[00:38:39]: Client connected from 201.61.228.113|1 <2063899337587241467>
+[00:38:39]: ValidateGameSessionToken GUID<2063899337587241467>
+[00:38:40]: Client authenticated: (KU_Y5NJzWk_) MrPurrPurr
+[00:38:40]: [P2P] Create session: 201.61.228.114|1 '76561198825792993'
+[00:38:40]: [P2P] Received from 201.61.228.114|1 '76561198825792993'
+[00:38:40]: [P2P] Sent to 201.61.228.114|1 '76561198825792993'
+[00:38:40]: [Steam] SendUserConnectAndAuthenticate for '76561198301022508'
+[00:38:41]: [Steam] Authenticated client '76561198301022508'
+[00:38:41]: [Shard] Completed incoming migration #7 for (KU_Y5NJzWk_)
+[00:38:41]: [Shard] Completed migration #7 for player (KU_Y5NJzWk_)
+[00:38:41]: New incoming connection 201.61.228.114|1 <2812889125313934971>
+[00:38:41]: Client connected from 201.61.228.114|1 <2812889125313934971>
+[00:38:41]: ValidateGameSessionToken GUID<2812889125313934971>
+[00:38:42]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:38:42]: [Steam] Authenticated host '76561198825792993'
+[00:38:42]: [Shard] Completed incoming migration #8 for (KU_Y-TulnOp)
+[00:38:42]: [Shard] Completed migration #8 for player (KU_Y-TulnOp)
+[00:38:56]: Resuming user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000120
+[00:38:56]: Player will spawn near (-182.03, 0.00, -344.06)	
+[00:38:56]: Spawning player at: [Load] (-183.18, 0.00, -345.69)	
+[00:39:14]: [(KU_Y-TulnOp) huuphuoc1xx] ReceiveRemoteExecute(c_speedmult(2)) @(-167.41, -337.88)
+[00:39:27]: Resuming user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000120
+[00:39:27]: Player will spawn near (-182.03, 0.00, -344.06)	
+[00:39:27]: Spawning player at: [Load] (-180.16, 0.00, -343.35)	
+[00:39:29]: Activating portal[3] to 1662993102	
+[00:39:30]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000120
+[00:39:30]: [Shard] Migration request: (KU_Y-TulnOp) to Caves(1662993102)
+[00:39:30]: [Shard] Begin migration #9 for (KU_Y-TulnOp)
+[00:39:30]: [Shard] #9 [SHDMASTER](1) -> Caves(1662993102)
+[00:39:30]: [Shard] #9 <- session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000120
+[00:39:30]: [Shard] Writing save location file for (KU_Y-TulnOp)
+[00:39:30]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:39:30]: [Steam] SendUserDisconnect for '76561198825792993'
+[00:39:30]: [Shard] (KU_Y-TulnOp) disconnected from [SHDMASTER](1)
+[00:39:33]: [Shard] Completed migration #9 for player (KU_Y-TulnOp)
+[00:39:50]: [(KU_Y5NJzWk_) MrPurrPurr] ReceiveRemoteExecute(c_speedmult(3)) @(-181.93, -346.23)
+[00:42:06]: [Shard] Begin migration #10 for (KU_Y5NJzWl2)
+[00:42:06]: [Shard] #10 Caves(1662993102) -> [SHDMASTER](1)
+[00:42:06]: [Shard] #10 -> session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000120
+[00:42:06]: [Shard] Received migration #10 data for (KU_Y5NJzWl2)
+[00:42:06]: [Shard] Writing save location file for (KU_Y5NJzWl2)
+[00:42:06]: [Shard] (KU_Y5NJzWl2) disconnected from Caves(1662993102)
+[00:42:13]: [P2P] Create session: 201.61.228.115|1 '76561198839253759'
+[00:42:13]: [P2P] Received from 201.61.228.115|1 '76561198839253759'
+[00:42:13]: [P2P] Sent to 201.61.228.115|1 '76561198839253759'
+[00:42:14]: [Shard] Begin migration #11 for (KU_SpqLcy-2)
+[00:42:14]: [Shard] #11 Caves(1662993102) -> [SHDMASTER](1)
+[00:42:14]: [Shard] #11 -> session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000120
+[00:42:14]: [Shard] Received migration #11 data for (KU_SpqLcy-2)
+[00:42:14]: [Shard] Writing save location file for (KU_SpqLcy-2)
+[00:42:14]: [Shard] (KU_SpqLcy-2) disconnected from Caves(1662993102)
+[00:42:15]: New incoming connection 201.61.228.115|1 <2462126077352099119>
+[00:42:15]: Client connected from 201.61.228.115|1 <2462126077352099119>
+[00:42:15]: ValidateGameSessionToken GUID<2462126077352099119>
+[00:42:15]: Client authenticated: (KU_Y5NJzWl2) tquan27.5.99
+[00:42:16]: [Steam] SendUserConnectAndAuthenticate for '76561198839253759'
+[00:42:16]: [Steam] Authenticated client '76561198839253759'
+[00:42:16]: [Shard] Completed incoming migration #10 for (KU_Y5NJzWl2)
+[00:42:16]: [Shard] Completed migration #10 for player (KU_Y5NJzWl2)
+[00:42:22]: [P2P] Create session: 201.61.228.116|1 '76561198849842349'
+[00:42:22]: [P2P] Received from 201.61.228.116|1 '76561198849842349'
+[00:42:22]: [P2P] Sent to 201.61.228.116|1 '76561198849842349'
+[00:42:24]: New incoming connection 201.61.228.116|1 <1813055263121053249>
+[00:42:24]: Client connected from 201.61.228.116|1 <1813055263121053249>
+[00:42:24]: ValidateGameSessionToken GUID<1813055263121053249>
+[00:42:24]: Client authenticated: (KU_SpqLcy-2) baophucfproe
+[00:42:24]: [Steam] SendUserConnectAndAuthenticate for '76561198849842349'
+[00:42:25]: [Steam] Authenticated client '76561198849842349'
+[00:42:25]: [Shard] Completed incoming migration #11 for (KU_SpqLcy-2)
+[00:42:25]: [Shard] Completed migration #11 for player (KU_SpqLcy-2)
+[00:42:32]: Resuming user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000120
+[00:42:32]: Player will spawn close to portal #2	
+[00:42:32]: Spawning player at: [Load] (-535.66, 0.00, -176.94)	
+[00:42:39]: Resuming user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000120
+[00:42:39]: Player will spawn close to portal #2	
+[00:42:39]: Spawning player at: [Load] (-537.96, 0.00, -176.05)	
+[00:42:56]: [(KU_SpqLcy-2) baophucfproe] ReceiveRemoteExecute(c_speedmult(2)) @(-531.47, -167.24)
+[00:43:09]: [(KU_Y5NJzWl2) tquan27.5.99] ReceiveRemoteExecute(c_speedmult(2)) @(-439.23, -145.49)
+[00:43:17]: [Shard] Begin migration #12 for (KU_Y-TulnOp)
+[00:43:17]: [Shard] #12 Caves(1662993102) -> [SHDMASTER](1)
+[00:43:17]: [Shard] #12 -> session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000120
+[00:43:17]: [Shard] Received migration #12 data for (KU_Y-TulnOp)
+[00:43:17]: [Shard] Writing save location file for (KU_Y-TulnOp)
+[00:43:17]: [Shard] (KU_Y-TulnOp) disconnected from Caves(1662993102)
+[00:43:23]: [P2P] Received from 201.61.228.114|1 '76561198825792993'
+[00:43:23]: [P2P] Sent to 201.61.228.114|1 '76561198825792993'
+[00:43:24]: New incoming connection 201.61.228.114|1 <2024193022052624583>
+[00:43:24]: Client connected from 201.61.228.114|1 <2024193022052624583>
+[00:43:24]: ValidateGameSessionToken GUID<2024193022052624583>
+[00:43:25]: Client authenticated: (KU_Y-TulnOp) huuphuoc1xx
+[00:43:25]: [Steam] Authenticated host '76561198825792993'
+[00:43:25]: [Shard] Completed incoming migration #12 for (KU_Y-TulnOp)
+[00:43:25]: [Shard] Completed migration #12 for player (KU_Y-TulnOp)
+[00:43:31]: Available disk space for save files: 361240 MB
+[00:43:31]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000120
+[00:43:31]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000120
+[00:43:31]: Serializing user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000120
+[00:43:32]: Serializing world: session/6EEFB4906384BB74/0000000120
+[00:43:39]: Resuming user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000120
+[00:43:39]: Player will spawn close to portal #8	
+[00:43:39]: Spawning player at: [Load] (-232.94, 0.00, -238.67)	
+[00:43:39]: component sanityaura already exists on entity 127110 - beefalo!	scripts/prefabs/beefalo.lua:90 in (field) customactivatefn (Lua) <89-92>	
+[00:43:47]: [(KU_Y-TulnOp) huuphuoc1xx] ReceiveRemoteExecute(c_speedmult(3)) @(-237.71, -240.56)
+[00:43:51]: [(KU_Y5NJzWk_) MrPurrPurr] ReceiveRemoteExecute() @(-99.81, -367.64)
+[00:44:25]: Could not find anim [dismount] in bank [wilson]
+[00:46:51]: [(KU_Y-TulnOp) huuphuoc1xx] ReceiveRemoteExecute(c_speedmult(2)) @(-169.90, -331.61)
+[00:47:13]: [(KU_Y5NJzWk_) MrPurrPurr] ReceiveRemoteExecute(c_speedmult(2)) @(-157.98, -241.47)
+[00:51:04]: Could not find anim [dismount] in bank [wilson]
+[00:51:32]: Available disk space for save files: 361242 MB
+[00:51:32]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000121
+[00:51:32]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000121
+[00:51:32]: Serializing user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000121
+[00:51:32]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000121
+[00:51:32]: Missing reference:	127108 - beef_bell	->	127110	127110 - beefalo	
+[00:51:32]: Serializing world: session/6EEFB4906384BB74/0000000121
+[00:58:39]: Could not find anim [dismount] in bank [wilson]
+[00:59:20]: Could not find anim [death] in bank [ghost]
+[00:59:20]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000122
+[00:59:32]: Available disk space for save files: 361238 MB
+[00:59:32]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000122
+[00:59:32]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000122
+[00:59:32]: Serializing user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000122
+[00:59:32]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000122
+[00:59:32]: Missing reference:	127108 - beef_bell	->	127110	127110 - beefalo	
+[00:59:33]: Serializing world: session/6EEFB4906384BB74/0000000122
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_Y-TulnOp) from TokenPurpose
+[01:00:52]: [Steam] SendUserDisconnect for '76561198301022508'
+[01:00:52]: Connection lost to 201.61.228.113|1 <2063899337587241467>
+[01:00:52]: [Shard] (KU_Y5NJzWk_) disconnected from [SHDMASTER](1)
+[01:00:52]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000123
+[01:01:18]: [Steam] SendUserDisconnect for '76561198839253759'
+[01:01:18]: Connection lost to 201.61.228.115|1 <2462126077352099119>
+[01:01:18]: [Shard] (KU_Y5NJzWl2) disconnected from [SHDMASTER](1)
+[01:01:19]: Serializing user: session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000123
+[01:02:02]: [P2P] Connection failed for '76561198839253759'
+[01:03:36]: [Steam] SendUserDisconnect for '76561198849842349'
+[01:03:36]: Connection lost to 201.61.228.116|1 <1813055263121053249>
+[01:03:36]: [Shard] (KU_SpqLcy-2) disconnected from [SHDMASTER](1)
+[01:03:37]: Serializing user: session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000123
+[01:03:51]: Server Autopaused	
+[01:03:54]: Server Unpaused	
+[01:04:03]: [Steam] SendUserDisconnect for '76561198825792993'
+[01:04:03]: Connection lost to 201.61.228.114|1 <2024193022052624583>
+[01:04:03]: [Shard] (KU_Y-TulnOp) disconnected from [SHDMASTER](1)
+[01:04:03]: Serializing user: session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000123
+[01:04:03]: Sim paused
+[01:04:05]: [P2P] Connection failed for '76561198849842349'
+[01:04:14]: Available disk space for save files: 361220 MB
+[01:04:14]: Missing reference:	127108 - beef_bell	->	127110	127110 - beefalo	
+[01:04:14]: Serializing world: session/6EEFB4906384BB74/0000000123
+[01:04:14]: Truncating to snapshot #123...
+[01:04:14]:  - session/6EEFB4906384BB74/0000000114
+[01:04:14]:  - session/6EEFB4906384BB74/0000000115
+[01:04:14]:  - session/6EEFB4906384BB74/0000000116
+[01:04:14]:  - session/6EEFB4906384BB74/0000000117
+[01:04:14]:  - session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000115
+[01:04:14]:  - session/6EEFB4906384BB74/A7JJ7KAPNJS2/0000000114
+[01:04:14]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000116
+[01:04:14]:  - session/6EEFB4906384BB74/A7K8AN9VC2TV/0000000114
+[01:04:14]:  - session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000115
+[01:04:14]:  - session/6EEFB4906384BB74/A7K8AN9VC2U2/0000000114
+[01:04:14]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000115
+[01:04:14]:  - session/6EEFB4906384BB74/A7KBSTSBU5HJ/0000000114
+[01:04:14]:    12 file(s) removed
+[01:04:14]: Removing server from lobby
+[01:04:14]: [Shard] Stopping shard mode
+[01:04:14]: [Steam] SendUserDisconnect for ''
+[01:04:15]: Collecting garbage...
+[01:04:15]: lua_gc took 0.29 seconds
+[01:04:15]: ~ShardLuaProxy()
+[01:04:15]: ~cEventLeaderboardProxy()
+[01:04:15]: ~ItemServerLuaProxy()
+[01:04:15]: ~InventoryLuaProxy()
+[01:04:15]: ~NetworkLuaProxy()
+[01:04:15]: ~SimLuaProxy()
+[01:04:15]: Cancelling LuaQueryCallback handle [127]
+[01:04:15]: lua_close took 0.48 seconds
+[01:04:16]: CurlRequestManager::ClientThread::Main() complete
+[01:04:16]: HttpClient2 discarded 0 callbacks.
+[01:04:16]: Shutting down
